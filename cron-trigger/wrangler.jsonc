@@ -6,8 +6,8 @@
   // 手動トリガー用の公開URLは不要なので無効化
   "workers_dev": false,
   "triggers": {
-    // collect.yml と同じ 20分ごと(:05/:25/:45)。分指定のみなのでUTCでも同じ挙動
-    "crons": ["5,25,45 * * * *"]
+    // 10分ごと(:05から)。分指定のみなのでUTCでも同じ挙動
+    "crons": ["5,15,25,35,45,55 * * * *"]
   },
   "observability": {
     "enabled": true,

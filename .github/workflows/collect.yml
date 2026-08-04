@@ -2,10 +2,10 @@ name: collect
 
 on:
   schedule:
-    # 主トリガーは Cloudflare Worker (cron-trigger/) からの workflow_dispatch(:05/:25/:45)。
+    # 主トリガーは Cloudflare Worker (cron-trigger/) からの workflow_dispatch(10分ごと、:05開始)。
     # GitHubのscheduleは遅延・スキップが多いため、Worker障害時の保険として1時間1回だけ残す。
     # 速度計算には予定時刻ではなく observed_at(実取得時刻)を使う。
-    - cron: '55 * * * *'
+    - cron: '50 * * * *'
       timezone: Asia/Tokyo
   workflow_dispatch:
   push:

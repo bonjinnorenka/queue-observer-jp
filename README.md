@@ -1,6 +1,6 @@
 # queue-observer-jp
 
-順番待ち(junbanmachi.jp)の待機列を20分ごとに観測し、**列消化速度**と**推定待ち時間**を GitHub Pages で公開する仕組みです。
+順番待ち(junbanmachi.jp)の待機列を10分ごとに観測し、**列消化速度**と**推定待ち時間**を GitHub Pages で公開する仕組みです。
 
 観測対象: 盛岡駅みどりの窓口(shop_id=4268)
 
@@ -16,7 +16,7 @@
 
 ```mermaid
 flowchart LR
-  cron["GitHub Actions<br/>20分ごと"] --> admin["管理画面HTML<br/>data-content から access_token"]
+  cron["Cloudflare Workers cron<br/>10分ごとに workflow_dispatch<br/>→ GitHub Actions"] --> admin["管理画面HTML<br/>data-content から access_token"]
   admin --> api["待機列API<br/>Bearer token"]
   api --> raw["data/raw/**.ndjson<br/>生スナップショット(追記のみ)"]
   raw --> derived["data/derived/**<br/>latest.json / 日次 / stats.json"]
