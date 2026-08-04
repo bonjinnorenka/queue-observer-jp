@@ -233,6 +233,11 @@ export function buildLatest(location, day, historyStats, availableDates) {
   if (snapshot.waitings_count === 0) estimatedWaitMinutes = 0;
   else if (rate && rate > 0) estimatedWaitMinutes = Math.round((snapshot.waitings_count / rate) * 60);
 
+  const { weekday, hour } = jstParts(referenceTime);
+  const historyBucket = stats.weekday_hours.find(
+    (entry) => entry.weekday === weekday && entry.hour === hour,
+  );
+
   return {
     schema_version: DERIVED_SCHEMA_VERSION,
     location_id: location.id,
@@ -253,21 +258,15 @@ export function buildLatest(location, day, historyStats, availableDates) {
     rate_windows: windows,
     estimated_wait_minutes: estimatedWaitMinutes,
     estimate_confidence: rateSource ? confidenceFor(rateSource, windows[rateSource] ?? window60) : null,
-    history: (() => {
-      const { weekday, hour } = jstParts(referenceTime);
-      const bucket = stats.weekday_hours.find(
-        (entry) => entry.weekday === weekday && entry.hour === hour,
-      );
-      return bucket
-        ? {
-            weekday,
-            hour,
-            rate_per_hour: bucket.rate_per_hour,
-            median_waitings_count: bucket.median_waitings_count,
-            interval_count: bucket.interval_count,
-          }
-        : null;
-    })(),
+    history: historyBucket
+      ? {
+          weekday,
+          hour,
+          rate_per_hour: historyBucket.rate_per_hour,
+          median_waitings_count: historyBucket.median_waitings_count,
+          interval_count: historyBucket.interval_count,
+        }
+      : null,
     available_dates: availableDates,
     notes,
   };
