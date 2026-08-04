@@ -2,9 +2,10 @@ name: collect
 
 on:
   schedule:
-    # 20分ごと。GitHub Actionsのcronは遅れることがあるため、
+    # 20分ごと(JST)。:00/:20/:40 は負荷ピークでジョブが捨てられることがあるため5分オフセット。
     # 速度計算には予定時刻ではなく observed_at(実取得時刻)を使う。
-    - cron: '*/20 * * * *'
+    - cron: '5,25,45 * * * *'
+      timezone: Asia/Tokyo
   workflow_dispatch:
   push:
     branches: [main]
