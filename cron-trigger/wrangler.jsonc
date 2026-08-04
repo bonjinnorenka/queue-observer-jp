@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "queue-observer-cron",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-01",
+  // 手動トリガー用の公開URLは不要なので無効化
+  "workers_dev": false,
+  "triggers": {
+    // collect.yml と同じ 20分ごと(:05/:25/:45)。分指定のみなのでUTCでも同じ挙動
+    "crons": ["5,25,45 * * * *"]
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}
