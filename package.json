@@ -1,0 +1,18 @@
+{
+  "name": "queue-observer-jp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "順番待ちAPIの待機列スナップショットを定期観測し、列消化速度と推定待ち時間を公開する",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "collect": "node src/collect.js",
+    "rebuild": "node src/rebuild.js",
+    "build:site": "node src/build-site.js",
+    "test": "node --test \"test/*.test.js\"",
+    "serve": "node src/build-site.js && npx --yes http-server _site -p 8080"
+  },
+  "license": "MIT"
+}

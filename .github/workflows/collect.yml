@@ -1,0 +1,87 @@
+name: collect
+
+on:
+  schedule:
+    # 20分ごと。GitHub Actionsのcronは遅れることがあるため、
+    # 速度計算には予定時刻ではなく observed_at(実取得時刻)を使う。
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'src/**'
+      - '.github/workflows/collect.yml'
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+
+      - name: Run tests
+        run: node --test "test/*.test.js"
+
+      - name: Collect snapshot
+        if: github.event_name != 'push'
+        run: node src/collect.js
+
+      - name: Rebuild derived data
+        if: github.event_name == 'push'
+        run: node src/rebuild.js
+
+      - name: Commit data
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data
+          if git diff --cached --quiet; then
+            echo 'no data changes'
+            exit 0
+          fi
+          git commit -m "observe: $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M %Z')"
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "push failed (attempt ${attempt}), rebasing on remote"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            sleep 5
+          done
+          echo 'failed to push data changes' >&2
+          exit 1
+
+      - name: Build site
+        run: node src/build-site.js
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: observe
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
