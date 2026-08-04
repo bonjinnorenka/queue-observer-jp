@@ -207,10 +207,18 @@ function renderBanner() {
   banner.textContent = messages.join(' / ');
 }
 
+function applyChartTheme() {
+  const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  window.Chart.defaults.color = dark ? '#9aa5b4' : '#5d6673';
+  window.Chart.defaults.borderColor = dark ? '#262d36' : '#e2e5ea';
+  window.Chart.defaults.font.family = getComputedStyle(document.body).fontFamily;
+}
+
 function renderChart() {
   const canvas = el('daily-chart');
   const day = state.day;
   if (!window.Chart || !day) return;
+  applyChartTheme();
 
   const labels = day.snapshots.map((snapshot) => formatTime(snapshot.observed_at));
   const waiting = day.snapshots.map((snapshot) => snapshot.waitings_count);
@@ -238,6 +246,7 @@ function renderChart() {
         data: rate,
         backgroundColor: barColors,
         borderWidth: 0,
+        maxBarThickness: 26,
         yAxisID: 'y1',
         order: 2,
       },
@@ -364,7 +373,9 @@ function renderHeatmap() {
 
   const thead = document.createElement('thead');
   const headRow = document.createElement('tr');
-  headRow.append(document.createElement('th'));
+  const corner = document.createElement('th');
+  corner.textContent = '曜日';
+  headRow.append(corner);
   for (const hour of hours) {
     const th = document.createElement('th');
     th.scope = 'col';

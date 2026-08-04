@@ -172,8 +172,10 @@ function confidenceFor(source, window) {
 
 /**
  * サイト表示用の最新値。表示に使う速度は直近60分を第一候補とする。
+ * historyStats には当日を除いた履歴を渡す。当日の観測を「過去平均」として比べると循環するため。
  */
-export function buildLatest(location, day, stats, availableDates) {
+export function buildLatest(location, day, historyStats, availableDates) {
+  const stats = historyStats;
   const snapshot = day?.snapshots?.[day.snapshots.length - 1] ?? null;
   const generatedAt = toJstIso(new Date());
 
@@ -290,7 +292,14 @@ export async function regenerateDerived(location, { allDays = null } = {}) {
   const statsResult = await writeJsonIfChanged(path.join(dir, 'stats.json'), stats);
   if (statsResult.written) written.push(statsResult.file);
 
-  const latest = buildLatest(location, days[days.length - 1] ?? null, stats, availableDates);
+  // 「過去平均との差」には当日を含めない。
+  const historyStats = buildStats(location, days.slice(0, -1));
+  const latest = buildLatest(
+    location,
+    days[days.length - 1] ?? null,
+    historyStats,
+    availableDates,
+  );
   const latestResult = await writeJsonIfChanged(path.join(dir, 'latest.json'), latest);
   if (latestResult.written) written.push(latestResult.file);
 

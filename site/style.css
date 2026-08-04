@@ -182,7 +182,7 @@ body {
 
 .chart-box {
   position: relative;
-  min-height: 260px;
+  height: clamp(260px, 45vw, 340px);
 }
 
 .caption {
