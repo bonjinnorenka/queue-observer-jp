@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "attempted_at": "2026-08-06T05:55:32+09:00",
+  "attempted_at": "2026-08-06T06:05:30+09:00",
   "results": [
     {
       "location_id": "morioka-station-midori-no-madoguchi",
-      "ok": true,
-      "observed_at": "2026-08-06T05:55:32+09:00",
-      "waitings_count": 0,
-      "pendings_count": 0,
-      "error": null
+      "ok": false,
+      "observed_at": null,
+      "waitings_count": null,
+      "pendings_count": null,
+      "error": "HTTP 403 Forbidden for https://api.junbanmachi.jp/ajax/waiting/user?id=4268&answer1=-1&answer2=-1"
     }
   ]
 }
