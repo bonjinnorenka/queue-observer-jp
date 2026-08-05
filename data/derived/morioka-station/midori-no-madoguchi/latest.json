@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-08-05T09:35:26+09:00",
-  "observed_at": "2026-08-05T09:35:26+09:00",
+  "generated_at": "2026-08-05T09:45:20+09:00",
+  "observed_at": "2026-08-05T09:45:20+09:00",
   "business_date": "2026-08-05",
-  "waitings_count": 13,
-  "pendings_count": 0,
+  "waitings_count": 18,
+  "pendings_count": 2,
   "waitings_truncated": false,
-  "head_number": 116,
-  "queue_exit_rate_20m": 35.7,
-  "queue_exit_rate_60m": 27.09,
-  "queue_exit_rate_120m": 27.09,
-  "queue_exit_rate_used": 27.09,
+  "head_number": 124,
+  "queue_exit_rate_20m": 42.04,
+  "queue_exit_rate_60m": 33.7,
+  "queue_exit_rate_120m": 33.7,
+  "queue_exit_rate_used": 33.7,
   "rate_source": "60m",
   "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 35.7,
-      "interval_count": 1,
+      "rate_per_hour": 42.04,
+      "interval_count": 2,
       "censored_interval_count": 1,
-      "advance_total": 6,
-      "duration_seconds": 605
+      "advance_total": 14,
+      "duration_seconds": 1199
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 27.09,
-      "interval_count": 3,
-      "censored_interval_count": 5,
-      "advance_total": 10,
-      "duration_seconds": 1329
+      "rate_per_hour": 33.7,
+      "interval_count": 4,
+      "censored_interval_count": 3,
+      "advance_total": 18,
+      "duration_seconds": 1923
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 27.09,
-      "interval_count": 3,
-      "censored_interval_count": 9,
-      "advance_total": 10,
-      "duration_seconds": 1329
+      "rate_per_hour": 33.7,
+      "interval_count": 4,
+      "censored_interval_count": 8,
+      "advance_total": 18,
+      "duration_seconds": 1923
     }
   },
-  "estimated_wait_minutes": 29,
+  "estimated_wait_minutes": 32,
   "estimate_confidence": "medium",
   "history": null,
   "available_dates": [
@@ -49,6 +49,7 @@
     "2026-08-05"
   ],
   "notes": [
-    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
+    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります",
+    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
   ]
 }
