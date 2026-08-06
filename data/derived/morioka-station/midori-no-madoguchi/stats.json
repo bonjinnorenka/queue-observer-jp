@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-08-06T15:15:30+09:00",
+  "generated_at": "2026-08-06T15:25:29+09:00",
   "observation_days": 3,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-08-06"
   },
-  "snapshot_count": 277,
-  "rate_eligible_interval_count": 121,
+  "snapshot_count": 278,
+  "rate_eligible_interval_count": 122,
   "censored_interval_count": 40,
   "weekday_hours": [
     {
@@ -603,14 +603,14 @@
     {
       "weekday": 4,
       "hour": 15,
-      "rate_per_hour": 0,
-      "median_rate_per_hour": 0,
-      "interval_count": 1,
-      "advance_total": 0,
-      "duration_seconds": 601,
-      "median_waitings_count": 59.5,
+      "rate_per_hour": 15,
+      "median_rate_per_hour": 15.03,
+      "interval_count": 2,
+      "advance_total": 5,
+      "duration_seconds": 1200,
+      "median_waitings_count": 63,
       "max_waitings_count": 64,
-      "snapshot_count": 2
+      "snapshot_count": 3
     }
   ],
   "hours": [
@@ -781,14 +781,14 @@
     },
     {
       "hour": 15,
-      "rate_per_hour": 27,
-      "median_rate_per_hour": 13.07,
-      "interval_count": 9,
-      "advance_total": 40,
-      "duration_seconds": 5334,
-      "median_waitings_count": 45,
+      "rate_per_hour": 27.3,
+      "median_rate_per_hour": 18.52,
+      "interval_count": 10,
+      "advance_total": 45,
+      "duration_seconds": 5933,
+      "median_waitings_count": 45.5,
       "max_waitings_count": 64,
-      "snapshot_count": 11
+      "snapshot_count": 12
     },
     {
       "hour": 16,
@@ -904,14 +904,14 @@
     },
     {
       "weekday": 4,
-      "rate_per_hour": 22.03,
+      "rate_per_hour": 22.22,
       "median_rate_per_hour": 17.94,
-      "interval_count": 45,
-      "advance_total": 151,
-      "duration_seconds": 24671,
+      "interval_count": 46,
+      "advance_total": 156,
+      "duration_seconds": 25270,
       "median_waitings_count": 3,
       "max_waitings_count": 69,
-      "snapshot_count": 98
+      "snapshot_count": 99
     }
   ]
 }
