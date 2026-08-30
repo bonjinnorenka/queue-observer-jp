@@ -315,7 +315,9 @@ export async function regenerateIncrementalDerived(location, businessDate) {
   const dir = derivedDir(location);
   const written = [];
 
-  // 今日のスナップショットのみ読み込む
+  // 今日のスナップショットのみ読み込む。
+  // businessDate は YYYY-MM-DD 文字列(snapshot.business_date / NDJSON)なので、
+  // 読み込み境界で Date に揃える。
   const todaySnapshots = await readSnapshotsForDate(location, businessDate);
   if (!todaySnapshots.length) {
     return { days: 0, latest: null, stats: null, written };
