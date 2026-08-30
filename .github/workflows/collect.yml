@@ -15,9 +15,8 @@ on:
       - 'src/**'
       - '.github/workflows/collect.yml'
 
-concurrency:
-  group: collect
-  cancel-in-progress: false
+# Worker側で進行中runをチェックするため、concurrency制御は削除。
+# 過去のcancel-in-progressによる10分キャンセル問題を回避。
 
 permissions:
   contents: write
@@ -27,7 +26,9 @@ permissions:
 jobs:
   observe:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    outputs:
+      data-changed: ${{ steps.check-data.outputs.changed }}
     steps:
       - uses: actions/checkout@v7
 
@@ -46,16 +47,24 @@ jobs:
         if: github.event_name == 'push'
         run: node src/rebuild.js
 
+      - name: Check data changes
+        id: check-data
+        run: |
+          set -euo pipefail
+          git add data
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            echo 'no data changes'
+            exit 0
+          fi
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+
       - name: Commit data
+        if: steps.check-data.outputs.changed == 'true'
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data
-          if git diff --cached --quiet; then
-            echo 'no data changes'
-            exit 0
-          fi
           git commit -m "observe: $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M %Z')"
           for attempt in 1 2 3; do
             if git push; then
@@ -69,16 +78,20 @@ jobs:
           exit 1
 
       - name: Build site
+        if: steps.check-data.outputs.changed == 'true'
         run: node src/build-site.js
 
       - uses: actions/configure-pages@v6
+        if: steps.check-data.outputs.changed == 'true'
 
       - uses: actions/upload-pages-artifact@v5
+        if: steps.check-data.outputs.changed == 'true'
         with:
           path: _site
 
   deploy:
     needs: observe
+    if: needs.observe.outputs.data-changed == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     environment:

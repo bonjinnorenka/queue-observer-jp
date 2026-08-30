@@ -1,13 +1,13 @@
 /**
- * 20分ごとの観測エントリポイント。
+ * 10分ごとの観測エントリポイント。
  *
  *   1. 管理画面HTMLからアクセストークンを取得
  *   2. 待機列APIをBearerトークン付きで取得(observed_at は実際の取得完了時刻)
  *   3. 生スナップショットを raw NDJSON に追記
- *   4. derived を生データから再生成
+ *   4. derived を増分更新(今日分のみ)
  */
 
-import { regenerateDerived } from './aggregate.js';
+import { regenerateIncrementalDerived } from './aggregate.js';
 import { normalizeSnapshot } from './snapshot.js';
 import {
   STATUS_FILE,
@@ -44,7 +44,8 @@ async function collectLocation(location) {
     `[ok] ${location.id} ${snapshot.observed_at} waitings=${snapshot.waitings_count} pendings=${snapshot.pendings_count} -> ${file}`,
   );
 
-  const { latest } = await regenerateDerived(location);
+  // 増分更新: 今日のファイルとlatestのみ更新
+  const { latest } = await regenerateIncrementalDerived(location, snapshot.business_date);
   console.log(
     `[derived] ${location.id} rate60m=${latest.queue_exit_rate_60m ?? '-'}/h estimate=${latest.estimated_wait_minutes ?? '-'}min (${latest.estimate_confidence ?? 'n/a'})`,
   );
