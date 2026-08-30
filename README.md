@@ -7,7 +7,7 @@
 ## 何を記録しているか
 
 保存の中心は「処理速度」という計算結果ではなく、**各時刻の待機列と受付番号の状態**です。
-処理速度は後から計算方法を修正できる派生値として、生データから毎回再生成します。
+処理速度は後から計算方法を修正できる派生値として、生データから再生成します。
 
 このデータから分かるのは厳密には窓口の手続き完了速度ではなく、
 **待機列から番号が抜けていく速度(列消化速度・呼出速度)**です。
@@ -16,18 +16,28 @@
 
 ```mermaid
 flowchart LR
-  cron["Cloudflare Workers cron<br/>10分ごとに workflow_dispatch<br/>→ GitHub Actions"] --> admin["管理画面HTML<br/>data-content から access_token"]
+  cron["Cloudflare Workers cron<br/>10分ごとに workflow_dispatch<br/>（進行中runがあればskip）<br/>→ GitHub Actions"] --> admin["管理画面HTML<br/>data-content から access_token"]
   admin --> api["待機列API<br/>Bearer token"]
   api --> raw["data/raw/**.ndjson<br/>生スナップショット(追記のみ)"]
-  raw --> derived["data/derived/**<br/>latest.json / 日次 / stats.json"]
-  derived --> pages["GitHub Pages"]
+  raw --> derived["data/derived/**<br/>増分更新: 今日分とlatest.json"]
+  derived --> pages["GitHub Pages<br/>(データ変更時のみdeploy)"]
 ```
 
-1. `https://admin.junbanmachi.jp/dashboard/waiting_guest?id=4268` を取得し、
+1. Cloudflare Workerが10分ごとに起動
+   - GitHub APIで進行中の`collect`ワークフローをチェック
+   - 既に実行中なら新しいdispatchをスキップ（キャンセル防止）
+2. `https://admin.junbanmachi.jp/dashboard/waiting_guest?id=4268` を取得し、
    `<script id="script" data-content="...">` のJSONから `access_token` を抽出
-2. `https://api.junbanmachi.jp/ajax/waiting/user?id=4268&answer1=-1&answer2=-1` に Bearer トークン付きで送信
-3. レスポンスを正規化して `data/raw/` の NDJSON に1行追記
-4. 生データ全体から `data/derived/` を再生成
+3. `https://api.junbanmachi.jp/ajax/waiting/user?id=4268&answer1=-1&answer2=-1` に Bearer トークン付きで送信
+4. レスポンスを正規化して `data/raw/` の NDJSON に1行追記
+5. **増分更新**: 今日の営業日ファイルと `latest.json` のみ更新（10分間隔で完走できる速度）
+6. データ変更があれば GitHub Pages にデプロイ（変更なしならスキップ）
+
+### フル再生成
+
+`push` イベント（コード変更時）や `node src/rebuild.js` の手動実行では、
+全履歴から `data/derived/` を完全再生成します。
+アルゴリズム修正や統計追加時にはこちらを実行してください。
 
 ## データ構成
 
@@ -125,8 +135,8 @@ location_id + business_date + number
 ## ローカルでの実行
 
 ```bash
-node src/collect.js       # 1回観測して raw に追記し derived を再生成
-node src/rebuild.js       # 取得せず derived だけ作り直す
+node src/collect.js       # 1回観測して raw に追記し derived を増分更新
+node src/rebuild.js       # 取得せず derived を全履歴から完全再生成
 node src/build-site.js    # _site/ に公開用ファイルを組み立てる
 node --test "test/*.test.js"
 npm run serve             # ビルドしてローカルサーバで確認
