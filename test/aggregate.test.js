@@ -1,5 +1,7 @@
 import assert from 'node:assert/strict';
-import { describe, it } from 'node:test';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { after, describe, it } from 'node:test';
 
 import {
   buildDayFile,
@@ -9,7 +11,7 @@ import {
 } from '../src/aggregate.js';
 import { buildIntervals } from '../src/derive.js';
 import { normalizeSnapshot } from '../src/snapshot.js';
-import { readJson } from '../src/storage.js';
+import { DERIVED_DIR, RAW_DIR, readJson } from '../src/storage.js';
 
 const location = {
   id: 'test-location',
@@ -142,11 +144,87 @@ describe('buildLatest', () => {
 });
 
 describe('regenerateIncrementalDerived', () => {
-  it('増分更新は今日のデータのみを処理する', () => {
-    // この単体テストは統合的な動作を確認するものではなく、
-    // 関数が存在して基本的な契約を満たすことを確認する。
-    // 実際のファイル操作のテストは別途必要だが、増分更新ロジックの
-    // 正確性は buildLatest と buildDayFile のテストで保証される。
-    assert.equal(typeof regenerateIncrementalDerived, 'function');
+  const fixtureLocation = {
+    id: 'test-incremental-string-dates',
+    name: '増分更新テスト拠点',
+    path: '_tmp_incremental_string_dates',
+  };
+  const rawDir = path.join(RAW_DIR, fixtureLocation.path);
+  const derivedPath = path.join(DERIVED_DIR, fixtureLocation.path);
+
+  after(async () => {
+    await fs.rm(rawDir, { recursive: true, force: true });
+    await fs.rm(derivedPath, { recursive: true, force: true });
+  });
+
+  it('文字列の observed_at / business_date とディスク上の stats.json でも増分更新できる', async () => {
+    // 本番と同じ形: NDJSON の observed_at / business_date は ISO・営業日の文字列。
+    // collect は append 後に regenerateIncrementalDerived(location, snapshot.business_date)
+    // を呼ぶ。business_date は Date ではなく "2026-08-30" のような文字列。
+    const snapshots = [
+      snapshot('2026-08-30T11:00:00+09:00', [1, 2, 3, 4, 5], 25),
+      snapshot('2026-08-30T11:16:03+09:00', [3, 4, 5, 6, 7], 23),
+    ];
+    assert.equal(typeof snapshots[0].observed_at, 'string');
+    assert.equal(typeof snapshots[0].business_date, 'string');
+    assert.equal(snapshots[0].business_date, '2026-08-30');
+
+    const rawFile = path.join(rawDir, '2026', '08', '30.ndjson');
+    await fs.mkdir(path.dirname(rawFile), { recursive: true });
+    await fs.writeFile(rawFile, `${snapshots.map((row) => JSON.stringify(row)).join('\n')}\n`);
+
+    // 既存の stats.json は JSON.parse したプレーンオブジェクト(Date ではない)。
+    const persistedStats = {
+      schema_version: 1,
+      location_id: fixtureLocation.id,
+      location_name: fixtureLocation.name,
+      generated_at: '2026-08-07T01:02:46+09:00',
+      observation_days: 1,
+      date_range: { from: '2026-08-07', to: '2026-08-07' },
+      snapshot_count: 4,
+      rate_eligible_interval_count: 3,
+      censored_interval_count: 0,
+      weekday_hours: [
+        {
+          weekday: 0,
+          hour: 11,
+          rate_per_hour: 12,
+          median_rate_per_hour: 12,
+          interval_count: 3,
+          advance_total: 12,
+          duration_seconds: 3600,
+          median_waitings_count: 24,
+          max_waitings_count: 30,
+          snapshot_count: 4,
+        },
+      ],
+      hours: [],
+      weekdays: [],
+    };
+    await fs.mkdir(derivedPath, { recursive: true });
+    await fs.writeFile(
+      path.join(derivedPath, 'stats.json'),
+      `${JSON.stringify(persistedStats, null, 2)}\n`,
+    );
+
+    const result = await regenerateIncrementalDerived(fixtureLocation, '2026-08-30');
+
+    assert.equal(result.days, 1);
+    assert.equal(result.latest.business_date, '2026-08-30');
+    assert.equal(result.latest.observed_at, '2026-08-30T11:16:03+09:00');
+    assert.equal(result.latest.waitings_count, 23);
+    assert.ok(Array.isArray(result.latest.available_dates));
+    assert.ok(result.latest.available_dates.includes('2026-08-30'));
+    assert.ok(result.written.length >= 1);
+    assert.notEqual(result.latest.notes?.[0], '観測データがまだありません');
+
+    const latestOnDisk = await readJson(path.join(derivedPath, 'latest.json'));
+    assert.equal(latestOnDisk.observed_at, '2026-08-30T11:16:03+09:00');
+    assert.equal(latestOnDisk.waitings_count, 23);
+
+    const dayOnDisk = await readJson(path.join(derivedPath, '2026-08-30.json'));
+    assert.equal(dayOnDisk.snapshot_count, 2);
+    assert.equal(dayOnDisk.intervals.length, 1);
+    assert.equal(typeof dayOnDisk.intervals[0].interval_start, 'string');
   });
 });

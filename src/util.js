@@ -10,8 +10,21 @@ function pad(value, length = 2) {
   return String(value).padStart(length, '0');
 }
 
+/**
+ * Date または日付文字列を Date に揃える。
+ * NDJSON / JSON 由来の ISO 文字列や営業日(YYYY-MM-DD)を境界で受け取る。
+ * YYYY-MM-DD は JST の暦日として扱う。
+ */
+export function toDate(value) {
+  if (value instanceof Date) return value;
+  if (typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value)) {
+    return new Date(`${value}T00:00:00+09:00`);
+  }
+  return new Date(value);
+}
+
 export function jstParts(date) {
-  const shifted = new Date(date.getTime() + JST_OFFSET_MS);
+  const shifted = new Date(toDate(date).getTime() + JST_OFFSET_MS);
   return {
     year: shifted.getUTCFullYear(),
     month: shifted.getUTCMonth() + 1,

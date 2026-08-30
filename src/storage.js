@@ -7,7 +7,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { rawFileParts } from './util.js';
+import { rawFileParts, toDate } from './util.js';
 
 const SRC_DIR = path.dirname(fileURLToPath(import.meta.url));
 
@@ -64,7 +64,8 @@ export async function readSnapshotFile(file) {
 }
 
 export async function readSnapshotsForDate(location, date) {
-  return readSnapshotFile(rawFilePath(location, date));
+  // 増分更新は business_date 文字列(YYYY-MM-DD)を渡す。パス計算は Date 前提。
+  return readSnapshotFile(rawFilePath(location, toDate(date)));
 }
 
 /** 拠点配下の全rawファイルを日付昇順で列挙する。 */
