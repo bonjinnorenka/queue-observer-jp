@@ -2,16 +2,52 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-08-07T01:02:46+09:00",
-  "observation_days": 4,
+  "generated_at": "2026-08-30T11:26:12+09:00",
+  "observation_days": 5,
   "date_range": {
     "from": "2026-08-04",
-    "to": "2026-08-07"
+    "to": "2026-08-30"
   },
-  "snapshot_count": 335,
-  "rate_eligible_interval_count": 158,
+  "snapshot_count": 347,
+  "rate_eligible_interval_count": 169,
   "censored_interval_count": 41,
   "weekday_hours": [
+    {
+      "weekday": 0,
+      "hour": 9,
+      "rate_per_hour": 49.86,
+      "median_rate_per_hour": 47.76,
+      "interval_count": 3,
+      "advance_total": 25,
+      "duration_seconds": 1805,
+      "median_waitings_count": 23,
+      "max_waitings_count": 26,
+      "snapshot_count": 3
+    },
+    {
+      "weekday": 0,
+      "hour": 10,
+      "rate_per_hour": 32.04,
+      "median_rate_per_hour": 30.1,
+      "interval_count": 7,
+      "advance_total": 32,
+      "duration_seconds": 3595,
+      "median_waitings_count": 22,
+      "max_waitings_count": 26,
+      "snapshot_count": 7
+    },
+    {
+      "weekday": 0,
+      "hour": 11,
+      "rate_per_hour": 17.88,
+      "median_rate_per_hour": 17.88,
+      "interval_count": 1,
+      "advance_total": 3,
+      "duration_seconds": 604,
+      "median_waitings_count": 22,
+      "max_waitings_count": 23,
+      "snapshot_count": 2
+    },
     {
       "weekday": 2,
       "hour": 11,
@@ -835,36 +871,36 @@
     },
     {
       "hour": 9,
-      "rate_per_hour": 26.4,
-      "median_rate_per_hour": 29.95,
-      "interval_count": 10,
-      "advance_total": 44,
-      "duration_seconds": 6001,
-      "median_waitings_count": 16,
+      "rate_per_hour": 31.82,
+      "median_rate_per_hour": 30.15,
+      "interval_count": 13,
+      "advance_total": 69,
+      "duration_seconds": 7806,
+      "median_waitings_count": 22,
       "max_waitings_count": 27,
-      "snapshot_count": 12
+      "snapshot_count": 15
     },
     {
       "hour": 10,
-      "rate_per_hour": 22.22,
-      "median_rate_per_hour": 12.05,
-      "interval_count": 12,
-      "advance_total": 44,
-      "duration_seconds": 7129,
-      "median_waitings_count": 41.5,
+      "rate_per_hour": 25.51,
+      "median_rate_per_hour": 18.03,
+      "interval_count": 19,
+      "advance_total": 76,
+      "duration_seconds": 10724,
+      "median_waitings_count": 36,
       "max_waitings_count": 56,
-      "snapshot_count": 14
+      "snapshot_count": 21
     },
     {
       "hour": 11,
-      "rate_per_hour": 30.48,
-      "median_rate_per_hour": 29.95,
-      "interval_count": 13,
-      "advance_total": 65,
-      "duration_seconds": 7676,
-      "median_waitings_count": 47.5,
+      "rate_per_hour": 29.57,
+      "median_rate_per_hour": 25.82,
+      "interval_count": 14,
+      "advance_total": 68,
+      "duration_seconds": 8280,
+      "median_waitings_count": 47,
       "max_waitings_count": 55,
-      "snapshot_count": 14
+      "snapshot_count": 16
     },
     {
       "hour": 12,
@@ -1000,6 +1036,17 @@
     }
   ],
   "weekdays": [
+    {
+      "weekday": 0,
+      "rate_per_hour": 35.98,
+      "median_rate_per_hour": 30.15,
+      "interval_count": 11,
+      "advance_total": 60,
+      "duration_seconds": 6004,
+      "median_waitings_count": 22.5,
+      "max_waitings_count": 26,
+      "snapshot_count": 12
+    },
     {
       "weekday": 2,
       "rate_per_hour": 38.54,
