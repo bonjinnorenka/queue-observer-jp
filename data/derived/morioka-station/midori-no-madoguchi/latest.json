@@ -2,8 +2,8 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-01T04:58:05+09:00",
-  "observed_at": "2026-09-01T04:58:05+09:00",
+  "generated_at": "2026-09-01T05:06:07+09:00",
+  "observed_at": "2026-09-01T05:06:07+09:00",
   "business_date": "2026-09-01",
   "waitings_count": 0,
   "pendings_count": 0,
@@ -12,8 +12,8 @@
   "queue_exit_rate_20m": null,
   "queue_exit_rate_60m": null,
   "queue_exit_rate_120m": null,
-  "queue_exit_rate_used": null,
-  "rate_source": null,
+  "queue_exit_rate_used": 34.95,
+  "rate_source": "hour_history",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
@@ -42,7 +42,7 @@
     }
   },
   "estimated_wait_minutes": 0,
-  "estimate_confidence": null,
+  "estimate_confidence": "low",
   "history": null,
   "available_dates": [
     "2026-08-04",
@@ -53,5 +53,7 @@
     "2026-08-31",
     "2026-09-01"
   ],
-  "notes": []
+  "notes": [
+    "当日の有効な観測が不足しているため、同じ時間帯の履歴平均を使用しています"
+  ]
 }
