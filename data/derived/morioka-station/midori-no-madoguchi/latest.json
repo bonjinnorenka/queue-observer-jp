@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-08-31T20:06:13+09:00",
-  "observed_at": "2026-08-31T20:06:13+09:00",
+  "generated_at": "2026-08-31T20:16:18+09:00",
+  "observed_at": "2026-08-31T20:16:18+09:00",
   "business_date": "2026-08-31",
-  "waitings_count": 4,
-  "pendings_count": 1,
+  "waitings_count": 2,
+  "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 509,
-  "queue_exit_rate_20m": 21.95,
-  "queue_exit_rate_60m": 20.99,
-  "queue_exit_rate_120m": 23.52,
-  "queue_exit_rate_used": 20.99,
+  "head_number": 512,
+  "queue_exit_rate_20m": 14.85,
+  "queue_exit_rate_60m": 15.99,
+  "queue_exit_rate_120m": 24.45,
+  "queue_exit_rate_used": 15.99,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 21.95,
-      "interval_count": 3,
+      "rate_per_hour": 14.85,
+      "interval_count": 2,
       "censored_interval_count": 0,
-      "advance_total": 11,
-      "duration_seconds": 1804
+      "advance_total": 5,
+      "duration_seconds": 1212
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 20.99,
+      "rate_per_hour": 15.99,
       "interval_count": 6,
       "censored_interval_count": 0,
-      "advance_total": 21,
+      "advance_total": 16,
       "duration_seconds": 3602
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 23.52,
+      "rate_per_hour": 24.45,
       "interval_count": 13,
       "censored_interval_count": 0,
-      "advance_total": 51,
-      "duration_seconds": 7806
+      "advance_total": 53,
+      "duration_seconds": 7804
     }
   },
-  "estimated_wait_minutes": 11,
+  "estimated_wait_minutes": 8,
   "estimate_confidence": "high",
   "history": null,
   "available_dates": [
@@ -52,7 +52,5 @@
     "2026-08-30",
     "2026-08-31"
   ],
-  "notes": [
-    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
-  ]
+  "notes": []
 }
