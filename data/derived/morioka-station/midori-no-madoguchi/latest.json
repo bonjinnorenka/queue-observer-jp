@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-08-31T13:06:03+09:00",
-  "observed_at": "2026-08-31T13:06:03+09:00",
+  "generated_at": "2026-08-31T13:16:05+09:00",
+  "observed_at": "2026-08-31T13:16:05+09:00",
   "business_date": "2026-08-31",
-  "waitings_count": 13,
-  "pendings_count": 1,
+  "waitings_count": 12,
+  "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 237,
-  "queue_exit_rate_20m": 17.96,
-  "queue_exit_rate_60m": 16.99,
-  "queue_exit_rate_120m": 24.59,
-  "queue_exit_rate_used": 16.99,
+  "head_number": 244,
+  "queue_exit_rate_20m": 26.87,
+  "queue_exit_rate_60m": 22.96,
+  "queue_exit_rate_120m": 23.98,
+  "queue_exit_rate_used": 22.96,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 17.96,
+      "rate_per_hour": 26.87,
       "interval_count": 2,
       "censored_interval_count": 0,
-      "advance_total": 6,
-      "duration_seconds": 1203
+      "advance_total": 9,
+      "duration_seconds": 1206
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 16.99,
+      "rate_per_hour": 22.96,
       "interval_count": 6,
       "censored_interval_count": 0,
-      "advance_total": 17,
-      "duration_seconds": 3602
+      "advance_total": 23,
+      "duration_seconds": 3606
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 24.59,
+      "rate_per_hour": 23.98,
       "interval_count": 10,
       "censored_interval_count": 2,
-      "advance_total": 41,
-      "duration_seconds": 6002
+      "advance_total": 40,
+      "duration_seconds": 6005
     }
   },
-  "estimated_wait_minutes": 46,
+  "estimated_wait_minutes": 31,
   "estimate_confidence": "high",
   "history": null,
   "available_dates": [
@@ -52,7 +52,5 @@
     "2026-08-30",
     "2026-08-31"
   ],
-  "notes": [
-    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
-  ]
+  "notes": []
 }
