@@ -2,47 +2,47 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-01T21:06:03+09:00",
-  "observed_at": "2026-09-01T21:06:03+09:00",
+  "generated_at": "2026-09-01T21:16:18+09:00",
+  "observed_at": "2026-09-01T21:16:18+09:00",
   "business_date": "2026-09-01",
-  "waitings_count": 2,
+  "waitings_count": 0,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 550,
-  "queue_exit_rate_20m": 25.93,
-  "queue_exit_rate_60m": 20.55,
-  "queue_exit_rate_120m": 25.38,
-  "queue_exit_rate_used": 20.55,
+  "head_number": null,
+  "queue_exit_rate_20m": 18.06,
+  "queue_exit_rate_60m": 22.8,
+  "queue_exit_rate_120m": 26.23,
+  "queue_exit_rate_used": 22.8,
   "rate_source": "60m",
-  "rate_is_lower_bound": false,
+  "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 25.93,
-      "interval_count": 3,
-      "censored_interval_count": 0,
-      "advance_total": 13,
-      "duration_seconds": 1805
+      "rate_per_hour": 18.06,
+      "interval_count": 1,
+      "censored_interval_count": 1,
+      "advance_total": 3,
+      "duration_seconds": 598
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 20.55,
-      "interval_count": 7,
-      "censored_interval_count": 0,
-      "advance_total": 24,
-      "duration_seconds": 4204
+      "rate_per_hour": 22.8,
+      "interval_count": 5,
+      "censored_interval_count": 1,
+      "advance_total": 19,
+      "duration_seconds": 3000
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 25.38,
-      "interval_count": 14,
-      "censored_interval_count": 0,
-      "advance_total": 55,
-      "duration_seconds": 7801
+      "rate_per_hour": 26.23,
+      "interval_count": 12,
+      "censored_interval_count": 1,
+      "advance_total": 48,
+      "duration_seconds": 6587
     }
   },
-  "estimated_wait_minutes": 6,
-  "estimate_confidence": "high",
+  "estimated_wait_minutes": 0,
+  "estimate_confidence": "medium",
   "history": {
     "weekday": 2,
     "hour": 21,
@@ -59,5 +59,7 @@
     "2026-08-31",
     "2026-09-01"
   ],
-  "notes": []
+  "notes": [
+    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
+  ]
 }
