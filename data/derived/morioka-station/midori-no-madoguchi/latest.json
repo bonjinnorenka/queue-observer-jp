@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-01T20:16:03+09:00",
-  "observed_at": "2026-09-01T20:16:03+09:00",
+  "generated_at": "2026-09-01T20:26:13+09:00",
+  "observed_at": "2026-09-01T20:26:13+09:00",
   "business_date": "2026-09-01",
-  "waitings_count": 19,
-  "pendings_count": 0,
+  "waitings_count": 17,
+  "pendings_count": 1,
   "waitings_truncated": false,
-  "head_number": 527,
-  "queue_exit_rate_20m": 14.95,
-  "queue_exit_rate_60m": 24.89,
-  "queue_exit_rate_120m": 27.49,
-  "queue_exit_rate_used": 24.89,
+  "head_number": 529,
+  "queue_exit_rate_20m": 17.93,
+  "queue_exit_rate_60m": 24.97,
+  "queue_exit_rate_120m": 26.95,
+  "queue_exit_rate_used": 24.97,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 14.95,
+      "rate_per_hour": 17.93,
       "interval_count": 2,
       "censored_interval_count": 0,
-      "advance_total": 5,
-      "duration_seconds": 1204
+      "advance_total": 6,
+      "duration_seconds": 1205
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 24.89,
-      "interval_count": 8,
+      "rate_per_hour": 24.97,
+      "interval_count": 7,
       "censored_interval_count": 0,
-      "advance_total": 29,
-      "duration_seconds": 4195
+      "advance_total": 25,
+      "duration_seconds": 3605
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 27.49,
+      "rate_per_hour": 26.95,
       "interval_count": 13,
       "censored_interval_count": 0,
-      "advance_total": 55,
-      "duration_seconds": 7202
+      "advance_total": 54,
+      "duration_seconds": 7214
     }
   },
-  "estimated_wait_minutes": 46,
+  "estimated_wait_minutes": 41,
   "estimate_confidence": "high",
   "history": {
     "weekday": 2,
@@ -59,5 +59,7 @@
     "2026-08-31",
     "2026-09-01"
   ],
-  "notes": []
+  "notes": [
+    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
+  ]
 }
