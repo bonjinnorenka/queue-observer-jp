@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-02T16:06:05+09:00",
-  "observed_at": "2026-09-02T16:06:05+09:00",
+  "generated_at": "2026-09-02T16:16:15+09:00",
+  "observed_at": "2026-09-02T16:16:14+09:00",
   "business_date": "2026-09-02",
-  "waitings_count": 18,
-  "pendings_count": 8,
+  "waitings_count": 16,
+  "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 470,
-  "queue_exit_rate_20m": 42,
-  "queue_exit_rate_60m": 32.98,
-  "queue_exit_rate_120m": 42.92,
-  "queue_exit_rate_used": 32.98,
+  "head_number": 486,
+  "queue_exit_rate_20m": 32.89,
+  "queue_exit_rate_60m": 32.93,
+  "queue_exit_rate_120m": 42.34,
+  "queue_exit_rate_used": 32.93,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 42,
+      "rate_per_hour": 32.89,
       "interval_count": 2,
       "censored_interval_count": 0,
-      "advance_total": 14,
-      "duration_seconds": 1200
+      "advance_total": 11,
+      "duration_seconds": 1204
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 32.98,
+      "rate_per_hour": 32.93,
       "interval_count": 6,
       "censored_interval_count": 0,
       "advance_total": 33,
-      "duration_seconds": 3602
+      "duration_seconds": 3608
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 42.92,
-      "interval_count": 12,
+      "rate_per_hour": 42.34,
+      "interval_count": 13,
       "censored_interval_count": 0,
-      "advance_total": 86,
-      "duration_seconds": 7214
+      "advance_total": 92,
+      "duration_seconds": 7823
     }
   },
-  "estimated_wait_minutes": 33,
+  "estimated_wait_minutes": 29,
   "estimate_confidence": "high",
   "history": {
     "weekday": 3,
@@ -60,7 +60,5 @@
     "2026-09-01",
     "2026-09-02"
   ],
-  "notes": [
-    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
-  ]
+  "notes": []
 }
