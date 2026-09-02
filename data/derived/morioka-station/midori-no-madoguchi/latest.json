@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-02T16:36:11+09:00",
-  "observed_at": "2026-09-02T16:36:11+09:00",
+  "generated_at": "2026-09-02T16:46:04+09:00",
+  "observed_at": "2026-09-02T16:46:04+09:00",
   "business_date": "2026-09-02",
-  "waitings_count": 17,
-  "pendings_count": 0,
-  "waitings_truncated": false,
+  "waitings_count": 22,
+  "pendings_count": 2,
+  "waitings_truncated": true,
   "head_number": 498,
-  "queue_exit_rate_20m": 29.9,
-  "queue_exit_rate_60m": 29.97,
-  "queue_exit_rate_120m": 40.12,
-  "queue_exit_rate_used": 29.97,
+  "queue_exit_rate_20m": 18.1,
+  "queue_exit_rate_60m": 25.73,
+  "queue_exit_rate_120m": 38.38,
+  "queue_exit_rate_used": 25.73,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 29.9,
+      "rate_per_hour": 18.1,
       "interval_count": 3,
       "censored_interval_count": 0,
-      "advance_total": 15,
-      "duration_seconds": 1806
+      "advance_total": 9,
+      "duration_seconds": 1790
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 29.97,
-      "interval_count": 6,
+      "rate_per_hour": 25.73,
+      "interval_count": 7,
       "censored_interval_count": 0,
       "advance_total": 30,
-      "duration_seconds": 3604
+      "duration_seconds": 4197
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 40.12,
+      "rate_per_hour": 38.38,
       "interval_count": 13,
       "censored_interval_count": 0,
-      "advance_total": 87,
-      "duration_seconds": 7807
+      "advance_total": 83,
+      "duration_seconds": 7786
     }
   },
-  "estimated_wait_minutes": 34,
+  "estimated_wait_minutes": 51,
   "estimate_confidence": "high",
   "history": {
     "weekday": 3,
@@ -60,5 +60,8 @@
     "2026-09-01",
     "2026-09-02"
   ],
-  "notes": []
+  "notes": [
+    "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です",
+    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
+  ]
 }
