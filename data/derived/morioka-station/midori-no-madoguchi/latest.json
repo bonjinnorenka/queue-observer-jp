@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-04T05:45:31+09:00",
-  "observed_at": "2026-09-04T05:45:31+09:00",
+  "generated_at": "2026-09-04T05:55:25+09:00",
+  "observed_at": "2026-09-04T05:55:25+09:00",
   "business_date": "2026-09-04",
-  "waitings_count": 5,
+  "waitings_count": 3,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 1,
-  "queue_exit_rate_20m": null,
-  "queue_exit_rate_60m": null,
-  "queue_exit_rate_120m": null,
-  "queue_exit_rate_used": 34.95,
-  "rate_source": "hour_history",
+  "head_number": 4,
+  "queue_exit_rate_20m": 18.18,
+  "queue_exit_rate_60m": 18.18,
+  "queue_exit_rate_120m": 18.18,
+  "queue_exit_rate_used": 18.18,
+  "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": null,
-      "interval_count": 0,
+      "rate_per_hour": 18.18,
+      "interval_count": 1,
       "censored_interval_count": 0,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "advance_total": 3,
+      "duration_seconds": 594
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": null,
-      "interval_count": 0,
+      "rate_per_hour": 18.18,
+      "interval_count": 1,
       "censored_interval_count": 0,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "advance_total": 3,
+      "duration_seconds": 594
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": null,
-      "interval_count": 0,
+      "rate_per_hour": 18.18,
+      "interval_count": 1,
       "censored_interval_count": 0,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "advance_total": 3,
+      "duration_seconds": 594
     }
   },
-  "estimated_wait_minutes": 9,
+  "estimated_wait_minutes": 10,
   "estimate_confidence": "low",
   "history": null,
   "available_dates": [
@@ -56,7 +56,5 @@
     "2026-09-03",
     "2026-09-04"
   ],
-  "notes": [
-    "当日の有効な観測が不足しているため、同じ時間帯の履歴平均を使用しています"
-  ]
+  "notes": []
 }
