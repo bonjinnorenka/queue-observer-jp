@@ -2,18 +2,18 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-04T12:35:30+09:00",
-  "observed_at": "2026-09-04T12:35:30+09:00",
+  "generated_at": "2026-09-04T12:45:27+09:00",
+  "observed_at": "2026-09-04T12:45:27+09:00",
   "business_date": "2026-09-04",
-  "waitings_count": 68,
-  "pendings_count": 1,
+  "waitings_count": 70,
+  "pendings_count": 5,
   "waitings_truncated": true,
   "head_number": 211,
   "queue_exit_rate_20m": 0,
-  "queue_exit_rate_60m": 2.57,
-  "queue_exit_rate_120m": 5.49,
-  "queue_exit_rate_used": 2.57,
-  "rate_source": "60m",
+  "queue_exit_rate_60m": 0,
+  "queue_exit_rate_120m": 3.5,
+  "queue_exit_rate_used": 3.5,
+  "rate_source": "120m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
@@ -22,27 +22,27 @@
       "interval_count": 2,
       "censored_interval_count": 0,
       "advance_total": 0,
-      "duration_seconds": 1204
+      "duration_seconds": 1205
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 2.57,
-      "interval_count": 7,
+      "rate_per_hour": 0,
+      "interval_count": 6,
       "censored_interval_count": 0,
-      "advance_total": 3,
-      "duration_seconds": 4207
+      "advance_total": 0,
+      "duration_seconds": 3605
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 5.49,
+      "rate_per_hour": 3.5,
       "interval_count": 12,
       "censored_interval_count": 0,
-      "advance_total": 11,
-      "duration_seconds": 7207
+      "advance_total": 7,
+      "duration_seconds": 7205
     }
   },
-  "estimated_wait_minutes": 1588,
-  "estimate_confidence": "high",
+  "estimated_wait_minutes": 1200,
+  "estimate_confidence": "medium",
   "history": null,
   "available_dates": [
     "2026-08-04",
@@ -57,6 +57,7 @@
     "2026-09-04"
   ],
   "notes": [
+    "直近60分に有効な観測がないため、直近120分の速度を使用しています",
     "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です",
     "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
   ]
