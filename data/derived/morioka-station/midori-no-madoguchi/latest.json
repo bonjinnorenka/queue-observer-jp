@@ -2,13 +2,13 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-05T06:45:23+09:00",
-  "observed_at": "2026-09-05T06:45:23+09:00",
+  "generated_at": "2026-09-05T06:55:26+09:00",
+  "observed_at": "2026-09-05T06:55:26+09:00",
   "business_date": "2026-09-05",
-  "waitings_count": 9,
-  "pendings_count": 0,
+  "waitings_count": 4,
+  "pendings_count": 2,
   "waitings_truncated": false,
-  "head_number": 26,
+  "head_number": 38,
   "queue_exit_rate_20m": 12.08,
   "queue_exit_rate_60m": 15.06,
   "queue_exit_rate_120m": 15.06,
@@ -28,7 +28,7 @@
       "window_minutes": 60,
       "rate_per_hour": 15.06,
       "interval_count": 2,
-      "censored_interval_count": 4,
+      "censored_interval_count": 5,
       "advance_total": 5,
       "duration_seconds": 1195
     },
@@ -36,12 +36,12 @@
       "window_minutes": 120,
       "rate_per_hour": 15.06,
       "interval_count": 2,
-      "censored_interval_count": 4,
+      "censored_interval_count": 5,
       "advance_total": 5,
       "duration_seconds": 1195
     }
   },
-  "estimated_wait_minutes": 36,
+  "estimated_wait_minutes": 16,
   "estimate_confidence": "medium",
   "history": null,
   "available_dates": [
@@ -58,6 +58,7 @@
     "2026-09-05"
   ],
   "notes": [
-    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
+    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります",
+    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
   ]
 }
