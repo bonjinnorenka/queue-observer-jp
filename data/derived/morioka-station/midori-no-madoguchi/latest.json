@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-07T19:35:23+09:00",
-  "observed_at": "2026-09-07T19:35:23+09:00",
+  "generated_at": "2026-09-07T19:45:21+09:00",
+  "observed_at": "2026-09-07T19:45:21+09:00",
   "business_date": "2026-09-07",
-  "waitings_count": 29,
-  "pendings_count": 0,
+  "waitings_count": 23,
+  "pendings_count": 2,
   "waitings_truncated": true,
-  "head_number": 771,
-  "queue_exit_rate_20m": 27.92,
-  "queue_exit_rate_60m": 30.96,
-  "queue_exit_rate_120m": 30.48,
-  "queue_exit_rate_used": 30.96,
+  "head_number": 779,
+  "queue_exit_rate_20m": 35.97,
+  "queue_exit_rate_60m": 33.4,
+  "queue_exit_rate_120m": 30.98,
+  "queue_exit_rate_used": 33.4,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 27.92,
-      "interval_count": 3,
+      "rate_per_hour": 35.97,
+      "interval_count": 2,
       "censored_interval_count": 0,
-      "advance_total": 14,
-      "duration_seconds": 1805
+      "advance_total": 12,
+      "duration_seconds": 1201
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 30.96,
-      "interval_count": 6,
+      "rate_per_hour": 33.4,
+      "interval_count": 7,
       "censored_interval_count": 0,
-      "advance_total": 31,
-      "duration_seconds": 3605
+      "advance_total": 39,
+      "duration_seconds": 4203
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 30.48,
+      "rate_per_hour": 30.98,
       "interval_count": 12,
       "censored_interval_count": 0,
-      "advance_total": 61,
+      "advance_total": 62,
       "duration_seconds": 7204
     }
   },
-  "estimated_wait_minutes": 56,
+  "estimated_wait_minutes": 41,
   "estimate_confidence": "high",
   "history": null,
   "available_dates": [
@@ -60,6 +60,7 @@
     "2026-09-07"
   ],
   "notes": [
-    "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です"
+    "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です",
+    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
   ]
 }
