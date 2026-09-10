@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-10T19:15:41+09:00",
-  "observed_at": "2026-09-10T19:15:41+09:00",
+  "generated_at": "2026-09-10T19:25:46+09:00",
+  "observed_at": "2026-09-10T19:25:46+09:00",
   "business_date": "2026-09-10",
-  "waitings_count": 13,
-  "pendings_count": 3,
+  "waitings_count": 15,
+  "pendings_count": 0,
   "waitings_truncated": false,
   "head_number": 581,
-  "queue_exit_rate_20m": 28.13,
-  "queue_exit_rate_60m": 28.29,
-  "queue_exit_rate_120m": 29.93,
-  "queue_exit_rate_used": 28.29,
+  "queue_exit_rate_20m": 18,
+  "queue_exit_rate_60m": 18.98,
+  "queue_exit_rate_120m": 28.41,
+  "queue_exit_rate_used": 18.98,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 28.13,
-      "interval_count": 3,
+      "rate_per_hour": 18,
+      "interval_count": 2,
       "censored_interval_count": 0,
-      "advance_total": 14,
-      "duration_seconds": 1792
+      "advance_total": 6,
+      "duration_seconds": 1200
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 28.29,
-      "interval_count": 7,
+      "rate_per_hour": 18.98,
+      "interval_count": 6,
       "censored_interval_count": 0,
-      "advance_total": 33,
-      "duration_seconds": 4199
+      "advance_total": 19,
+      "duration_seconds": 3604
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 29.93,
+      "rate_per_hour": 28.41,
       "interval_count": 12,
       "censored_interval_count": 0,
-      "advance_total": 60,
-      "duration_seconds": 7218
+      "advance_total": 57,
+      "duration_seconds": 7224
     }
   },
-  "estimated_wait_minutes": 28,
+  "estimated_wait_minutes": 47,
   "estimate_confidence": "high",
   "history": {
     "weekday": 4,
@@ -68,7 +68,5 @@
     "2026-09-09",
     "2026-09-10"
   ],
-  "notes": [
-    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
-  ]
+  "notes": []
 }
