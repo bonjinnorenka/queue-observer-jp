@@ -8,6 +8,7 @@
  */
 
 import { regenerateIncrementalDerived } from './aggregate.js';
+import { formatCollectionWindow, isWithinCollectionWindow } from './collection-window.js';
 import { normalizeSnapshot } from './snapshot.js';
 import {
   STATUS_FILE,
@@ -61,6 +62,11 @@ async function collectLocation(location) {
 }
 
 async function main() {
+  if (!isWithinCollectionWindow()) {
+    console.log(`[skip] 収集時間外 (${formatCollectionWindow()} JST)`);
+    return;
+  }
+
   const locations = await readLocations();
   const results = [];
 
