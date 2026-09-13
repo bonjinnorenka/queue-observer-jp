@@ -12,7 +12,6 @@ import {
   readSnapshotFile,
   readSnapshotsForDate,
   writeJsonIfChanged,
-  readJson,
 } from './storage.js';
 import { jstParts, median, round, sum, toJstIso } from './util.js';
 
@@ -308,8 +307,8 @@ export async function regenerateDerived(location, { allDays = null } = {}) {
 }
 
 /**
- * 増分派生データ更新: 今日のファイルとlatest.jsonのみ更新する。
- * 10分間隔の観測では全履歴の再処理は不要。フル再生成は rebuild.js に任せる。
+ * 増分派生データ更新: 今日のday file、stats.json、latest.jsonを更新する。
+ * 曜日×時間帯の履歴(stats.json)は全営業日を再集計する。日次ファイルのフル再生成は rebuild.js に任せる。
  */
 export async function regenerateIncrementalDerived(location, businessDate) {
   const dir = derivedDir(location);
@@ -336,24 +335,18 @@ export async function regenerateIncrementalDerived(location, businessDate) {
   );
   if (dayResult.written) written.push(dayResult.file);
 
-  // 全日付リストを取得(latest.jsonのavailable_datesに必要)
-  const files = await listRawFiles(location);
-  const allDates = new Set();
-  for (const file of files) {
-    for (const snapshot of await readSnapshotFile(file)) {
-      if (snapshot.business_date) allDates.add(snapshot.business_date);
-    }
-  }
-  const availableDates = [...allDates].sort();
+  const allDays = await loadAllDays(location);
+  const availableDates = allDays.map((day) => day.business_date);
 
-  // 履歴統計は既存のstats.jsonから読み込む(なければ今日だけで作成)
-  const existingStats = await readJson(path.join(dir, 'stats.json'));
-  const historyStats = existingStats ?? buildStats(location, []);
+  const stats = buildStats(location, allDays);
+  const statsResult = await writeJsonIfChanged(path.join(dir, 'stats.json'), stats);
+  if (statsResult.written) written.push(statsResult.file);
 
-  // latest.jsonを更新
+  // 「過去平均との差」には当日を含めない(regenerateDerived と同じ)。
+  const historyStats = buildStats(location, allDays.slice(0, -1));
   const latest = buildLatest(location, today, historyStats, availableDates);
   const latestResult = await writeJsonIfChanged(path.join(dir, 'latest.json'), latest);
   if (latestResult.written) written.push(latestResult.file);
 
-  return { days: 1, latest, stats: historyStats, written };
+  return { days: 1, latest, stats, written };
 }

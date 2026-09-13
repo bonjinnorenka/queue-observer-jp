@@ -226,5 +226,17 @@ describe('regenerateIncrementalDerived', () => {
     assert.equal(dayOnDisk.snapshot_count, 2);
     assert.equal(dayOnDisk.intervals.length, 1);
     assert.equal(typeof dayOnDisk.intervals[0].interval_start, 'string');
+
+    // stats.json は古い内容ではなく、今回の観測から再集計される。
+    const statsOnDisk = await readJson(path.join(derivedPath, 'stats.json'));
+    assert.equal(statsOnDisk.observation_days, 1);
+    assert.equal(statsOnDisk.snapshot_count, 2);
+    assert.equal(statsOnDisk.date_range.to, '2026-08-30');
+    assert.notEqual(statsOnDisk.generated_at, persistedStats.generated_at);
+    const bucket = statsOnDisk.weekday_hours.find(
+      (entry) => entry.weekday === 0 && entry.hour === 11,
+    );
+    assert.ok(bucket);
+    assert.equal(bucket.snapshot_count, 2);
   });
 });
