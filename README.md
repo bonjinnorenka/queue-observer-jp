@@ -23,7 +23,8 @@ flowchart LR
   derived --> pages["GitHub Pages<br/>(データ変更時のみdeploy)"]
 ```
 
-1. Cloudflare Workerが10分ごとに起動
+1. Cloudflare Workerが10分ごとに起動（**収集時間 05:45〜21:10 JST のみ**）
+   - 収集時間外は workflow を起動しない
    - GitHub APIで進行中の`collect`ワークフローをチェック
    - 既に実行中なら新しいdispatchをスキップ（キャンセル防止）
 2. `https://admin.junbanmachi.jp/dashboard/waiting_guest?id=4268` を取得し、
@@ -62,6 +63,7 @@ data/
 
 - `position` は API が返した配列順をそのまま保存する。配列順が実際の呼出し優先順を示している可能性があるため、番号順に並べ直さない。
 - `observed_at` は GitHub Actions の予定時刻ではなく、HTTP取得が完了した実時刻。cronは遅れることがある。
+- 収集は **05:45〜21:10 JST** のみ。時間外は Worker と `collect.js` の両方でスキップする。
 - `raw` は追記専用で書き換えない。`derived` は `npm run rebuild` でいつでも作り直せる。
 
 ## 列消化速度の計算

@@ -1,3 +1,5 @@
+import { formatCollectionWindow, isWithinCollectionWindow } from '../../src/collection-window.js';
+
 const OWNER = 'bonjinnorenka';
 const REPO = 'queue-observer-jp';
 const WORKFLOW = 'collect.yml';
@@ -48,6 +50,11 @@ async function dispatchWorkflow(token) {
 
 export default {
   async scheduled(controller, env, ctx) {
+    if (!isWithinCollectionWindow()) {
+      console.log(`skipping dispatch: outside collection window (${formatCollectionWindow()} JST)`);
+      return;
+    }
+
     // まず進行中のrunをチェック
     const inProgress = await hasInProgressRun(env.GITHUB_TOKEN);
     if (inProgress) {
