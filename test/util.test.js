@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 
+import { formatCollectionWindow, isWithinCollectionWindow } from '../src/collection-window.js';
 import { jstParts, rawFileParts, toDate } from '../src/util.js';
 
 describe('toDate', () => {
@@ -39,5 +40,20 @@ describe('jstParts / rawFileParts', () => {
     assert.equal(parts.hour, 11);
     assert.equal(parts.minute, 16);
     assert.equal(parts.second, 3);
+  });
+});
+
+describe('isWithinCollectionWindow', () => {
+  it('表示用の時間帯文字列を返す', () => {
+    assert.equal(formatCollectionWindow(), '05:45-21:10');
+  });
+
+  it('05:45 から 21:10 までを収集対象とする', () => {
+    assert.equal(isWithinCollectionWindow(new Date('2026-09-13T05:44:59+09:00')), false);
+    assert.equal(isWithinCollectionWindow(new Date('2026-09-13T05:45:00+09:00')), true);
+    assert.equal(isWithinCollectionWindow(new Date('2026-09-13T12:00:00+09:00')), true);
+    assert.equal(isWithinCollectionWindow(new Date('2026-09-13T21:10:00+09:00')), true);
+    assert.equal(isWithinCollectionWindow(new Date('2026-09-13T21:11:00+09:00')), false);
+    assert.equal(isWithinCollectionWindow(new Date('2026-09-13T00:25:45+09:00')), false);
   });
 });
