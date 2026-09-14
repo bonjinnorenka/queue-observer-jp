@@ -2,33 +2,33 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-15T07:55:57+09:00",
-  "observed_at": "2026-09-15T07:55:57+09:00",
+  "generated_at": "2026-09-15T08:05:57+09:00",
+  "observed_at": "2026-09-15T08:05:57+09:00",
   "business_date": "2026-09-15",
-  "waitings_count": 1,
-  "pendings_count": 1,
+  "waitings_count": 4,
+  "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 32,
-  "queue_exit_rate_20m": 0,
+  "head_number": 34,
+  "queue_exit_rate_20m": null,
   "queue_exit_rate_60m": 0,
   "queue_exit_rate_120m": 0,
-  "queue_exit_rate_used": 12,
+  "queue_exit_rate_used": 21.99,
   "rate_source": "weekday_hour_history",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 0,
-      "interval_count": 1,
+      "rate_per_hour": null,
+      "interval_count": 0,
       "censored_interval_count": 2,
       "advance_total": 0,
-      "duration_seconds": 549
+      "duration_seconds": 0
     },
     "60m": {
       "window_minutes": 60,
       "rate_per_hour": 0,
       "interval_count": 1,
-      "censored_interval_count": 4,
+      "censored_interval_count": 5,
       "advance_total": 0,
       "duration_seconds": 549
     },
@@ -36,19 +36,19 @@
       "window_minutes": 120,
       "rate_per_hour": 0,
       "interval_count": 1,
-      "censored_interval_count": 8,
+      "censored_interval_count": 9,
       "advance_total": 0,
       "duration_seconds": 549
     }
   },
-  "estimated_wait_minutes": 5,
+  "estimated_wait_minutes": 11,
   "estimate_confidence": "low",
   "history": {
     "weekday": 2,
-    "hour": 7,
-    "rate_per_hour": 12,
-    "median_waitings_count": 2,
-    "interval_count": 1
+    "hour": 8,
+    "rate_per_hour": 21.99,
+    "median_waitings_count": 4,
+    "interval_count": 4
   },
   "available_dates": [
     "2026-08-04",
@@ -74,7 +74,6 @@
     "2026-09-15"
   ],
   "notes": [
-    "当日の有効な観測が不足しているため、同じ時間帯の履歴平均を使用しています",
-    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
+    "当日の有効な観測が不足しているため、同じ時間帯の履歴平均を使用しています"
   ]
 }
