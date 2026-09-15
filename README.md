@@ -2,7 +2,10 @@
 
 順番待ち(junbanmachi.jp)の待機列を10分ごとに観測し、**列消化速度**と**推定待ち時間**を GitHub Pages で公開する仕組みです。
 
-観測対象: 盛岡駅みどりの窓口(shop_id=4268)
+観測対象:
+
+- 盛岡駅みどりの窓口 (shop_id=4268)
+- JR仙台駅３階みどりの窓口 (shop_id=4549)
 
 ## 何を記録しているか
 
@@ -27,7 +30,7 @@ flowchart LR
    - 収集時間外は workflow を起動しない
    - GitHub APIで進行中の`collect`ワークフローをチェック
    - 既に実行中なら新しいdispatchをスキップ（キャンセル防止）
-2. `https://admin.junbanmachi.jp/dashboard/waiting_guest?id=4268` を取得し、
+2. 各地点の `admin_url`(例: `.../waiting_guest?id=4268`) を取得し、
    `<script id="script" data-content="...">` のJSONから `access_token` を抽出
 3. `https://api.junbanmachi.jp/ajax/waiting/user?id=4268&answer1=-1&answer2=-1` に Bearer トークン付きで送信
 4. レスポンスを正規化して `data/raw/` の NDJSON に1行追記
