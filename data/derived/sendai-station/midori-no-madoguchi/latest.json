@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "location_id": "morioka-station-midori-no-madoguchi",
-  "location_name": "盛岡駅みどりの窓口",
+  "location_id": "sendai-station-midori-no-madoguchi",
+  "location_name": "JR仙台駅３階みどりの窓口",
   "generated_at": "2026-09-17T05:45:57+09:00",
   "observed_at": "2026-09-17T05:45:57+09:00",
   "business_date": "2026-09-17",
@@ -12,8 +12,8 @@
   "queue_exit_rate_20m": null,
   "queue_exit_rate_60m": null,
   "queue_exit_rate_120m": null,
-  "queue_exit_rate_used": 34.95,
-  "rate_source": "weekday_hour_history",
+  "queue_exit_rate_used": null,
+  "rate_source": null,
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
@@ -42,40 +42,10 @@
     }
   },
   "estimated_wait_minutes": 0,
-  "estimate_confidence": "low",
-  "history": {
-    "weekday": 4,
-    "hour": 5,
-    "rate_per_hour": 34.95,
-    "median_waitings_count": 0,
-    "interval_count": 1
-  },
+  "estimate_confidence": null,
+  "history": null,
   "available_dates": [
-    "2026-08-04",
-    "2026-08-05",
-    "2026-08-06",
-    "2026-08-07",
-    "2026-08-30",
-    "2026-08-31",
-    "2026-09-01",
-    "2026-09-02",
-    "2026-09-03",
-    "2026-09-04",
-    "2026-09-05",
-    "2026-09-06",
-    "2026-09-07",
-    "2026-09-08",
-    "2026-09-09",
-    "2026-09-10",
-    "2026-09-11",
-    "2026-09-12",
-    "2026-09-13",
-    "2026-09-14",
-    "2026-09-15",
-    "2026-09-16",
     "2026-09-17"
   ],
-  "notes": [
-    "当日の有効な観測が不足しているため、同じ時間帯の履歴平均を使用しています"
-  ]
+  "notes": []
 }
