@@ -2,53 +2,53 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-16T15:55:57+09:00",
-  "observed_at": "2026-09-16T15:55:57+09:00",
+  "generated_at": "2026-09-16T16:05:57+09:00",
+  "observed_at": "2026-09-16T16:05:57+09:00",
   "business_date": "2026-09-16",
-  "waitings_count": 14,
+  "waitings_count": 18,
   "pendings_count": 0,
   "waitings_truncated": false,
   "head_number": 347,
-  "queue_exit_rate_20m": 14.47,
-  "queue_exit_rate_60m": 18.33,
-  "queue_exit_rate_120m": 28.43,
-  "queue_exit_rate_used": 18.33,
+  "queue_exit_rate_20m": 14.45,
+  "queue_exit_rate_60m": 15.23,
+  "queue_exit_rate_120m": 17.5,
+  "queue_exit_rate_used": 15.23,
   "rate_source": "60m",
   "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 14.47,
+      "rate_per_hour": 14.45,
       "interval_count": 3,
       "censored_interval_count": 0,
       "advance_total": 7,
-      "duration_seconds": 1741
+      "duration_seconds": 1744
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 18.33,
-      "interval_count": 5,
+      "rate_per_hour": 15.23,
+      "interval_count": 6,
       "censored_interval_count": 1,
       "advance_total": 15,
-      "duration_seconds": 2946
+      "duration_seconds": 3546
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 28.43,
-      "interval_count": 10,
+      "rate_per_hour": 17.5,
+      "interval_count": 9,
       "censored_interval_count": 3,
-      "advance_total": 47,
-      "duration_seconds": 5951
+      "advance_total": 26,
+      "duration_seconds": 5350
     }
   },
-  "estimated_wait_minutes": 46,
+  "estimated_wait_minutes": 71,
   "estimate_confidence": "medium",
   "history": {
     "weekday": 3,
-    "hour": 15,
-    "rate_per_hour": 34.63,
-    "median_waitings_count": 24,
-    "interval_count": 18
+    "hour": 16,
+    "rate_per_hour": 29.65,
+    "median_waitings_count": 23,
+    "interval_count": 19
   },
   "available_dates": [
     "2026-08-04",
