@@ -2,47 +2,47 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-09-17T09:46:16+09:00",
-  "observed_at": "2026-09-17T09:46:16+09:00",
+  "generated_at": "2026-09-17T09:56:07+09:00",
+  "observed_at": "2026-09-17T09:56:07+09:00",
   "business_date": "2026-09-17",
-  "waitings_count": 27,
+  "waitings_count": 33,
   "pendings_count": 0,
   "waitings_truncated": true,
-  "head_number": 199,
-  "queue_exit_rate_20m": 64.92,
-  "queue_exit_rate_60m": 64.92,
-  "queue_exit_rate_120m": 64.92,
-  "queue_exit_rate_used": 64.92,
+  "head_number": 206,
+  "queue_exit_rate_20m": 53.96,
+  "queue_exit_rate_60m": 53.96,
+  "queue_exit_rate_120m": 53.96,
+  "queue_exit_rate_used": 53.96,
   "rate_source": "60m",
   "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 64.92,
-      "interval_count": 1,
-      "censored_interval_count": 1,
-      "advance_total": 11,
-      "duration_seconds": 610
+      "rate_per_hour": 53.96,
+      "interval_count": 2,
+      "censored_interval_count": 0,
+      "advance_total": 18,
+      "duration_seconds": 1201
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 64.92,
-      "interval_count": 1,
-      "censored_interval_count": 5,
-      "advance_total": 11,
-      "duration_seconds": 610
+      "rate_per_hour": 53.96,
+      "interval_count": 2,
+      "censored_interval_count": 4,
+      "advance_total": 18,
+      "duration_seconds": 1201
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 64.92,
-      "interval_count": 1,
+      "rate_per_hour": 53.96,
+      "interval_count": 2,
       "censored_interval_count": 7,
-      "advance_total": 11,
-      "duration_seconds": 610
+      "advance_total": 18,
+      "duration_seconds": 1201
     }
   },
-  "estimated_wait_minutes": 25,
-  "estimate_confidence": "low",
+  "estimated_wait_minutes": 37,
+  "estimate_confidence": "medium",
   "history": null,
   "available_dates": [
     "2026-09-17"
