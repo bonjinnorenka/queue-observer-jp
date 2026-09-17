@@ -2,50 +2,51 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-09-17T21:07:15+09:00",
-  "observed_at": "2026-09-17T21:07:15+09:00",
-  "business_date": "2026-09-17",
-  "waitings_count": 10,
+  "generated_at": "2026-09-18T05:46:26+09:00",
+  "observed_at": "2026-09-18T05:46:26+09:00",
+  "business_date": "2026-09-18",
+  "waitings_count": 0,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 1385,
-  "queue_exit_rate_20m": 54.11,
-  "queue_exit_rate_60m": 65.83,
-  "queue_exit_rate_120m": 74.51,
-  "queue_exit_rate_used": 65.83,
-  "rate_source": "60m",
+  "head_number": null,
+  "queue_exit_rate_20m": null,
+  "queue_exit_rate_60m": null,
+  "queue_exit_rate_120m": null,
+  "queue_exit_rate_used": null,
+  "rate_source": null,
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 54.11,
-      "interval_count": 3,
+      "rate_per_hour": null,
+      "interval_count": 0,
       "censored_interval_count": 0,
-      "advance_total": 19,
-      "duration_seconds": 1264
+      "advance_total": 0,
+      "duration_seconds": 0
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 65.83,
-      "interval_count": 7,
+      "rate_per_hour": null,
+      "interval_count": 0,
       "censored_interval_count": 0,
-      "advance_total": 67,
-      "duration_seconds": 3664
+      "advance_total": 0,
+      "duration_seconds": 0
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 74.51,
-      "interval_count": 10,
-      "censored_interval_count": 3,
-      "advance_total": 113,
-      "duration_seconds": 5460
+      "rate_per_hour": null,
+      "interval_count": 0,
+      "censored_interval_count": 0,
+      "advance_total": 0,
+      "duration_seconds": 0
     }
   },
-  "estimated_wait_minutes": 9,
-  "estimate_confidence": "high",
+  "estimated_wait_minutes": 0,
+  "estimate_confidence": null,
   "history": null,
   "available_dates": [
-    "2026-09-17"
+    "2026-09-17",
+    "2026-09-18"
   ],
   "notes": []
 }
