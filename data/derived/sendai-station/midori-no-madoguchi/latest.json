@@ -2,47 +2,47 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-09-17T17:56:15+09:00",
-  "observed_at": "2026-09-17T17:56:15+09:00",
+  "generated_at": "2026-09-17T18:06:07+09:00",
+  "observed_at": "2026-09-17T18:06:07+09:00",
   "business_date": "2026-09-17",
-  "waitings_count": 55,
+  "waitings_count": 58,
   "pendings_count": 0,
   "waitings_truncated": true,
-  "head_number": 1076,
-  "queue_exit_rate_20m": 101.83,
-  "queue_exit_rate_60m": 101.83,
-  "queue_exit_rate_120m": 93.74,
-  "queue_exit_rate_used": 101.83,
+  "head_number": 1091,
+  "queue_exit_rate_20m": 85.14,
+  "queue_exit_rate_60m": 93.55,
+  "queue_exit_rate_120m": 91.61,
+  "queue_exit_rate_used": 93.55,
   "rate_source": "60m",
   "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 101.83,
+      "rate_per_hour": 85.14,
       "interval_count": 1,
       "censored_interval_count": 1,
-      "advance_total": 17,
-      "duration_seconds": 601
+      "advance_total": 14,
+      "duration_seconds": 592
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 101.83,
-      "interval_count": 1,
-      "censored_interval_count": 5,
-      "advance_total": 17,
-      "duration_seconds": 601
+      "rate_per_hour": 93.55,
+      "interval_count": 2,
+      "censored_interval_count": 4,
+      "advance_total": 31,
+      "duration_seconds": 1193
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 93.74,
-      "interval_count": 3,
-      "censored_interval_count": 9,
-      "advance_total": 47,
-      "duration_seconds": 1805
+      "rate_per_hour": 91.61,
+      "interval_count": 4,
+      "censored_interval_count": 8,
+      "advance_total": 61,
+      "duration_seconds": 2397
     }
   },
-  "estimated_wait_minutes": 32,
-  "estimate_confidence": "low",
+  "estimated_wait_minutes": 37,
+  "estimate_confidence": "medium",
   "history": null,
   "available_dates": [
     "2026-09-17"
