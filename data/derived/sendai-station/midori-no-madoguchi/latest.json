@@ -2,51 +2,53 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-09-18T07:56:09+09:00",
-  "observed_at": "2026-09-18T07:56:09+09:00",
+  "generated_at": "2026-09-18T08:06:07+09:00",
+  "observed_at": "2026-09-18T08:06:07+09:00",
   "business_date": "2026-09-18",
-  "waitings_count": 9,
+  "waitings_count": 11,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 69,
-  "queue_exit_rate_20m": null,
-  "queue_exit_rate_60m": null,
-  "queue_exit_rate_120m": null,
-  "queue_exit_rate_used": null,
-  "rate_source": null,
-  "rate_is_lower_bound": false,
+  "head_number": 77,
+  "queue_exit_rate_20m": 48.16,
+  "queue_exit_rate_60m": 48.16,
+  "queue_exit_rate_120m": 48.16,
+  "queue_exit_rate_used": 48.16,
+  "rate_source": "60m",
+  "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": null,
-      "interval_count": 0,
+      "rate_per_hour": 48.16,
+      "interval_count": 1,
       "censored_interval_count": 1,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "advance_total": 8,
+      "duration_seconds": 598
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": null,
-      "interval_count": 0,
+      "rate_per_hour": 48.16,
+      "interval_count": 1,
       "censored_interval_count": 3,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "advance_total": 8,
+      "duration_seconds": 598
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": null,
-      "interval_count": 0,
+      "rate_per_hour": 48.16,
+      "interval_count": 1,
       "censored_interval_count": 4,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "advance_total": 8,
+      "duration_seconds": 598
     }
   },
-  "estimated_wait_minutes": null,
-  "estimate_confidence": null,
+  "estimated_wait_minutes": 14,
+  "estimate_confidence": "low",
   "history": null,
   "available_dates": [
     "2026-09-17",
     "2026-09-18"
   ],
-  "notes": []
+  "notes": [
+    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
+  ]
 }
