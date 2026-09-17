@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-09-17T17:36:06+09:00",
+  "generated_at": "2026-09-17T17:46:07+09:00",
   "observation_days": 1,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-09-17"
   },
-  "snapshot_count": 74,
-  "rate_eligible_interval_count": 33,
+  "snapshot_count": 75,
+  "rate_eligible_interval_count": 34,
   "censored_interval_count": 30,
   "weekday_hours": [
     {
@@ -159,14 +159,14 @@
     {
       "weekday": 4,
       "hour": 17,
-      "rate_per_hour": null,
-      "median_rate_per_hour": null,
-      "interval_count": 0,
-      "advance_total": 0,
-      "duration_seconds": 0,
+      "rate_per_hour": 101.83,
+      "median_rate_per_hour": 101.83,
+      "interval_count": 1,
+      "advance_total": 17,
+      "duration_seconds": 601,
       "median_waitings_count": 58,
       "max_waitings_count": 63,
-      "snapshot_count": 4
+      "snapshot_count": 5
     }
   ],
   "hours": [
@@ -304,27 +304,27 @@
     },
     {
       "hour": 17,
-      "rate_per_hour": null,
-      "median_rate_per_hour": null,
-      "interval_count": 0,
-      "advance_total": 0,
-      "duration_seconds": 0,
+      "rate_per_hour": 101.83,
+      "median_rate_per_hour": 101.83,
+      "interval_count": 1,
+      "advance_total": 17,
+      "duration_seconds": 601,
       "median_waitings_count": 58,
       "max_waitings_count": 63,
-      "snapshot_count": 4
+      "snapshot_count": 5
     }
   ],
   "weekdays": [
     {
       "weekday": 4,
-      "rate_per_hour": 86.18,
-      "median_rate_per_hour": 89.26,
-      "interval_count": 33,
-      "advance_total": 445,
-      "duration_seconds": 18589,
+      "rate_per_hour": 86.67,
+      "median_rate_per_hour": 89.86,
+      "interval_count": 34,
+      "advance_total": 462,
+      "duration_seconds": 19190,
       "median_waitings_count": 42,
       "max_waitings_count": 63,
-      "snapshot_count": 74
+      "snapshot_count": 75
     }
   ]
 }
