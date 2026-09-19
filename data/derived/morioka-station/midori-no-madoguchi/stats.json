@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-19T19:36:09+09:00",
+  "generated_at": "2026-09-19T19:46:09+09:00",
   "observation_days": 25,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-09-19"
   },
-  "snapshot_count": 3074,
-  "rate_eligible_interval_count": 1726,
+  "snapshot_count": 3075,
+  "rate_eligible_interval_count": 1727,
   "censored_interval_count": 351,
   "weekday_hours": [
     {
@@ -1971,14 +1971,14 @@
     {
       "weekday": 6,
       "hour": 19,
-      "rate_per_hour": 32.02,
-      "median_rate_per_hour": 29.95,
-      "interval_count": 15,
-      "advance_total": 80,
-      "duration_seconds": 8995,
-      "median_waitings_count": 18.5,
+      "rate_per_hour": 31.51,
+      "median_rate_per_hour": 27.02,
+      "interval_count": 16,
+      "advance_total": 84,
+      "duration_seconds": 9596,
+      "median_waitings_count": 20,
       "max_waitings_count": 35,
-      "snapshot_count": 16
+      "snapshot_count": 17
     },
     {
       "weekday": 6,
@@ -2241,14 +2241,14 @@
     },
     {
       "hour": 19,
-      "rate_per_hour": 28.25,
-      "median_rate_per_hour": 24.14,
-      "interval_count": 122,
-      "advance_total": 553,
-      "duration_seconds": 70464,
+      "rate_per_hour": 28.22,
+      "median_rate_per_hour": 24.08,
+      "interval_count": 123,
+      "advance_total": 557,
+      "duration_seconds": 71065,
       "median_waitings_count": 23,
       "max_waitings_count": 76,
-      "snapshot_count": 141
+      "snapshot_count": 142
     },
     {
       "hour": 20,
@@ -2364,14 +2364,14 @@
     },
     {
       "weekday": 6,
-      "rate_per_hour": 28.76,
+      "rate_per_hour": 28.73,
       "median_rate_per_hour": 24.32,
-      "interval_count": 236,
-      "advance_total": 1089,
-      "duration_seconds": 136334,
-      "median_waitings_count": 16,
+      "interval_count": 237,
+      "advance_total": 1093,
+      "duration_seconds": 136935,
+      "median_waitings_count": 16.5,
       "max_waitings_count": 69,
-      "snapshot_count": 389
+      "snapshot_count": 390
     }
   ]
 }
