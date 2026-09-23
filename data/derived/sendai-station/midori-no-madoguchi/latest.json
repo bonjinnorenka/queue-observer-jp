@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-09-24T08:05:56+09:00",
-  "observed_at": "2026-09-24T08:05:56+09:00",
+  "generated_at": "2026-09-24T08:10:04+09:00",
+  "observed_at": "2026-09-24T08:10:04+09:00",
   "business_date": "2026-09-24",
-  "waitings_count": 6,
+  "waitings_count": 5,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 50,
-  "queue_exit_rate_20m": null,
-  "queue_exit_rate_60m": null,
-  "queue_exit_rate_120m": null,
-  "queue_exit_rate_used": 73.58,
-  "rate_source": "hour_history",
-  "rate_is_lower_bound": false,
+  "head_number": 55,
+  "queue_exit_rate_20m": 72.58,
+  "queue_exit_rate_60m": 72.58,
+  "queue_exit_rate_120m": 72.58,
+  "queue_exit_rate_used": 72.58,
+  "rate_source": "60m",
+  "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": null,
-      "interval_count": 0,
+      "rate_per_hour": 72.58,
+      "interval_count": 1,
       "censored_interval_count": 2,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "advance_total": 5,
+      "duration_seconds": 248
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": null,
-      "interval_count": 0,
+      "rate_per_hour": 72.58,
+      "interval_count": 1,
       "censored_interval_count": 2,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "advance_total": 5,
+      "duration_seconds": 248
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": null,
-      "interval_count": 0,
+      "rate_per_hour": 72.58,
+      "interval_count": 1,
       "censored_interval_count": 3,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "advance_total": 5,
+      "duration_seconds": 248
     }
   },
-  "estimated_wait_minutes": 5,
+  "estimated_wait_minutes": 4,
   "estimate_confidence": "low",
   "history": {
     "weekday": 4,
@@ -61,6 +61,6 @@
     "2026-09-24"
   ],
   "notes": [
-    "当日の有効な観測が不足しているため、同じ時間帯の履歴平均を使用しています"
+    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
   ]
 }
