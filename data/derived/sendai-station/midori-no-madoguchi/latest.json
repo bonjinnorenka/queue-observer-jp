@@ -2,8 +2,8 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-09-25T05:55:55+09:00",
-  "observed_at": "2026-09-25T05:55:55+09:00",
+  "generated_at": "2026-09-25T06:05:56+09:00",
+  "observed_at": "2026-09-25T06:05:56+09:00",
   "business_date": "2026-09-25",
   "waitings_count": 0,
   "pendings_count": 0,
@@ -12,8 +12,8 @@
   "queue_exit_rate_20m": null,
   "queue_exit_rate_60m": null,
   "queue_exit_rate_120m": null,
-  "queue_exit_rate_used": null,
-  "rate_source": null,
+  "queue_exit_rate_used": 59.02,
+  "rate_source": "hour_history",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
@@ -42,10 +42,10 @@
     }
   },
   "estimated_wait_minutes": 0,
-  "estimate_confidence": null,
+  "estimate_confidence": "low",
   "history": {
     "weekday": 5,
-    "hour": 5,
+    "hour": 6,
     "rate_per_hour": null,
     "median_waitings_count": 0,
     "interval_count": 0
@@ -61,5 +61,7 @@
     "2026-09-24",
     "2026-09-25"
   ],
-  "notes": []
+  "notes": [
+    "当日の有効な観測が不足しているため、同じ時間帯の履歴平均を使用しています"
+  ]
 }
