@@ -2,9 +2,9 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-09-24T21:05:55+09:00",
-  "observed_at": "2026-09-24T21:05:55+09:00",
-  "business_date": "2026-09-24",
+  "generated_at": "2026-09-25T05:45:57+09:00",
+  "observed_at": "2026-09-25T05:45:57+09:00",
+  "business_date": "2026-09-25",
   "waitings_count": 0,
   "pendings_count": 0,
   "waitings_truncated": false,
@@ -12,15 +12,15 @@
   "queue_exit_rate_20m": null,
   "queue_exit_rate_60m": null,
   "queue_exit_rate_120m": null,
-  "queue_exit_rate_used": 54.55,
-  "rate_source": "weekday_hour_history",
+  "queue_exit_rate_used": null,
+  "rate_source": null,
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
       "rate_per_hour": null,
       "interval_count": 0,
-      "censored_interval_count": 3,
+      "censored_interval_count": 0,
       "advance_total": 0,
       "duration_seconds": 0
     },
@@ -28,7 +28,7 @@
       "window_minutes": 60,
       "rate_per_hour": null,
       "interval_count": 0,
-      "censored_interval_count": 6,
+      "censored_interval_count": 0,
       "advance_total": 0,
       "duration_seconds": 0
     },
@@ -36,19 +36,19 @@
       "window_minutes": 120,
       "rate_per_hour": null,
       "interval_count": 0,
-      "censored_interval_count": 12,
+      "censored_interval_count": 0,
       "advance_total": 0,
       "duration_seconds": 0
     }
   },
   "estimated_wait_minutes": 0,
-  "estimate_confidence": "low",
+  "estimate_confidence": null,
   "history": {
-    "weekday": 4,
-    "hour": 21,
-    "rate_per_hour": 54.55,
-    "median_waitings_count": 10.5,
-    "interval_count": 1
+    "weekday": 5,
+    "hour": 5,
+    "rate_per_hour": null,
+    "median_waitings_count": 0,
+    "interval_count": 0
   },
   "available_dates": [
     "2026-09-17",
@@ -58,9 +58,8 @@
     "2026-09-21",
     "2026-09-22",
     "2026-09-23",
-    "2026-09-24"
+    "2026-09-24",
+    "2026-09-25"
   ],
-  "notes": [
-    "当日の有効な観測が不足しているため、同じ時間帯の履歴平均を使用しています"
-  ]
+  "notes": []
 }
