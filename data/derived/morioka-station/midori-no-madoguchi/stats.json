@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-24T17:25:56+09:00",
+  "generated_at": "2026-09-24T17:35:59+09:00",
   "observation_days": 30,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-09-24"
   },
-  "snapshot_count": 3541,
-  "rate_eligible_interval_count": 2036,
+  "snapshot_count": 3542,
+  "rate_eligible_interval_count": 2037,
   "censored_interval_count": 472,
   "weekday_hours": [
     {
@@ -1371,14 +1371,14 @@
     {
       "weekday": 4,
       "hour": 17,
-      "rate_per_hour": 22.59,
+      "rate_per_hour": 21.75,
       "median_rate_per_hour": 18,
-      "interval_count": 26,
+      "interval_count": 27,
       "advance_total": 98,
-      "duration_seconds": 15616,
-      "median_waitings_count": 27,
+      "duration_seconds": 16219,
+      "median_waitings_count": 26.5,
       "max_waitings_count": 65,
-      "snapshot_count": 27
+      "snapshot_count": 28
     },
     {
       "weekday": 4,
@@ -2219,14 +2219,14 @@
     },
     {
       "hour": 17,
-      "rate_per_hour": 28.12,
-      "median_rate_per_hour": 27.24,
-      "interval_count": 160,
+      "rate_per_hour": 27.95,
+      "median_rate_per_hour": 24.78,
+      "interval_count": 161,
       "advance_total": 755,
-      "duration_seconds": 96646,
+      "duration_seconds": 97249,
       "median_waitings_count": 26,
       "max_waitings_count": 76,
-      "snapshot_count": 164
+      "snapshot_count": 165
     },
     {
       "hour": 18,
@@ -2342,14 +2342,14 @@
     },
     {
       "weekday": 4,
-      "rate_per_hour": 27.33,
+      "rate_per_hour": 27.25,
       "median_rate_per_hour": 23.84,
-      "interval_count": 360,
+      "interval_count": 361,
       "advance_total": 1558,
-      "duration_seconds": 205255,
+      "duration_seconds": 205858,
       "median_waitings_count": 14,
       "max_waitings_count": 76,
-      "snapshot_count": 619
+      "snapshot_count": 620
     },
     {
       "weekday": 5,
