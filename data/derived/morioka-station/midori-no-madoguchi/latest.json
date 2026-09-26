@@ -2,52 +2,52 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-26T11:56:08+09:00",
-  "observed_at": "2026-09-26T11:56:08+09:00",
+  "generated_at": "2026-09-26T12:06:06+09:00",
+  "observed_at": "2026-09-26T12:06:06+09:00",
   "business_date": "2026-09-26",
-  "waitings_count": 23,
-  "pendings_count": 0,
+  "waitings_count": 24,
+  "pendings_count": 1,
   "waitings_truncated": true,
-  "head_number": 217,
-  "queue_exit_rate_20m": 33,
-  "queue_exit_rate_60m": 35.64,
-  "queue_exit_rate_120m": 42.02,
-  "queue_exit_rate_used": 35.64,
+  "head_number": 221,
+  "queue_exit_rate_20m": 30.03,
+  "queue_exit_rate_60m": 34.01,
+  "queue_exit_rate_120m": 39.26,
+  "queue_exit_rate_used": 34.01,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 33,
-      "interval_count": 2,
+      "rate_per_hour": 30.03,
+      "interval_count": 3,
       "censored_interval_count": 0,
-      "advance_total": 11,
-      "duration_seconds": 1200
+      "advance_total": 15,
+      "duration_seconds": 1798
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 35.64,
-      "interval_count": 6,
+      "rate_per_hour": 34.01,
+      "interval_count": 7,
       "censored_interval_count": 0,
-      "advance_total": 36,
-      "duration_seconds": 3636
+      "advance_total": 40,
+      "duration_seconds": 4234
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 42.02,
+      "rate_per_hour": 39.26,
       "interval_count": 13,
       "censored_interval_count": 0,
-      "advance_total": 91,
-      "duration_seconds": 7796
+      "advance_total": 85,
+      "duration_seconds": 7795
     }
   },
-  "estimated_wait_minutes": 39,
+  "estimated_wait_minutes": 42,
   "estimate_confidence": "high",
   "history": {
     "weekday": 6,
-    "hour": 11,
-    "rate_per_hour": 30.72,
-    "median_waitings_count": 39,
+    "hour": 12,
+    "rate_per_hour": 32.32,
+    "median_waitings_count": 45.5,
     "interval_count": 18
   },
   "available_dates": [
@@ -85,6 +85,7 @@
     "2026-09-26"
   ],
   "notes": [
-    "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です"
+    "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です",
+    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
   ]
 }
