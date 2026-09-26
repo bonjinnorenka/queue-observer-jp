@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-26T13:25:27+09:00",
+  "generated_at": "2026-09-26T13:35:20+09:00",
   "observation_days": 32,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-09-26"
   },
-  "snapshot_count": 3709,
-  "rate_eligible_interval_count": 2157,
+  "snapshot_count": 3710,
+  "rate_eligible_interval_count": 2158,
   "censored_interval_count": 502,
   "weekday_hours": [
     {
@@ -1899,14 +1899,14 @@
     {
       "weekday": 6,
       "hour": 13,
-      "rate_per_hour": 22.97,
-      "median_rate_per_hour": 9.05,
-      "interval_count": 20,
-      "advance_total": 76,
-      "duration_seconds": 11911,
-      "median_waitings_count": 29.5,
+      "rate_per_hour": 23.32,
+      "median_rate_per_hour": 11.82,
+      "interval_count": 21,
+      "advance_total": 81,
+      "duration_seconds": 12503,
+      "median_waitings_count": 29,
       "max_waitings_count": 56,
-      "snapshot_count": 22
+      "snapshot_count": 23
     },
     {
       "weekday": 6,
@@ -2177,12 +2177,12 @@
       "hour": 13,
       "rate_per_hour": 31.33,
       "median_rate_per_hour": 30,
-      "interval_count": 175,
-      "advance_total": 902,
-      "duration_seconds": 103635,
+      "interval_count": 176,
+      "advance_total": 907,
+      "duration_seconds": 104227,
       "median_waitings_count": 31,
       "max_waitings_count": 95,
-      "snapshot_count": 180
+      "snapshot_count": 181
     },
     {
       "hour": 14,
@@ -2365,13 +2365,13 @@
     {
       "weekday": 6,
       "rate_per_hour": 28.86,
-      "median_rate_per_hour": 24.2,
-      "interval_count": 271,
-      "advance_total": 1261,
-      "duration_seconds": 157318,
+      "median_rate_per_hour": 24.24,
+      "interval_count": 272,
+      "advance_total": 1266,
+      "duration_seconds": 157910,
       "median_waitings_count": 16,
       "max_waitings_count": 69,
-      "snapshot_count": 447
+      "snapshot_count": 448
     }
   ]
 }
