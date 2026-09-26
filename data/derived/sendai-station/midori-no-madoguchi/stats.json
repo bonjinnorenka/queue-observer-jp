@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-09-26T15:35:37+09:00",
+  "generated_at": "2026-09-26T15:38:10+09:00",
   "observation_days": 10,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-09-26"
   },
-  "snapshot_count": 930,
-  "rate_eligible_interval_count": 361,
+  "snapshot_count": 931,
+  "rate_eligible_interval_count": 362,
   "censored_interval_count": 435,
   "weekday_hours": [
     {
@@ -1359,14 +1359,14 @@
     {
       "weekday": 6,
       "hour": 15,
-      "rate_per_hour": 82.95,
-      "median_rate_per_hour": 83.72,
-      "interval_count": 7,
-      "advance_total": 97,
-      "duration_seconds": 4210,
+      "rate_per_hour": 84.99,
+      "median_rate_per_hour": 87.01,
+      "interval_count": 8,
+      "advance_total": 103,
+      "duration_seconds": 4363,
       "median_waitings_count": 24,
       "max_waitings_count": 31,
-      "snapshot_count": 10
+      "snapshot_count": 11
     },
     {
       "weekday": 6,
@@ -1554,14 +1554,14 @@
     },
     {
       "hour": 15,
-      "rate_per_hour": 91.51,
-      "median_rate_per_hour": 90.15,
-      "interval_count": 29,
-      "advance_total": 393,
-      "duration_seconds": 15460,
-      "median_waitings_count": 25,
+      "rate_per_hour": 92,
+      "median_rate_per_hour": 90.23,
+      "interval_count": 30,
+      "advance_total": 399,
+      "duration_seconds": 15613,
+      "median_waitings_count": 26.5,
       "max_waitings_count": 91,
-      "snapshot_count": 61
+      "snapshot_count": 62
     },
     {
       "hour": 16,
@@ -1699,14 +1699,14 @@
     },
     {
       "weekday": 6,
-      "rate_per_hour": 86.36,
+      "rate_per_hour": 86.58,
       "median_rate_per_hour": 84.28,
-      "interval_count": 68,
-      "advance_total": 940,
-      "duration_seconds": 39183,
+      "interval_count": 69,
+      "advance_total": 946,
+      "duration_seconds": 39336,
       "median_waitings_count": 19,
       "max_waitings_count": 70,
-      "snapshot_count": 160
+      "snapshot_count": 161
     }
   ]
 }
