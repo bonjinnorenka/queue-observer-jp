@@ -2,53 +2,53 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-27T13:55:57+09:00",
-  "observed_at": "2026-09-27T13:55:57+09:00",
+  "generated_at": "2026-09-27T14:05:54+09:00",
+  "observed_at": "2026-09-27T14:05:54+09:00",
   "business_date": "2026-09-27",
-  "waitings_count": 11,
+  "waitings_count": 6,
   "pendings_count": 1,
   "waitings_truncated": false,
-  "head_number": 275,
-  "queue_exit_rate_20m": 33.94,
-  "queue_exit_rate_60m": 39.6,
-  "queue_exit_rate_120m": 35.44,
-  "queue_exit_rate_used": 39.6,
+  "head_number": 282,
+  "queue_exit_rate_20m": 35.97,
+  "queue_exit_rate_60m": 38.4,
+  "queue_exit_rate_120m": 37.1,
+  "queue_exit_rate_used": 38.4,
   "rate_source": "60m",
   "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 33.94,
-      "interval_count": 3,
+      "rate_per_hour": 35.97,
+      "interval_count": 2,
       "censored_interval_count": 0,
-      "advance_total": 17,
-      "duration_seconds": 1803
+      "advance_total": 12,
+      "duration_seconds": 1201
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 39.6,
+      "rate_per_hour": 38.4,
       "interval_count": 5,
       "censored_interval_count": 1,
-      "advance_total": 33,
+      "advance_total": 32,
       "duration_seconds": 3000
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 35.44,
+      "rate_per_hour": 37.1,
       "interval_count": 11,
       "censored_interval_count": 1,
-      "advance_total": 65,
-      "duration_seconds": 6603
+      "advance_total": 68,
+      "duration_seconds": 6599
     }
   },
-  "estimated_wait_minutes": 17,
+  "estimated_wait_minutes": 9,
   "estimate_confidence": "medium",
   "history": {
     "weekday": 0,
-    "hour": 13,
-    "rate_per_hour": 26,
-    "median_waitings_count": 40.5,
-    "interval_count": 24
+    "hour": 14,
+    "rate_per_hour": 30.48,
+    "median_waitings_count": 40,
+    "interval_count": 25
   },
   "available_dates": [
     "2026-08-04",
