@@ -2,8 +2,8 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-27T20:05:55+09:00",
-  "observed_at": "2026-09-27T20:05:55+09:00",
+  "generated_at": "2026-09-27T20:15:59+09:00",
+  "observed_at": "2026-09-27T20:15:59+09:00",
   "business_date": "2026-09-27",
   "waitings_count": 0,
   "pendings_count": 0,
@@ -11,8 +11,8 @@
   "head_number": null,
   "queue_exit_rate_20m": null,
   "queue_exit_rate_60m": 0,
-  "queue_exit_rate_120m": 34.85,
-  "queue_exit_rate_used": 34.85,
+  "queue_exit_rate_120m": 27.06,
+  "queue_exit_rate_used": 27.06,
   "rate_source": "120m",
   "rate_is_lower_bound": false,
   "rate_windows": {
@@ -20,7 +20,7 @@
       "window_minutes": 20,
       "rate_per_hour": null,
       "interval_count": 0,
-      "censored_interval_count": 1,
+      "censored_interval_count": 0,
       "advance_total": 0,
       "duration_seconds": 0
     },
@@ -28,17 +28,17 @@
       "window_minutes": 60,
       "rate_per_hour": 0,
       "interval_count": 1,
-      "censored_interval_count": 4,
+      "censored_interval_count": 3,
       "advance_total": 0,
       "duration_seconds": 597
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 34.85,
-      "interval_count": 5,
+      "rate_per_hour": 27.06,
+      "interval_count": 4,
       "censored_interval_count": 6,
-      "advance_total": 29,
-      "duration_seconds": 2996
+      "advance_total": 18,
+      "duration_seconds": 2395
     }
   },
   "estimated_wait_minutes": 0,
