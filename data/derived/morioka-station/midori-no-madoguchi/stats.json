@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-29T20:05:54+09:00",
+  "generated_at": "2026-09-29T20:15:56+09:00",
   "observation_days": 35,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-09-29"
   },
-  "snapshot_count": 4040,
-  "rate_eligible_interval_count": 2367,
+  "snapshot_count": 4041,
+  "rate_eligible_interval_count": 2368,
   "censored_interval_count": 580,
   "weekday_hours": [
     {
@@ -831,14 +831,14 @@
     {
       "weekday": 2,
       "hour": 20,
-      "rate_per_hour": 21.4,
-      "median_rate_per_hour": 21.07,
-      "interval_count": 16,
-      "advance_total": 57,
-      "duration_seconds": 9588,
+      "rate_per_hour": 21.55,
+      "median_rate_per_hour": 23.92,
+      "interval_count": 17,
+      "advance_total": 61,
+      "duration_seconds": 10190,
       "median_waitings_count": 5,
       "max_waitings_count": 43,
-      "snapshot_count": 26
+      "snapshot_count": 27
     },
     {
       "weekday": 2,
@@ -2254,12 +2254,12 @@
       "hour": 20,
       "rate_per_hour": 23.85,
       "median_rate_per_hour": 23.92,
-      "interval_count": 107,
-      "advance_total": 410,
-      "duration_seconds": 61876,
+      "interval_count": 108,
+      "advance_total": 414,
+      "duration_seconds": 62478,
       "median_waitings_count": 5,
       "max_waitings_count": 53,
-      "snapshot_count": 200
+      "snapshot_count": 201
     },
     {
       "hour": 21,
@@ -2320,14 +2320,14 @@
     },
     {
       "weekday": 2,
-      "rate_per_hour": 26.92,
-      "median_rate_per_hour": 24.26,
-      "interval_count": 350,
-      "advance_total": 1515,
-      "duration_seconds": 202582,
+      "rate_per_hour": 26.91,
+      "median_rate_per_hour": 24.24,
+      "interval_count": 351,
+      "advance_total": 1519,
+      "duration_seconds": 203184,
       "median_waitings_count": 10,
       "max_waitings_count": 53,
-      "snapshot_count": 607
+      "snapshot_count": 608
     },
     {
       "weekday": 3,
