@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-09-29T18:25:55+09:00",
-  "observed_at": "2026-09-29T18:25:55+09:00",
+  "generated_at": "2026-09-29T18:35:57+09:00",
+  "observed_at": "2026-09-29T18:35:56+09:00",
   "business_date": "2026-09-29",
   "waitings_count": 12,
-  "pendings_count": 1,
+  "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 481,
-  "queue_exit_rate_20m": 24.18,
-  "queue_exit_rate_60m": 21.43,
-  "queue_exit_rate_120m": 29.08,
-  "queue_exit_rate_used": 21.43,
+  "head_number": 488,
+  "queue_exit_rate_20m": 30,
+  "queue_exit_rate_60m": 30.99,
+  "queue_exit_rate_120m": 31,
+  "queue_exit_rate_used": 30.99,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 24.18,
+      "rate_per_hour": 30,
       "interval_count": 3,
       "censored_interval_count": 0,
-      "advance_total": 9,
-      "duration_seconds": 1340
+      "advance_total": 15,
+      "duration_seconds": 1800
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 21.43,
-      "interval_count": 8,
+      "rate_per_hour": 30.99,
+      "interval_count": 7,
       "censored_interval_count": 0,
-      "advance_total": 25,
-      "duration_seconds": 4199
+      "advance_total": 31,
+      "duration_seconds": 3601
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 29.08,
-      "interval_count": 14,
+      "rate_per_hour": 31,
+      "interval_count": 13,
       "censored_interval_count": 0,
-      "advance_total": 63,
-      "duration_seconds": 7800
+      "advance_total": 62,
+      "duration_seconds": 7201
     }
   },
-  "estimated_wait_minutes": 34,
+  "estimated_wait_minutes": 23,
   "estimate_confidence": "high",
   "history": {
     "weekday": 2,
@@ -87,7 +87,5 @@
     "2026-09-28",
     "2026-09-29"
   ],
-  "notes": [
-    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
-  ]
+  "notes": []
 }
