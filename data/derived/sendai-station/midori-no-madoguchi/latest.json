@@ -2,17 +2,17 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-09-30T15:55:58+09:00",
-  "observed_at": "2026-09-30T15:55:58+09:00",
+  "generated_at": "2026-09-30T16:05:56+09:00",
+  "observed_at": "2026-09-30T16:05:56+09:00",
   "business_date": "2026-09-30",
-  "waitings_count": 20,
+  "waitings_count": 29,
   "pendings_count": 0,
-  "waitings_truncated": false,
-  "head_number": 798,
+  "waitings_truncated": true,
+  "head_number": 820,
   "queue_exit_rate_20m": null,
-  "queue_exit_rate_60m": 87.22,
-  "queue_exit_rate_120m": 91.77,
-  "queue_exit_rate_used": 87.22,
+  "queue_exit_rate_60m": 88.8,
+  "queue_exit_rate_120m": 90.3,
+  "queue_exit_rate_used": 88.8,
   "rate_source": "60m",
   "rate_is_lower_bound": true,
   "rate_windows": {
@@ -26,29 +26,29 @@
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 87.22,
-      "interval_count": 3,
+      "rate_per_hour": 88.8,
+      "interval_count": 2,
       "censored_interval_count": 5,
-      "advance_total": 29,
-      "duration_seconds": 1197
+      "advance_total": 24,
+      "duration_seconds": 973
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 91.77,
-      "interval_count": 5,
-      "censored_interval_count": 8,
-      "advance_total": 61,
-      "duration_seconds": 2393
+      "rate_per_hour": 90.3,
+      "interval_count": 4,
+      "censored_interval_count": 9,
+      "advance_total": 45,
+      "duration_seconds": 1794
     }
   },
-  "estimated_wait_minutes": 14,
+  "estimated_wait_minutes": 20,
   "estimate_confidence": "medium",
   "history": {
     "weekday": 3,
-    "hour": 15,
-    "rate_per_hour": 101.96,
-    "median_waitings_count": 21,
-    "interval_count": 5
+    "hour": 16,
+    "rate_per_hour": null,
+    "median_waitings_count": 10.5,
+    "interval_count": 0
   },
   "available_dates": [
     "2026-09-17",
@@ -67,6 +67,7 @@
     "2026-09-30"
   ],
   "notes": [
-    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
+    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります",
+    "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です"
   ]
 }
