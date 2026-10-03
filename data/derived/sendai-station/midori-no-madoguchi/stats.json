@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-03T10:46:03+09:00",
+  "generated_at": "2026-10-03T10:56:04+09:00",
   "observation_days": 17,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-10-03"
   },
-  "snapshot_count": 1572,
-  "rate_eligible_interval_count": 618,
+  "snapshot_count": 1573,
+  "rate_eligible_interval_count": 619,
   "censored_interval_count": 707,
   "weekday_hours": [
     {
@@ -1299,14 +1299,14 @@
     {
       "weekday": 6,
       "hour": 10,
-      "rate_per_hour": 101.25,
+      "rate_per_hour": 101.31,
       "median_rate_per_hour": 101.82,
-      "interval_count": 9,
-      "advance_total": 135,
-      "duration_seconds": 4800,
+      "interval_count": 10,
+      "advance_total": 152,
+      "duration_seconds": 5401,
       "median_waitings_count": 31,
       "max_waitings_count": 62,
-      "snapshot_count": 18
+      "snapshot_count": 19
     },
     {
       "weekday": 6,
@@ -1499,14 +1499,14 @@
     },
     {
       "hour": 10,
-      "rate_per_hour": 87.37,
+      "rate_per_hour": 87.61,
       "median_rate_per_hour": 90.45,
-      "interval_count": 65,
-      "advance_total": 863,
-      "duration_seconds": 35560,
+      "interval_count": 66,
+      "advance_total": 880,
+      "duration_seconds": 36161,
       "median_waitings_count": 22,
       "max_waitings_count": 62,
-      "snapshot_count": 109
+      "snapshot_count": 110
     },
     {
       "hour": 11,
@@ -1699,14 +1699,14 @@
     },
     {
       "weekday": 6,
-      "rate_per_hour": 88.16,
-      "median_rate_per_hour": 86.15,
-      "interval_count": 81,
-      "advance_total": 1121,
-      "duration_seconds": 45774,
+      "rate_per_hour": 88.34,
+      "median_rate_per_hour": 87.49,
+      "interval_count": 82,
+      "advance_total": 1138,
+      "duration_seconds": 46375,
       "median_waitings_count": 15,
       "max_waitings_count": 70,
-      "snapshot_count": 228
+      "snapshot_count": 229
     }
   ]
 }
