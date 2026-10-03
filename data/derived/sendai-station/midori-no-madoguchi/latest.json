@@ -2,53 +2,53 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-03T10:56:04+09:00",
-  "observed_at": "2026-10-03T10:56:04+09:00",
+  "generated_at": "2026-10-03T11:06:05+09:00",
+  "observed_at": "2026-10-03T11:06:05+09:00",
   "business_date": "2026-10-03",
-  "waitings_count": 17,
+  "waitings_count": 18,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 306,
-  "queue_exit_rate_20m": 97.87,
-  "queue_exit_rate_60m": 92.97,
-  "queue_exit_rate_120m": 92.97,
-  "queue_exit_rate_used": 92.97,
+  "head_number": 323,
+  "queue_exit_rate_20m": 98.84,
+  "queue_exit_rate_60m": 96.97,
+  "queue_exit_rate_120m": 93.38,
+  "queue_exit_rate_used": 96.97,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 97.87,
-      "interval_count": 3,
+      "rate_per_hour": 98.84,
+      "interval_count": 2,
       "censored_interval_count": 0,
-      "advance_total": 46,
-      "duration_seconds": 1692
+      "advance_total": 33,
+      "duration_seconds": 1202
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 92.97,
+      "rate_per_hour": 96.97,
       "interval_count": 7,
       "censored_interval_count": 0,
-      "advance_total": 93,
+      "advance_total": 97,
       "duration_seconds": 3601
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 92.97,
-      "interval_count": 7,
-      "censored_interval_count": 6,
-      "advance_total": 93,
-      "duration_seconds": 3601
+      "rate_per_hour": 93.38,
+      "interval_count": 8,
+      "censored_interval_count": 5,
+      "advance_total": 109,
+      "duration_seconds": 4202
     }
   },
   "estimated_wait_minutes": 11,
   "estimate_confidence": "high",
   "history": {
     "weekday": 6,
-    "hour": 10,
-    "rate_per_hour": 106.46,
-    "median_waitings_count": 35.5,
-    "interval_count": 4
+    "hour": 11,
+    "rate_per_hour": 75.85,
+    "median_waitings_count": 40,
+    "interval_count": 10
   },
   "available_dates": [
     "2026-09-17",
