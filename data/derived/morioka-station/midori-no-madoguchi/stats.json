@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-04T14:56:02+09:00",
+  "generated_at": "2026-10-04T15:06:02+09:00",
   "observation_days": 40,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-04"
   },
-  "snapshot_count": 4486,
-  "rate_eligible_interval_count": 2653,
+  "snapshot_count": 4487,
+  "rate_eligible_interval_count": 2654,
   "censored_interval_count": 683,
   "weekday_hours": [
     {
@@ -183,11 +183,11 @@
     {
       "weekday": 0,
       "hour": 14,
-      "rate_per_hour": 30.16,
-      "median_rate_per_hour": 24,
-      "interval_count": 33,
-      "advance_total": 157,
-      "duration_seconds": 18743,
+      "rate_per_hour": 30.15,
+      "median_rate_per_hour": 24.02,
+      "interval_count": 34,
+      "advance_total": 162,
+      "duration_seconds": 19343,
       "median_waitings_count": 34.5,
       "max_waitings_count": 71,
       "snapshot_count": 38
@@ -200,9 +200,9 @@
       "interval_count": 27,
       "advance_total": 122,
       "duration_seconds": 15984,
-      "median_waitings_count": 27,
+      "median_waitings_count": 28,
       "max_waitings_count": 58,
-      "snapshot_count": 31
+      "snapshot_count": 32
     },
     {
       "weekday": 0,
@@ -2186,11 +2186,11 @@
     },
     {
       "hour": 14,
-      "rate_per_hour": 30.9,
-      "median_rate_per_hour": 29.8,
-      "interval_count": 229,
-      "advance_total": 1139,
-      "duration_seconds": 132705,
+      "rate_per_hour": 30.89,
+      "median_rate_per_hour": 29.83,
+      "interval_count": 230,
+      "advance_total": 1144,
+      "duration_seconds": 133305,
       "median_waitings_count": 29,
       "max_waitings_count": 104,
       "snapshot_count": 239
@@ -2202,9 +2202,9 @@
       "interval_count": 228,
       "advance_total": 1063,
       "duration_seconds": 130491,
-      "median_waitings_count": 28,
+      "median_waitings_count": 28.5,
       "max_waitings_count": 104,
-      "snapshot_count": 237
+      "snapshot_count": 238
     },
     {
       "hour": 16,
@@ -2298,14 +2298,14 @@
   "weekdays": [
     {
       "weekday": 0,
-      "rate_per_hour": 27.11,
+      "rate_per_hour": 27.12,
       "median_rate_per_hour": 24.04,
-      "interval_count": 345,
-      "advance_total": 1527,
-      "duration_seconds": 202794,
+      "interval_count": 346,
+      "advance_total": 1532,
+      "duration_seconds": 203394,
       "median_waitings_count": 9,
       "max_waitings_count": 71,
-      "snapshot_count": 621
+      "snapshot_count": 622
     },
     {
       "weekday": 1,
