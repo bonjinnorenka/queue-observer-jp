@@ -2,15 +2,15 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-04T17:26:04+09:00",
+  "generated_at": "2026-10-04T17:36:06+09:00",
   "observation_days": 18,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-10-04"
   },
-  "snapshot_count": 1708,
+  "snapshot_count": 1709,
   "rate_eligible_interval_count": 672,
-  "censored_interval_count": 766,
+  "censored_interval_count": 767,
   "weekday_hours": [
     {
       "weekday": 0,
@@ -164,9 +164,9 @@
       "interval_count": 6,
       "advance_total": 86,
       "duration_seconds": 3591,
-      "median_waitings_count": 38,
+      "median_waitings_count": 37.5,
       "max_waitings_count": 46,
-      "snapshot_count": 15
+      "snapshot_count": 16
     },
     {
       "weekday": 0,
@@ -1583,7 +1583,7 @@
       "duration_seconds": 31714,
       "median_waitings_count": 31,
       "max_waitings_count": 90,
-      "snapshot_count": 106
+      "snapshot_count": 107
     },
     {
       "hour": 18,
@@ -1640,7 +1640,7 @@
       "duration_seconds": 60044,
       "median_waitings_count": 18,
       "max_waitings_count": 84,
-      "snapshot_count": 265
+      "snapshot_count": 266
     },
     {
       "weekday": 1,
