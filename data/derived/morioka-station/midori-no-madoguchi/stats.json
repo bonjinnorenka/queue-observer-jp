@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-04T18:46:03+09:00",
+  "generated_at": "2026-10-04T18:56:02+09:00",
   "observation_days": 40,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-04"
   },
-  "snapshot_count": 4510,
-  "rate_eligible_interval_count": 2677,
+  "snapshot_count": 4511,
+  "rate_eligible_interval_count": 2678,
   "censored_interval_count": 683,
   "weekday_hours": [
     {
@@ -231,14 +231,14 @@
     {
       "weekday": 0,
       "hour": 18,
-      "rate_per_hour": 28.15,
-      "median_rate_per_hour": 24.57,
-      "interval_count": 29,
+      "rate_per_hour": 27.21,
+      "median_rate_per_hour": 24.25,
+      "interval_count": 30,
       "advance_total": 136,
-      "duration_seconds": 17391,
+      "duration_seconds": 17991,
       "median_waitings_count": 20,
       "max_waitings_count": 42,
-      "snapshot_count": 35
+      "snapshot_count": 36
     },
     {
       "weekday": 0,
@@ -2230,14 +2230,14 @@
     },
     {
       "hour": 18,
-      "rate_per_hour": 28.58,
-      "median_rate_per_hour": 24.83,
-      "interval_count": 213,
+      "rate_per_hour": 28.45,
+      "median_rate_per_hour": 24.7,
+      "interval_count": 214,
       "advance_total": 994,
-      "duration_seconds": 125196,
+      "duration_seconds": 125796,
       "median_waitings_count": 21,
       "max_waitings_count": 80,
-      "snapshot_count": 233
+      "snapshot_count": 234
     },
     {
       "hour": 19,
@@ -2298,14 +2298,14 @@
   "weekdays": [
     {
       "weekday": 0,
-      "rate_per_hour": 27.97,
+      "rate_per_hour": 27.9,
       "median_rate_per_hour": 24.08,
-      "interval_count": 369,
+      "interval_count": 370,
       "advance_total": 1683,
-      "duration_seconds": 216594,
+      "duration_seconds": 217194,
       "median_waitings_count": 9,
       "max_waitings_count": 71,
-      "snapshot_count": 645
+      "snapshot_count": 646
     },
     {
       "weekday": 1,
