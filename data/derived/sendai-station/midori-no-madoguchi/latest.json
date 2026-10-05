@@ -2,25 +2,25 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-05T21:06:10+09:00",
-  "observed_at": "2026-10-05T21:06:10+09:00",
-  "business_date": "2026-10-05",
-  "waitings_count": 1,
+  "generated_at": "2026-10-06T06:16:20+09:00",
+  "observed_at": "2026-10-06T06:16:20+09:00",
+  "business_date": "2026-10-06",
+  "waitings_count": 0,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 1217,
+  "head_number": null,
   "queue_exit_rate_20m": null,
   "queue_exit_rate_60m": null,
-  "queue_exit_rate_120m": 84,
-  "queue_exit_rate_used": 84,
-  "rate_source": "120m",
+  "queue_exit_rate_120m": null,
+  "queue_exit_rate_used": 59.02,
+  "rate_source": "weekday_hour_history",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
       "rate_per_hour": null,
       "interval_count": 0,
-      "censored_interval_count": 2,
+      "censored_interval_count": 0,
       "advance_total": 0,
       "duration_seconds": 0
     },
@@ -28,27 +28,27 @@
       "window_minutes": 60,
       "rate_per_hour": null,
       "interval_count": 0,
-      "censored_interval_count": 3,
+      "censored_interval_count": 0,
       "advance_total": 0,
       "duration_seconds": 0
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 84,
-      "interval_count": 3,
-      "censored_interval_count": 6,
-      "advance_total": 42,
-      "duration_seconds": 1800
+      "rate_per_hour": null,
+      "interval_count": 0,
+      "censored_interval_count": 0,
+      "advance_total": 0,
+      "duration_seconds": 0
     }
   },
-  "estimated_wait_minutes": 1,
-  "estimate_confidence": "medium",
+  "estimated_wait_minutes": 0,
+  "estimate_confidence": "low",
   "history": {
-    "weekday": 1,
-    "hour": 21,
-    "rate_per_hour": null,
-    "median_waitings_count": 2,
-    "interval_count": 0
+    "weekday": 2,
+    "hour": 6,
+    "rate_per_hour": 59.02,
+    "median_waitings_count": 0,
+    "interval_count": 1
   },
   "available_dates": [
     "2026-09-17",
@@ -69,9 +69,10 @@
     "2026-10-02",
     "2026-10-03",
     "2026-10-04",
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-06"
   ],
   "notes": [
-    "直近60分に有効な観測がないため、直近120分の速度を使用しています"
+    "当日の有効な観測が不足しているため、同じ時間帯の履歴平均を使用しています"
   ]
 }
