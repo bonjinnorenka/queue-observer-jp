@@ -2,47 +2,47 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-06T12:16:13+09:00",
-  "observed_at": "2026-10-06T12:16:13+09:00",
+  "generated_at": "2026-10-06T12:20:26+09:00",
+  "observed_at": "2026-10-06T12:20:26+09:00",
   "business_date": "2026-10-06",
-  "waitings_count": 13,
+  "waitings_count": 10,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 374,
-  "queue_exit_rate_20m": 98.75,
-  "queue_exit_rate_60m": 78.02,
-  "queue_exit_rate_120m": 74.64,
-  "queue_exit_rate_used": 78.02,
+  "head_number": 381,
+  "queue_exit_rate_20m": 98.9,
+  "queue_exit_rate_60m": 79.44,
+  "queue_exit_rate_120m": 75.89,
+  "queue_exit_rate_used": 79.44,
   "rate_source": "60m",
-  "rate_is_lower_bound": true,
+  "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 98.75,
-      "interval_count": 2,
+      "rate_per_hour": 98.9,
+      "interval_count": 3,
       "censored_interval_count": 0,
-      "advance_total": 33,
-      "duration_seconds": 1203
+      "advance_total": 40,
+      "duration_seconds": 1456
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 78.02,
-      "interval_count": 6,
-      "censored_interval_count": 1,
-      "advance_total": 78,
-      "duration_seconds": 3599
+      "rate_per_hour": 79.44,
+      "interval_count": 7,
+      "censored_interval_count": 0,
+      "advance_total": 85,
+      "duration_seconds": 3852
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 74.64,
-      "interval_count": 8,
-      "censored_interval_count": 5,
-      "advance_total": 100,
-      "duration_seconds": 4823
+      "rate_per_hour": 75.89,
+      "interval_count": 9,
+      "censored_interval_count": 4,
+      "advance_total": 107,
+      "duration_seconds": 5076
     }
   },
-  "estimated_wait_minutes": 10,
-  "estimate_confidence": "medium",
+  "estimated_wait_minutes": 8,
+  "estimate_confidence": "high",
   "history": {
     "weekday": 2,
     "hour": 12,
@@ -72,7 +72,5 @@
     "2026-10-05",
     "2026-10-06"
   ],
-  "notes": [
-    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
-  ]
+  "notes": []
 }
