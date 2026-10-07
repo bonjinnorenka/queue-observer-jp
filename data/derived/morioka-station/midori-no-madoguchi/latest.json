@@ -2,52 +2,52 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-07T14:55:23+09:00",
-  "observed_at": "2026-10-07T14:55:23+09:00",
+  "generated_at": "2026-10-07T15:05:22+09:00",
+  "observed_at": "2026-10-07T15:05:22+09:00",
   "business_date": "2026-10-07",
-  "waitings_count": 25,
+  "waitings_count": 21,
   "pendings_count": 3,
   "waitings_truncated": true,
-  "head_number": 265,
-  "queue_exit_rate_20m": 23.98,
-  "queue_exit_rate_60m": 24.85,
-  "queue_exit_rate_120m": 28.6,
-  "queue_exit_rate_used": 24.85,
+  "head_number": 274,
+  "queue_exit_rate_20m": 35.97,
+  "queue_exit_rate_60m": 24.01,
+  "queue_exit_rate_120m": 29.55,
+  "queue_exit_rate_used": 24.01,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 23.98,
+      "rate_per_hour": 35.97,
       "interval_count": 2,
       "censored_interval_count": 0,
-      "advance_total": 8,
+      "advance_total": 12,
       "duration_seconds": 1201
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 24.85,
+      "rate_per_hour": 24.01,
       "interval_count": 7,
       "censored_interval_count": 0,
-      "advance_total": 29,
-      "duration_seconds": 4201
+      "advance_total": 28,
+      "duration_seconds": 4198
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 28.6,
+      "rate_per_hour": 29.55,
       "interval_count": 13,
       "censored_interval_count": 0,
-      "advance_total": 62,
-      "duration_seconds": 7803
+      "advance_total": 64,
+      "duration_seconds": 7798
     }
   },
-  "estimated_wait_minutes": 60,
+  "estimated_wait_minutes": 52,
   "estimate_confidence": "high",
   "history": {
     "weekday": 3,
-    "hour": 14,
-    "rate_per_hour": 32.27,
-    "median_waitings_count": 29,
+    "hour": 15,
+    "rate_per_hour": 33.51,
+    "median_waitings_count": 21,
     "interval_count": 36
   },
   "available_dates": [
