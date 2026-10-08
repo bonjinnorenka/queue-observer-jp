@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-08T16:05:22+09:00",
+  "generated_at": "2026-10-08T16:15:23+09:00",
   "observation_days": 22,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-10-08"
   },
-  "snapshot_count": 2081,
-  "rate_eligible_interval_count": 788,
+  "snapshot_count": 2082,
+  "rate_eligible_interval_count": 789,
   "censored_interval_count": 964,
   "weekday_hours": [
     {
@@ -963,14 +963,14 @@
     {
       "weekday": 4,
       "hour": 16,
-      "rate_per_hour": 96.89,
-      "median_rate_per_hour": 95.36,
-      "interval_count": 7,
-      "advance_total": 97,
-      "duration_seconds": 3604,
+      "rate_per_hour": 93.32,
+      "median_rate_per_hour": 89.68,
+      "interval_count": 8,
+      "advance_total": 109,
+      "duration_seconds": 4205,
       "median_waitings_count": 42,
       "max_waitings_count": 60,
-      "snapshot_count": 20
+      "snapshot_count": 21
     },
     {
       "weekday": 4,
@@ -1565,14 +1565,14 @@
     },
     {
       "hour": 16,
-      "rate_per_hour": 94.53,
+      "rate_per_hour": 94.08,
       "median_rate_per_hour": 96.16,
-      "interval_count": 53,
-      "advance_total": 778,
-      "duration_seconds": 29629,
+      "interval_count": 54,
+      "advance_total": 790,
+      "duration_seconds": 30230,
       "median_waitings_count": 30,
       "max_waitings_count": 86,
-      "snapshot_count": 133
+      "snapshot_count": 134
     },
     {
       "hour": 17,
@@ -1677,14 +1677,14 @@
     },
     {
       "weekday": 4,
-      "rate_per_hour": 83.89,
+      "rate_per_hour": 83.8,
       "median_rate_per_hour": 84.14,
-      "interval_count": 152,
-      "advance_total": 2033,
-      "duration_seconds": 87247,
+      "interval_count": 153,
+      "advance_total": 2045,
+      "duration_seconds": 87848,
       "median_waitings_count": 20,
       "max_waitings_count": 70,
-      "snapshot_count": 352
+      "snapshot_count": 353
     },
     {
       "weekday": 5,
