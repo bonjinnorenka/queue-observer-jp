@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-09T18:35:23+09:00",
+  "generated_at": "2026-10-09T18:45:23+09:00",
   "observation_days": 45,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-09"
   },
-  "snapshot_count": 4984,
-  "rate_eligible_interval_count": 3011,
+  "snapshot_count": 4985,
+  "rate_eligible_interval_count": 3012,
   "censored_interval_count": 771,
   "weekday_hours": [
     {
@@ -1671,14 +1671,14 @@
     {
       "weekday": 5,
       "hour": 18,
-      "rate_per_hour": 28.95,
-      "median_rate_per_hour": 24.1,
-      "interval_count": 34,
+      "rate_per_hour": 28.08,
+      "median_rate_per_hour": 24.08,
+      "interval_count": 35,
       "advance_total": 157,
-      "duration_seconds": 19526,
+      "duration_seconds": 20127,
       "median_waitings_count": 45,
       "max_waitings_count": 80,
-      "snapshot_count": 35
+      "snapshot_count": 36
     },
     {
       "weekday": 5,
@@ -2230,14 +2230,14 @@
     },
     {
       "hour": 18,
-      "rate_per_hour": 28.18,
-      "median_rate_per_hour": 24.7,
-      "interval_count": 242,
+      "rate_per_hour": 28.06,
+      "median_rate_per_hour": 24.57,
+      "interval_count": 243,
       "advance_total": 1116,
-      "duration_seconds": 142567,
+      "duration_seconds": 143168,
       "median_waitings_count": 22,
       "max_waitings_count": 80,
-      "snapshot_count": 262
+      "snapshot_count": 263
     },
     {
       "hour": 19,
@@ -2353,14 +2353,14 @@
     },
     {
       "weekday": 5,
-      "rate_per_hour": 29.65,
+      "rate_per_hour": 29.58,
       "median_rate_per_hour": 29.95,
-      "interval_count": 442,
+      "interval_count": 443,
       "advance_total": 2125,
-      "duration_seconds": 258025,
+      "duration_seconds": 258626,
       "median_waitings_count": 18,
       "max_waitings_count": 104,
-      "snapshot_count": 675
+      "snapshot_count": 676
     },
     {
       "weekday": 6,
