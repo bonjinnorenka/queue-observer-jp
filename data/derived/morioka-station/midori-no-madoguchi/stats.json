@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-10T19:05:21+09:00",
+  "generated_at": "2026-10-10T19:15:24+09:00",
   "observation_days": 46,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-10"
   },
-  "snapshot_count": 5083,
-  "rate_eligible_interval_count": 3085,
+  "snapshot_count": 5084,
+  "rate_eligible_interval_count": 3086,
   "censored_interval_count": 791,
   "weekday_hours": [
     {
@@ -1971,14 +1971,14 @@
     {
       "weekday": 6,
       "hour": 19,
-      "rate_per_hour": 32.23,
-      "median_rate_per_hour": 29.95,
-      "interval_count": 19,
+      "rate_per_hour": 30.61,
+      "median_rate_per_hour": 27.02,
+      "interval_count": 20,
       "advance_total": 102,
-      "duration_seconds": 11393,
-      "median_waitings_count": 14,
+      "duration_seconds": 11996,
+      "median_waitings_count": 13.5,
       "max_waitings_count": 35,
-      "snapshot_count": 31
+      "snapshot_count": 32
     },
     {
       "weekday": 6,
@@ -2241,14 +2241,14 @@
     },
     {
       "hour": 19,
-      "rate_per_hour": 25.58,
+      "rate_per_hour": 25.46,
       "median_rate_per_hour": 23.96,
-      "interval_count": 206,
+      "interval_count": 207,
       "advance_total": 850,
-      "duration_seconds": 119603,
+      "duration_seconds": 120206,
       "median_waitings_count": 14,
       "max_waitings_count": 76,
-      "snapshot_count": 267
+      "snapshot_count": 268
     },
     {
       "hour": 20,
@@ -2364,14 +2364,14 @@
     },
     {
       "weekday": 6,
-      "rate_per_hour": 30.19,
-      "median_rate_per_hour": 29.8,
-      "interval_count": 421,
+      "rate_per_hour": 30.11,
+      "median_rate_per_hour": 29.78,
+      "interval_count": 422,
       "advance_total": 2045,
-      "duration_seconds": 243861,
+      "duration_seconds": 244464,
       "median_waitings_count": 14,
       "max_waitings_count": 69,
-      "snapshot_count": 676
+      "snapshot_count": 677
     }
   ]
 }
