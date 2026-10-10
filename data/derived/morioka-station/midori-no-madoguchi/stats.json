@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-10T17:15:21+09:00",
+  "generated_at": "2026-10-10T17:25:22+09:00",
   "observation_days": 46,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-10"
   },
-  "snapshot_count": 5071,
-  "rate_eligible_interval_count": 3079,
+  "snapshot_count": 5072,
+  "rate_eligible_interval_count": 3080,
   "censored_interval_count": 788,
   "weekday_hours": [
     {
@@ -1947,14 +1947,14 @@
     {
       "weekday": 6,
       "hour": 17,
-      "rate_per_hour": 25.25,
-      "median_rate_per_hour": 27.07,
-      "interval_count": 24,
-      "advance_total": 101,
-      "duration_seconds": 14401,
+      "rate_per_hour": 25.44,
+      "median_rate_per_hour": 30,
+      "interval_count": 25,
+      "advance_total": 106,
+      "duration_seconds": 15001,
       "median_waitings_count": 36,
       "max_waitings_count": 66,
-      "snapshot_count": 32
+      "snapshot_count": 33
     },
     {
       "weekday": 6,
@@ -2219,14 +2219,14 @@
     },
     {
       "hour": 17,
-      "rate_per_hour": 27.28,
-      "median_rate_per_hour": 24.78,
-      "interval_count": 249,
-      "advance_total": 1127,
-      "duration_seconds": 148716,
+      "rate_per_hour": 27.29,
+      "median_rate_per_hour": 24.92,
+      "interval_count": 250,
+      "advance_total": 1132,
+      "duration_seconds": 149316,
       "median_waitings_count": 21,
       "max_waitings_count": 76,
-      "snapshot_count": 261
+      "snapshot_count": 262
     },
     {
       "hour": 18,
@@ -2366,12 +2366,12 @@
       "weekday": 6,
       "rate_per_hour": 30.1,
       "median_rate_per_hour": 29.75,
-      "interval_count": 415,
-      "advance_total": 2009,
-      "duration_seconds": 240257,
+      "interval_count": 416,
+      "advance_total": 2014,
+      "duration_seconds": 240857,
       "median_waitings_count": 15,
       "max_waitings_count": 69,
-      "snapshot_count": 664
+      "snapshot_count": 665
     }
   ]
 }
