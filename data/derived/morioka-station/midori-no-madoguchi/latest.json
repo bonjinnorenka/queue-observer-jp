@@ -2,47 +2,47 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-12T10:35:20+09:00",
-  "observed_at": "2026-10-12T10:35:20+09:00",
+  "generated_at": "2026-10-12T10:45:22+09:00",
+  "observed_at": "2026-10-12T10:45:22+09:00",
   "business_date": "2026-10-12",
-  "waitings_count": 20,
+  "waitings_count": 22,
   "pendings_count": 0,
-  "waitings_truncated": false,
-  "head_number": 92,
-  "queue_exit_rate_20m": 20.02,
-  "queue_exit_rate_60m": 19.99,
-  "queue_exit_rate_120m": 18.88,
-  "queue_exit_rate_used": 19.99,
+  "waitings_truncated": true,
+  "head_number": 93,
+  "queue_exit_rate_20m": 18.01,
+  "queue_exit_rate_60m": 16,
+  "queue_exit_rate_120m": 17.53,
+  "queue_exit_rate_used": 16,
   "rate_source": "60m",
-  "rate_is_lower_bound": true,
+  "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 20.02,
+      "rate_per_hour": 18.01,
       "interval_count": 3,
       "censored_interval_count": 0,
-      "advance_total": 10,
-      "duration_seconds": 1798
+      "advance_total": 9,
+      "duration_seconds": 1799
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 19.99,
+      "rate_per_hour": 16,
       "interval_count": 6,
-      "censored_interval_count": 1,
-      "advance_total": 20,
-      "duration_seconds": 3602
+      "censored_interval_count": 0,
+      "advance_total": 16,
+      "duration_seconds": 3601
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 18.88,
-      "interval_count": 9,
-      "censored_interval_count": 5,
-      "advance_total": 27,
-      "duration_seconds": 5147
+      "rate_per_hour": 17.53,
+      "interval_count": 10,
+      "censored_interval_count": 3,
+      "advance_total": 28,
+      "duration_seconds": 5749
     }
   },
-  "estimated_wait_minutes": 60,
-  "estimate_confidence": "medium",
+  "estimated_wait_minutes": 83,
+  "estimate_confidence": "high",
   "history": {
     "weekday": 1,
     "hour": 10,
@@ -101,6 +101,6 @@
     "2026-10-12"
   ],
   "notes": [
-    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
+    "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です"
   ]
 }
