@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-13T12:25:22+09:00",
-  "observed_at": "2026-10-13T12:25:22+09:00",
+  "generated_at": "2026-10-13T12:35:21+09:00",
+  "observed_at": "2026-10-13T12:35:21+09:00",
   "business_date": "2026-10-13",
-  "waitings_count": 28,
+  "waitings_count": 20,
   "pendings_count": 0,
-  "waitings_truncated": true,
-  "head_number": 415,
-  "queue_exit_rate_20m": 93.95,
-  "queue_exit_rate_60m": 88.29,
-  "queue_exit_rate_120m": 87.01,
-  "queue_exit_rate_used": 88.29,
+  "waitings_truncated": false,
+  "head_number": 435,
+  "queue_exit_rate_20m": 94.21,
+  "queue_exit_rate_60m": 93,
+  "queue_exit_rate_120m": 89.48,
+  "queue_exit_rate_used": 93,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 93.95,
+      "rate_per_hour": 94.21,
       "interval_count": 3,
       "censored_interval_count": 0,
       "advance_total": 47,
-      "duration_seconds": 1801
+      "duration_seconds": 1796
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 88.29,
-      "interval_count": 7,
+      "rate_per_hour": 93,
+      "interval_count": 6,
       "censored_interval_count": 0,
-      "advance_total": 103,
-      "duration_seconds": 4200
+      "advance_total": 93,
+      "duration_seconds": 3600
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 87.01,
-      "interval_count": 10,
-      "censored_interval_count": 2,
-      "advance_total": 145,
-      "duration_seconds": 5999
+      "rate_per_hour": 89.48,
+      "interval_count": 11,
+      "censored_interval_count": 1,
+      "advance_total": 164,
+      "duration_seconds": 6598
     }
   },
-  "estimated_wait_minutes": 19,
+  "estimated_wait_minutes": 13,
   "estimate_confidence": "high",
   "history": {
     "weekday": 2,
@@ -79,7 +79,5 @@
     "2026-10-12",
     "2026-10-13"
   ],
-  "notes": [
-    "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です"
-  ]
+  "notes": []
 }
