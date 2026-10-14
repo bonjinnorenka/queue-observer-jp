@@ -2,53 +2,53 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-14T12:56:10+09:00",
-  "observed_at": "2026-10-14T12:56:10+09:00",
+  "generated_at": "2026-10-14T13:06:13+09:00",
+  "observed_at": "2026-10-14T13:06:12+09:00",
   "business_date": "2026-10-14",
-  "waitings_count": 13,
+  "waitings_count": 18,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 506,
-  "queue_exit_rate_20m": null,
-  "queue_exit_rate_60m": null,
-  "queue_exit_rate_120m": 76.9,
-  "queue_exit_rate_used": 76.9,
-  "rate_source": "120m",
-  "rate_is_lower_bound": false,
+  "head_number": 518,
+  "queue_exit_rate_20m": 71.76,
+  "queue_exit_rate_60m": 71.76,
+  "queue_exit_rate_120m": 76.04,
+  "queue_exit_rate_used": 71.76,
+  "rate_source": "60m",
+  "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": null,
-      "interval_count": 0,
+      "rate_per_hour": 71.76,
+      "interval_count": 1,
       "censored_interval_count": 2,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "advance_total": 12,
+      "duration_seconds": 602
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": null,
-      "interval_count": 0,
+      "rate_per_hour": 71.76,
+      "interval_count": 1,
       "censored_interval_count": 6,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "advance_total": 12,
+      "duration_seconds": 602
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 76.9,
-      "interval_count": 6,
-      "censored_interval_count": 8,
-      "advance_total": 64,
-      "duration_seconds": 2996
+      "rate_per_hour": 76.04,
+      "interval_count": 7,
+      "censored_interval_count": 7,
+      "advance_total": 76,
+      "duration_seconds": 3598
     }
   },
-  "estimated_wait_minutes": 10,
-  "estimate_confidence": "medium",
+  "estimated_wait_minutes": 15,
+  "estimate_confidence": "low",
   "history": {
     "weekday": 3,
-    "hour": 12,
-    "rate_per_hour": 96.63,
-    "median_waitings_count": 20.5,
-    "interval_count": 9
+    "hour": 13,
+    "rate_per_hour": 96,
+    "median_waitings_count": 24,
+    "interval_count": 8
   },
   "available_dates": [
     "2026-09-17",
@@ -81,6 +81,6 @@
     "2026-10-14"
   ],
   "notes": [
-    "直近60分に有効な観測がないため、直近120分の速度を使用しています"
+    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
   ]
 }
