@@ -2,47 +2,47 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-14T19:36:10+09:00",
-  "observed_at": "2026-10-14T19:36:09+09:00",
+  "generated_at": "2026-10-14T19:46:20+09:00",
+  "observed_at": "2026-10-14T19:46:20+09:00",
   "business_date": "2026-10-14",
   "waitings_count": 10,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 473,
-  "queue_exit_rate_20m": 14,
-  "queue_exit_rate_60m": 17.04,
-  "queue_exit_rate_120m": 27.85,
-  "queue_exit_rate_used": 17.04,
+  "head_number": 477,
+  "queue_exit_rate_20m": 20.93,
+  "queue_exit_rate_60m": 18.96,
+  "queue_exit_rate_120m": 23.99,
+  "queue_exit_rate_used": 18.96,
   "rate_source": "60m",
-  "rate_is_lower_bound": true,
+  "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 14,
-      "interval_count": 3,
+      "rate_per_hour": 20.93,
+      "interval_count": 2,
       "censored_interval_count": 0,
       "advance_total": 7,
-      "duration_seconds": 1800
+      "duration_seconds": 1204
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 17.04,
+      "rate_per_hour": 18.96,
       "interval_count": 6,
-      "censored_interval_count": 1,
-      "advance_total": 17,
-      "duration_seconds": 3592
+      "censored_interval_count": 0,
+      "advance_total": 19,
+      "duration_seconds": 3608
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 27.85,
-      "interval_count": 11,
+      "rate_per_hour": 23.99,
+      "interval_count": 10,
       "censored_interval_count": 2,
-      "advance_total": 51,
-      "duration_seconds": 6592
+      "advance_total": 40,
+      "duration_seconds": 6003
     }
   },
-  "estimated_wait_minutes": 35,
-  "estimate_confidence": "medium",
+  "estimated_wait_minutes": 32,
+  "estimate_confidence": "high",
   "history": {
     "weekday": 3,
     "hour": 19,
@@ -102,7 +102,5 @@
     "2026-10-13",
     "2026-10-14"
   ],
-  "notes": [
-    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
-  ]
+  "notes": []
 }
