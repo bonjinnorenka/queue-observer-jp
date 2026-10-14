@@ -2,53 +2,53 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-14T14:56:10+09:00",
-  "observed_at": "2026-10-14T14:56:10+09:00",
+  "generated_at": "2026-10-14T15:06:11+09:00",
+  "observed_at": "2026-10-14T15:06:11+09:00",
   "business_date": "2026-10-14",
-  "waitings_count": 14,
+  "waitings_count": 23,
   "pendings_count": 0,
-  "waitings_truncated": false,
-  "head_number": 700,
-  "queue_exit_rate_20m": 102.17,
-  "queue_exit_rate_60m": 85.68,
-  "queue_exit_rate_120m": 84.64,
-  "queue_exit_rate_used": 85.68,
+  "waitings_truncated": true,
+  "head_number": 711,
+  "queue_exit_rate_20m": 84,
+  "queue_exit_rate_60m": 85.54,
+  "queue_exit_rate_120m": 82.76,
+  "queue_exit_rate_used": 85.54,
   "rate_source": "60m",
   "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 102.17,
-      "interval_count": 1,
-      "censored_interval_count": 2,
-      "advance_total": 17,
-      "duration_seconds": 599
+      "rate_per_hour": 84,
+      "interval_count": 2,
+      "censored_interval_count": 0,
+      "advance_total": 28,
+      "duration_seconds": 1200
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 85.68,
+      "rate_per_hour": 85.54,
       "interval_count": 4,
       "censored_interval_count": 3,
       "advance_total": 57,
-      "duration_seconds": 2395
+      "duration_seconds": 2399
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 84.64,
-      "interval_count": 9,
+      "rate_per_hour": 82.76,
+      "interval_count": 10,
       "censored_interval_count": 3,
-      "advance_total": 127,
-      "duration_seconds": 5402
+      "advance_total": 138,
+      "duration_seconds": 6003
     }
   },
-  "estimated_wait_minutes": 10,
+  "estimated_wait_minutes": 16,
   "estimate_confidence": "medium",
   "history": {
     "weekday": 3,
-    "hour": 14,
-    "rate_per_hour": 80.63,
-    "median_waitings_count": 22,
-    "interval_count": 8
+    "hour": 15,
+    "rate_per_hour": 92.67,
+    "median_waitings_count": 25,
+    "interval_count": 10
   },
   "available_dates": [
     "2026-09-17",
@@ -81,6 +81,7 @@
     "2026-10-14"
   ],
   "notes": [
-    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
+    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります",
+    "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です"
   ]
 }
