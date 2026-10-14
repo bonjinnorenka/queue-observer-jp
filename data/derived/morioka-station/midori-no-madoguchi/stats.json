@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-14T10:26:13+09:00",
+  "generated_at": "2026-10-14T10:36:12+09:00",
   "observation_days": 50,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-14"
   },
-  "snapshot_count": 5411,
-  "rate_eligible_interval_count": 3292,
+  "snapshot_count": 5412,
+  "rate_eligible_interval_count": 3293,
   "censored_interval_count": 876,
   "weekday_hours": [
     {
@@ -999,14 +999,14 @@
     {
       "weekday": 3,
       "hour": 10,
-      "rate_per_hour": 32.17,
-      "median_rate_per_hour": 32.92,
-      "interval_count": 42,
+      "rate_per_hour": 31.38,
+      "median_rate_per_hour": 30.15,
+      "interval_count": 43,
       "advance_total": 214,
-      "duration_seconds": 23949,
+      "duration_seconds": 24548,
       "median_waitings_count": 17,
       "max_waitings_count": 56,
-      "snapshot_count": 48
+      "snapshot_count": 49
     },
     {
       "weekday": 3,
@@ -2142,14 +2142,14 @@
     },
     {
       "hour": 10,
-      "rate_per_hour": 30.98,
-      "median_rate_per_hour": 28.35,
-      "interval_count": 285,
+      "rate_per_hour": 30.87,
+      "median_rate_per_hour": 28.31,
+      "interval_count": 286,
       "advance_total": 1382,
-      "duration_seconds": 160584,
+      "duration_seconds": 161183,
       "median_waitings_count": 20,
       "max_waitings_count": 99,
-      "snapshot_count": 307
+      "snapshot_count": 308
     },
     {
       "hour": 11,
@@ -2331,14 +2331,14 @@
     },
     {
       "weekday": 3,
-      "rate_per_hour": 29.63,
+      "rate_per_hour": 29.57,
       "median_rate_per_hour": 29.95,
-      "interval_count": 488,
+      "interval_count": 489,
       "advance_total": 2335,
-      "duration_seconds": 283693,
+      "duration_seconds": 284292,
       "median_waitings_count": 8,
       "max_waitings_count": 64,
-      "snapshot_count": 866
+      "snapshot_count": 867
     },
     {
       "weekday": 4,
