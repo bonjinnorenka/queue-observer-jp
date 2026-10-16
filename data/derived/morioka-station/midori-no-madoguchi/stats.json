@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-16T17:06:07+09:00",
+  "generated_at": "2026-10-16T17:16:11+09:00",
   "observation_days": 52,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-16"
   },
-  "snapshot_count": 5646,
-  "rate_eligible_interval_count": 3466,
+  "snapshot_count": 5647,
+  "rate_eligible_interval_count": 3467,
   "censored_interval_count": 918,
   "weekday_hours": [
     {
@@ -1659,14 +1659,14 @@
     {
       "weekday": 5,
       "hour": 17,
-      "rate_per_hour": 27.52,
-      "median_rate_per_hour": 23.96,
-      "interval_count": 37,
+      "rate_per_hour": 26.77,
+      "median_rate_per_hour": 23.94,
+      "interval_count": 38,
       "advance_total": 165,
-      "duration_seconds": 21586,
-      "median_waitings_count": 35.5,
+      "duration_seconds": 22190,
+      "median_waitings_count": 36,
       "max_waitings_count": 76,
-      "snapshot_count": 38
+      "snapshot_count": 39
     },
     {
       "weekday": 5,
@@ -2219,14 +2219,14 @@
     },
     {
       "hour": 17,
-      "rate_per_hour": 28.07,
-      "median_rate_per_hour": 29.78,
-      "interval_count": 284,
+      "rate_per_hour": 27.97,
+      "median_rate_per_hour": 29.75,
+      "interval_count": 285,
       "advance_total": 1321,
-      "duration_seconds": 169392,
+      "duration_seconds": 169996,
       "median_waitings_count": 21,
       "max_waitings_count": 76,
-      "snapshot_count": 297
+      "snapshot_count": 298
     },
     {
       "hour": 18,
@@ -2353,14 +2353,14 @@
     },
     {
       "weekday": 5,
-      "rate_per_hour": 27.99,
+      "rate_per_hour": 27.93,
       "median_rate_per_hour": 24.49,
-      "interval_count": 509,
+      "interval_count": 510,
       "advance_total": 2309,
-      "duration_seconds": 297026,
+      "duration_seconds": 297630,
       "median_waitings_count": 19,
       "max_waitings_count": 104,
-      "snapshot_count": 762
+      "snapshot_count": 763
     },
     {
       "weekday": 6,
