@@ -2,47 +2,47 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-17T12:35:31+09:00",
-  "observed_at": "2026-10-17T12:35:31+09:00",
+  "generated_at": "2026-10-17T12:45:36+09:00",
+  "observed_at": "2026-10-17T12:45:36+09:00",
   "business_date": "2026-10-17",
   "waitings_count": 7,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 573,
+  "head_number": 585,
   "queue_exit_rate_20m": null,
-  "queue_exit_rate_60m": 108.18,
-  "queue_exit_rate_120m": 92.4,
-  "queue_exit_rate_used": 108.18,
-  "rate_source": "60m",
-  "rate_is_lower_bound": true,
+  "queue_exit_rate_60m": null,
+  "queue_exit_rate_120m": 88.05,
+  "queue_exit_rate_used": 88.05,
+  "rate_source": "120m",
+  "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
       "rate_per_hour": null,
       "interval_count": 0,
-      "censored_interval_count": 3,
+      "censored_interval_count": 2,
       "advance_total": 0,
       "duration_seconds": 0
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 108.18,
-      "interval_count": 1,
+      "rate_per_hour": null,
+      "interval_count": 0,
       "censored_interval_count": 6,
-      "advance_total": 18,
-      "duration_seconds": 599
+      "advance_total": 0,
+      "duration_seconds": 0
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 92.4,
-      "interval_count": 4,
+      "rate_per_hour": 88.05,
+      "interval_count": 3,
       "censored_interval_count": 9,
-      "advance_total": 49,
-      "duration_seconds": 1909
+      "advance_total": 44,
+      "duration_seconds": 1799
     }
   },
-  "estimated_wait_minutes": 4,
-  "estimate_confidence": "low",
+  "estimated_wait_minutes": 5,
+  "estimate_confidence": "medium",
   "history": {
     "weekday": 6,
     "hour": 12,
@@ -84,6 +84,6 @@
     "2026-10-17"
   ],
   "notes": [
-    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
+    "直近60分に有効な観測がないため、直近120分の速度を使用しています"
   ]
 }
