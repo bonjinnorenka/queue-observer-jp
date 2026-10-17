@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-17T12:55:32+09:00",
+  "generated_at": "2026-10-17T13:05:33+09:00",
   "observation_days": 53,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-17"
   },
-  "snapshot_count": 5717,
-  "rate_eligible_interval_count": 3513,
+  "snapshot_count": 5718,
+  "rate_eligible_interval_count": 3514,
   "censored_interval_count": 936,
   "weekday_hours": [
     {
@@ -1887,11 +1887,11 @@
     {
       "weekday": 6,
       "hour": 12,
-      "rate_per_hour": 29.26,
-      "median_rate_per_hour": 24.53,
-      "interval_count": 41,
-      "advance_total": 200,
-      "duration_seconds": 24611,
+      "rate_per_hour": 28.7,
+      "median_rate_per_hour": 24.27,
+      "interval_count": 42,
+      "advance_total": 201,
+      "duration_seconds": 25211,
       "median_waitings_count": 24.5,
       "max_waitings_count": 54,
       "snapshot_count": 42
@@ -1904,9 +1904,9 @@
       "interval_count": 36,
       "advance_total": 167,
       "duration_seconds": 21536,
-      "median_waitings_count": 27,
+      "median_waitings_count": 26.5,
       "max_waitings_count": 56,
-      "snapshot_count": 37
+      "snapshot_count": 38
     },
     {
       "weekday": 6,
@@ -2164,11 +2164,11 @@
     },
     {
       "hour": 12,
-      "rate_per_hour": 27.73,
+      "rate_per_hour": 27.66,
       "median_rate_per_hour": 24.12,
-      "interval_count": 307,
-      "advance_total": 1410,
-      "duration_seconds": 183050,
+      "interval_count": 308,
+      "advance_total": 1411,
+      "duration_seconds": 183650,
       "median_waitings_count": 28,
       "max_waitings_count": 104,
       "snapshot_count": 309
@@ -2182,7 +2182,7 @@
       "duration_seconds": 177435,
       "median_waitings_count": 29,
       "max_waitings_count": 95,
-      "snapshot_count": 303
+      "snapshot_count": 304
     },
     {
       "hour": 14,
@@ -2364,14 +2364,14 @@
     },
     {
       "weekday": 6,
-      "rate_per_hour": 29.91,
-      "median_rate_per_hour": 29.78,
-      "interval_count": 444,
-      "advance_total": 2135,
-      "duration_seconds": 256929,
+      "rate_per_hour": 29.86,
+      "median_rate_per_hour": 29.75,
+      "interval_count": 445,
+      "advance_total": 2136,
+      "duration_seconds": 257529,
       "median_waitings_count": 11,
       "max_waitings_count": 69,
-      "snapshot_count": 734
+      "snapshot_count": 735
     }
   ]
 }
