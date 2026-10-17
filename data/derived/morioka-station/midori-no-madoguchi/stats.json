@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-17T19:05:26+09:00",
+  "generated_at": "2026-10-17T19:15:27+09:00",
   "observation_days": 53,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-17"
   },
-  "snapshot_count": 5755,
-  "rate_eligible_interval_count": 3543,
+  "snapshot_count": 5756,
+  "rate_eligible_interval_count": 3544,
   "censored_interval_count": 944,
   "weekday_hours": [
     {
@@ -1971,14 +1971,14 @@
     {
       "weekday": 6,
       "hour": 19,
-      "rate_per_hour": 30.61,
-      "median_rate_per_hour": 27.02,
-      "interval_count": 20,
-      "advance_total": 102,
-      "duration_seconds": 11996,
+      "rate_per_hour": 30.29,
+      "median_rate_per_hour": 24.08,
+      "interval_count": 21,
+      "advance_total": 106,
+      "duration_seconds": 12597,
       "median_waitings_count": 6,
       "max_waitings_count": 35,
-      "snapshot_count": 37
+      "snapshot_count": 38
     },
     {
       "weekday": 6,
@@ -2242,13 +2242,13 @@
     {
       "hour": 19,
       "rate_per_hour": 24.69,
-      "median_rate_per_hour": 23.94,
-      "interval_count": 228,
-      "advance_total": 911,
-      "duration_seconds": 132817,
+      "median_rate_per_hour": 23.96,
+      "interval_count": 229,
+      "advance_total": 915,
+      "duration_seconds": 133418,
       "median_waitings_count": 12,
       "max_waitings_count": 76,
-      "snapshot_count": 309
+      "snapshot_count": 310
     },
     {
       "hour": 20,
@@ -2364,14 +2364,14 @@
     },
     {
       "weekday": 6,
-      "rate_per_hour": 30.03,
+      "rate_per_hour": 30.01,
       "median_rate_per_hour": 29.85,
-      "interval_count": 474,
-      "advance_total": 2288,
-      "duration_seconds": 274320,
+      "interval_count": 475,
+      "advance_total": 2292,
+      "duration_seconds": 274921,
       "median_waitings_count": 11,
       "max_waitings_count": 69,
-      "snapshot_count": 772
+      "snapshot_count": 773
     }
   ]
 }
