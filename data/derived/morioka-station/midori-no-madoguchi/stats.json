@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-18T15:45:33+09:00",
+  "generated_at": "2026-10-18T15:55:35+09:00",
   "observation_days": 54,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-18"
   },
-  "snapshot_count": 5832,
-  "rate_eligible_interval_count": 3586,
+  "snapshot_count": 5833,
+  "rate_eligible_interval_count": 3587,
   "censored_interval_count": 963,
   "weekday_hours": [
     {
@@ -195,14 +195,14 @@
     {
       "weekday": 0,
       "hour": 15,
-      "rate_per_hour": 29.48,
+      "rate_per_hour": 29.49,
       "median_rate_per_hour": 29.9,
-      "interval_count": 43,
-      "advance_total": 209,
-      "duration_seconds": 25526,
-      "median_waitings_count": 23,
+      "interval_count": 44,
+      "advance_total": 214,
+      "duration_seconds": 26128,
+      "median_waitings_count": 22.5,
       "max_waitings_count": 58,
-      "snapshot_count": 49
+      "snapshot_count": 50
     },
     {
       "weekday": 0,
@@ -2198,13 +2198,13 @@
     {
       "hour": 15,
       "rate_per_hour": 29.39,
-      "median_rate_per_hour": 24.49,
-      "interval_count": 319,
-      "advance_total": 1486,
-      "duration_seconds": 182027,
+      "median_rate_per_hour": 27,
+      "interval_count": 320,
+      "advance_total": 1491,
+      "duration_seconds": 182629,
       "median_waitings_count": 25,
       "max_waitings_count": 104,
-      "snapshot_count": 333
+      "snapshot_count": 334
     },
     {
       "hour": 16,
@@ -2300,12 +2300,12 @@
       "weekday": 0,
       "rate_per_hour": 28.16,
       "median_rate_per_hour": 24.12,
-      "interval_count": 470,
-      "advance_total": 2146,
-      "duration_seconds": 274340,
+      "interval_count": 471,
+      "advance_total": 2151,
+      "duration_seconds": 274942,
       "median_waitings_count": 9,
       "max_waitings_count": 71,
-      "snapshot_count": 819
+      "snapshot_count": 820
     },
     {
       "weekday": 1,
