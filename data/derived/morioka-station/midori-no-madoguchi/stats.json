@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-19T16:16:13+09:00",
+  "generated_at": "2026-10-19T16:26:13+09:00",
   "observation_days": 55,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-19"
   },
-  "snapshot_count": 5933,
-  "rate_eligible_interval_count": 3648,
+  "snapshot_count": 5934,
+  "rate_eligible_interval_count": 3649,
   "censored_interval_count": 987,
   "weekday_hours": [
     {
@@ -495,14 +495,14 @@
     {
       "weekday": 1,
       "hour": 16,
-      "rate_per_hour": 28.05,
-      "median_rate_per_hour": 24.04,
-      "interval_count": 47,
-      "advance_total": 201,
-      "duration_seconds": 25798,
+      "rate_per_hour": 27.96,
+      "median_rate_per_hour": 24.02,
+      "interval_count": 48,
+      "advance_total": 205,
+      "duration_seconds": 26398,
       "median_waitings_count": 24,
       "max_waitings_count": 44,
-      "snapshot_count": 48
+      "snapshot_count": 49
     },
     {
       "weekday": 1,
@@ -2208,14 +2208,14 @@
     },
     {
       "hour": 16,
-      "rate_per_hour": 31.82,
+      "rate_per_hour": 31.8,
       "median_rate_per_hour": 30,
-      "interval_count": 304,
-      "advance_total": 1569,
-      "duration_seconds": 177495,
+      "interval_count": 305,
+      "advance_total": 1573,
+      "duration_seconds": 178095,
       "median_waitings_count": 24,
       "max_waitings_count": 88,
-      "snapshot_count": 326
+      "snapshot_count": 327
     },
     {
       "hour": 17,
@@ -2311,12 +2311,12 @@
       "weekday": 1,
       "rate_per_hour": 27.09,
       "median_rate_per_hour": 24.04,
-      "interval_count": 551,
-      "advance_total": 2399,
-      "duration_seconds": 318764,
+      "interval_count": 552,
+      "advance_total": 2403,
+      "duration_seconds": 319364,
       "median_waitings_count": 12,
       "max_waitings_count": 104,
-      "snapshot_count": 847
+      "snapshot_count": 848
     },
     {
       "weekday": 2,
