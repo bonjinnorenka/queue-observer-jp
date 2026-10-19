@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-19T13:46:14+09:00",
-  "observed_at": "2026-10-19T13:46:14+09:00",
+  "generated_at": "2026-10-19T13:56:12+09:00",
+  "observed_at": "2026-10-19T13:56:12+09:00",
   "business_date": "2026-10-19",
-  "waitings_count": 26,
-  "pendings_count": 4,
-  "waitings_truncated": true,
-  "head_number": 252,
-  "queue_exit_rate_20m": 41.9,
-  "queue_exit_rate_60m": 47.49,
-  "queue_exit_rate_120m": 35.79,
-  "queue_exit_rate_used": 47.49,
+  "waitings_count": 18,
+  "pendings_count": 5,
+  "waitings_truncated": false,
+  "head_number": 268,
+  "queue_exit_rate_20m": 41.97,
+  "queue_exit_rate_60m": 53.44,
+  "queue_exit_rate_120m": 40.78,
+  "queue_exit_rate_used": 53.44,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 41.9,
+      "rate_per_hour": 41.97,
       "interval_count": 2,
       "censored_interval_count": 0,
       "advance_total": 14,
-      "duration_seconds": 1203
+      "duration_seconds": 1201
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 47.49,
+      "rate_per_hour": 53.44,
       "interval_count": 6,
       "censored_interval_count": 0,
-      "advance_total": 48,
-      "duration_seconds": 3639
+      "advance_total": 54,
+      "duration_seconds": 3638
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 35.79,
+      "rate_per_hour": 40.78,
       "interval_count": 12,
       "censored_interval_count": 0,
-      "advance_total": 72,
-      "duration_seconds": 7242
+      "advance_total": 82,
+      "duration_seconds": 7239
     }
   },
-  "estimated_wait_minutes": 33,
+  "estimated_wait_minutes": 20,
   "estimate_confidence": "high",
   "history": {
     "weekday": 1,
@@ -108,7 +108,6 @@
     "2026-10-19"
   ],
   "notes": [
-    "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です",
     "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
   ]
 }
