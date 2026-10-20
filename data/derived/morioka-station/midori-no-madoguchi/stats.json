@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-20T17:46:13+09:00",
+  "generated_at": "2026-10-20T17:56:13+09:00",
   "observation_days": 56,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-20"
   },
-  "snapshot_count": 6037,
-  "rate_eligible_interval_count": 3712,
+  "snapshot_count": 6038,
+  "rate_eligible_interval_count": 3713,
   "censored_interval_count": 1010,
   "weekday_hours": [
     {
@@ -795,14 +795,14 @@
     {
       "weekday": 2,
       "hour": 17,
-      "rate_per_hour": 21.5,
+      "rate_per_hour": 21.56,
       "median_rate_per_hour": 23.88,
-      "interval_count": 44,
-      "advance_total": 157,
-      "duration_seconds": 26283,
-      "median_waitings_count": 24,
+      "interval_count": 45,
+      "advance_total": 161,
+      "duration_seconds": 26883,
+      "median_waitings_count": 24.5,
       "max_waitings_count": 39,
-      "snapshot_count": 47
+      "snapshot_count": 48
     },
     {
       "weekday": 2,
@@ -2219,14 +2219,14 @@
     },
     {
       "hour": 17,
-      "rate_per_hour": 27.43,
-      "median_rate_per_hour": 26.73,
-      "interval_count": 304,
-      "advance_total": 1382,
-      "duration_seconds": 181396,
+      "rate_per_hour": 27.42,
+      "median_rate_per_hour": 25.06,
+      "interval_count": 305,
+      "advance_total": 1386,
+      "duration_seconds": 181996,
       "median_waitings_count": 21,
       "max_waitings_count": 76,
-      "snapshot_count": 325
+      "snapshot_count": 326
     },
     {
       "hour": 18,
@@ -2322,12 +2322,12 @@
       "weekday": 2,
       "rate_per_hour": 26.37,
       "median_rate_per_hour": 24,
-      "interval_count": 535,
-      "advance_total": 2276,
-      "duration_seconds": 310661,
+      "interval_count": 536,
+      "advance_total": 2280,
+      "duration_seconds": 311261,
       "median_waitings_count": 13,
       "max_waitings_count": 63,
-      "snapshot_count": 876
+      "snapshot_count": 877
     },
     {
       "weekday": 3,
