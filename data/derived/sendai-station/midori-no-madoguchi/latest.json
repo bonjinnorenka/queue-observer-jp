@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-22T17:16:30+09:00",
-  "observed_at": "2026-10-22T17:16:30+09:00",
+  "generated_at": "2026-10-22T17:26:16+09:00",
+  "observed_at": "2026-10-22T17:26:16+09:00",
   "business_date": "2026-10-22",
-  "waitings_count": 52,
-  "pendings_count": 0,
+  "waitings_count": 47,
+  "pendings_count": 1,
   "waitings_truncated": true,
-  "head_number": 963,
-  "queue_exit_rate_20m": null,
-  "queue_exit_rate_60m": 105.18,
-  "queue_exit_rate_120m": 95.48,
-  "queue_exit_rate_used": 105.18,
+  "head_number": 980,
+  "queue_exit_rate_20m": 104.44,
+  "queue_exit_rate_60m": 106.42,
+  "queue_exit_rate_120m": 99.64,
+  "queue_exit_rate_used": 106.42,
   "rate_source": "60m",
   "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": null,
-      "interval_count": 0,
-      "censored_interval_count": 2,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "rate_per_hour": 104.44,
+      "interval_count": 1,
+      "censored_interval_count": 1,
+      "advance_total": 17,
+      "duration_seconds": 586
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 105.18,
+      "rate_per_hour": 106.42,
       "interval_count": 2,
       "censored_interval_count": 4,
       "advance_total": 35,
-      "duration_seconds": 1198
+      "duration_seconds": 1184
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 95.48,
+      "rate_per_hour": 99.64,
       "interval_count": 7,
       "censored_interval_count": 6,
-      "advance_total": 112,
-      "duration_seconds": 4223
+      "advance_total": 115,
+      "duration_seconds": 4155
     }
   },
-  "estimated_wait_minutes": 30,
+  "estimated_wait_minutes": 26,
   "estimate_confidence": "medium",
   "history": {
     "weekday": 4,
@@ -90,6 +90,7 @@
   ],
   "notes": [
     "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります",
-    "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です"
+    "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です",
+    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
   ]
 }
