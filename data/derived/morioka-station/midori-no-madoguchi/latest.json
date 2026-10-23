@@ -2,53 +2,53 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-24T07:56:11+09:00",
-  "observed_at": "2026-10-24T07:56:11+09:00",
+  "generated_at": "2026-10-24T08:06:11+09:00",
+  "observed_at": "2026-10-24T08:06:11+09:00",
   "business_date": "2026-10-24",
-  "waitings_count": 6,
-  "pendings_count": 1,
+  "waitings_count": 11,
+  "pendings_count": 2,
   "waitings_truncated": false,
-  "head_number": 37,
-  "queue_exit_rate_20m": 5.99,
-  "queue_exit_rate_60m": 7.5,
-  "queue_exit_rate_120m": 6,
-  "queue_exit_rate_used": 7.5,
+  "head_number": 42,
+  "queue_exit_rate_20m": 17.99,
+  "queue_exit_rate_60m": 14.99,
+  "queue_exit_rate_120m": 9.43,
+  "queue_exit_rate_used": 14.99,
   "rate_source": "60m",
   "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 5.99,
-      "interval_count": 1,
+      "rate_per_hour": 17.99,
+      "interval_count": 2,
       "censored_interval_count": 1,
-      "advance_total": 1,
-      "duration_seconds": 601
+      "advance_total": 6,
+      "duration_seconds": 1201
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 7.5,
+      "rate_per_hour": 14.99,
       "interval_count": 4,
       "censored_interval_count": 2,
-      "advance_total": 5,
-      "duration_seconds": 2400
+      "advance_total": 10,
+      "duration_seconds": 2401
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 6,
-      "interval_count": 6,
+      "rate_per_hour": 9.43,
+      "interval_count": 7,
       "censored_interval_count": 2,
-      "advance_total": 6,
-      "duration_seconds": 3599
+      "advance_total": 11,
+      "duration_seconds": 4199
     }
   },
-  "estimated_wait_minutes": 48,
+  "estimated_wait_minutes": 44,
   "estimate_confidence": "medium",
   "history": {
     "weekday": 6,
-    "hour": 7,
-    "rate_per_hour": 19.63,
-    "median_waitings_count": 4,
-    "interval_count": 17
+    "hour": 8,
+    "rate_per_hour": 26.31,
+    "median_waitings_count": 5,
+    "interval_count": 23
   },
   "available_dates": [
     "2026-08-04",
