@@ -2,52 +2,52 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-23T13:58:51+09:00",
-  "observed_at": "2026-10-23T13:58:51+09:00",
+  "generated_at": "2026-10-23T14:02:27+09:00",
+  "observed_at": "2026-10-23T14:02:27+09:00",
   "business_date": "2026-10-23",
-  "waitings_count": 68,
+  "waitings_count": 69,
   "pendings_count": 0,
   "waitings_truncated": true,
-  "head_number": 683,
-  "queue_exit_rate_20m": 126.63,
-  "queue_exit_rate_60m": 126.63,
-  "queue_exit_rate_120m": 98.2,
-  "queue_exit_rate_used": 126.63,
+  "head_number": 691,
+  "queue_exit_rate_20m": 128.41,
+  "queue_exit_rate_60m": 128.41,
+  "queue_exit_rate_120m": 101.25,
+  "queue_exit_rate_used": 128.41,
   "rate_source": "60m",
   "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 126.63,
-      "interval_count": 2,
+      "rate_per_hour": 128.41,
+      "interval_count": 3,
       "censored_interval_count": 1,
-      "advance_total": 21,
-      "duration_seconds": 597
+      "advance_total": 29,
+      "duration_seconds": 813
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 126.63,
-      "interval_count": 2,
+      "rate_per_hour": 128.41,
+      "interval_count": 3,
       "censored_interval_count": 3,
-      "advance_total": 21,
-      "duration_seconds": 597
+      "advance_total": 29,
+      "duration_seconds": 813
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 98.2,
-      "interval_count": 5,
+      "rate_per_hour": 101.25,
+      "interval_count": 6,
       "censored_interval_count": 6,
-      "advance_total": 62,
-      "duration_seconds": 2273
+      "advance_total": 70,
+      "duration_seconds": 2489
     }
   },
   "estimated_wait_minutes": 32,
   "estimate_confidence": "medium",
   "history": {
     "weekday": 5,
-    "hour": 13,
-    "rate_per_hour": 90.49,
-    "median_waitings_count": 44,
+    "hour": 14,
+    "rate_per_hour": 97.99,
+    "median_waitings_count": 48,
     "interval_count": 17
   },
   "available_dates": [
