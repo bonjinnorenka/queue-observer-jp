@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-26T13:46:55+09:00",
+  "generated_at": "2026-10-26T13:56:27+09:00",
   "observation_days": 62,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-26"
   },
-  "snapshot_count": 6589,
-  "rate_eligible_interval_count": 4117,
+  "snapshot_count": 6590,
+  "rate_eligible_interval_count": 4118,
   "censored_interval_count": 1087,
   "weekday_hours": [
     {
@@ -459,14 +459,14 @@
     {
       "weekday": 1,
       "hour": 13,
-      "rate_per_hour": 34.43,
+      "rate_per_hour": 34.5,
       "median_rate_per_hour": 30.05,
-      "interval_count": 50,
-      "advance_total": 285,
-      "duration_seconds": 29797,
+      "interval_count": 51,
+      "advance_total": 291,
+      "duration_seconds": 30369,
       "median_waitings_count": 30,
       "max_waitings_count": 94,
-      "snapshot_count": 53
+      "snapshot_count": 54
     },
     {
       "weekday": 1,
@@ -2175,14 +2175,14 @@
     },
     {
       "hour": 13,
-      "rate_per_hour": 31.1,
-      "median_rate_per_hour": 29.9,
-      "interval_count": 355,
-      "advance_total": 1825,
-      "duration_seconds": 211283,
+      "rate_per_hour": 31.11,
+      "median_rate_per_hour": 29.92,
+      "interval_count": 356,
+      "advance_total": 1831,
+      "duration_seconds": 211855,
       "median_waitings_count": 30,
       "max_waitings_count": 95,
-      "snapshot_count": 361
+      "snapshot_count": 362
     },
     {
       "hour": 14,
@@ -2309,14 +2309,14 @@
     },
     {
       "weekday": 1,
-      "rate_per_hour": 26.84,
+      "rate_per_hour": 26.86,
       "median_rate_per_hour": 24,
-      "interval_count": 602,
-      "advance_total": 2586,
-      "duration_seconds": 346796,
+      "interval_count": 603,
+      "advance_total": 2592,
+      "duration_seconds": 347368,
       "median_waitings_count": 12,
       "max_waitings_count": 104,
-      "snapshot_count": 927
+      "snapshot_count": 928
     },
     {
       "weekday": 2,
