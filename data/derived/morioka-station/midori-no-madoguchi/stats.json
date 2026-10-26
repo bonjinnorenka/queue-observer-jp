@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-26T10:26:33+09:00",
+  "generated_at": "2026-10-26T10:36:11+09:00",
   "observation_days": 62,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-26"
   },
-  "snapshot_count": 6569,
-  "rate_eligible_interval_count": 4097,
+  "snapshot_count": 6570,
+  "rate_eligible_interval_count": 4098,
   "censored_interval_count": 1087,
   "weekday_hours": [
     {
@@ -423,14 +423,14 @@
     {
       "weekday": 1,
       "hour": 10,
-      "rate_per_hour": 23.27,
-      "median_rate_per_hour": 22.15,
-      "interval_count": 56,
-      "advance_total": 194,
-      "duration_seconds": 30018,
+      "rate_per_hour": 23.41,
+      "median_rate_per_hour": 23.96,
+      "interval_count": 57,
+      "advance_total": 199,
+      "duration_seconds": 30596,
       "median_waitings_count": 19,
       "max_waitings_count": 99,
-      "snapshot_count": 57
+      "snapshot_count": 58
     },
     {
       "weekday": 1,
@@ -2144,12 +2144,12 @@
       "hour": 10,
       "rate_per_hour": 29.41,
       "median_rate_per_hour": 24.12,
-      "interval_count": 355,
-      "advance_total": 1636,
-      "duration_seconds": 200266,
+      "interval_count": 356,
+      "advance_total": 1641,
+      "duration_seconds": 200844,
       "median_waitings_count": 20,
       "max_waitings_count": 99,
-      "snapshot_count": 384
+      "snapshot_count": 385
     },
     {
       "hour": 11,
@@ -2311,12 +2311,12 @@
       "weekday": 1,
       "rate_per_hour": 26.65,
       "median_rate_per_hour": 24,
-      "interval_count": 582,
-      "advance_total": 2478,
-      "duration_seconds": 334774,
-      "median_waitings_count": 11,
+      "interval_count": 583,
+      "advance_total": 2483,
+      "duration_seconds": 335352,
+      "median_waitings_count": 11.5,
       "max_waitings_count": 104,
-      "snapshot_count": 907
+      "snapshot_count": 908
     },
     {
       "weekday": 2,
