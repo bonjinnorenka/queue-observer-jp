@@ -2,53 +2,53 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-26T16:56:15+09:00",
-  "observed_at": "2026-10-26T16:56:14+09:00",
+  "generated_at": "2026-10-26T17:07:39+09:00",
+  "observed_at": "2026-10-26T17:07:38+09:00",
   "business_date": "2026-10-26",
-  "waitings_count": 16,
-  "pendings_count": 0,
+  "waitings_count": 15,
+  "pendings_count": 3,
   "waitings_truncated": false,
   "head_number": 390,
-  "queue_exit_rate_20m": 2.99,
-  "queue_exit_rate_60m": 1,
-  "queue_exit_rate_120m": 9.7,
-  "queue_exit_rate_used": 1,
+  "queue_exit_rate_20m": 2.8,
+  "queue_exit_rate_60m": 0.98,
+  "queue_exit_rate_120m": 1.48,
+  "queue_exit_rate_used": 0.98,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 2.99,
+      "rate_per_hour": 2.8,
       "interval_count": 2,
       "censored_interval_count": 0,
       "advance_total": 1,
-      "duration_seconds": 1204
+      "duration_seconds": 1285
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 1,
-      "interval_count": 6,
+      "rate_per_hour": 0.98,
+      "interval_count": 5,
       "censored_interval_count": 0,
       "advance_total": 1,
-      "duration_seconds": 3604
+      "duration_seconds": 3686
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 9.7,
-      "interval_count": 13,
+      "rate_per_hour": 1.48,
+      "interval_count": 12,
       "censored_interval_count": 0,
-      "advance_total": 21,
-      "duration_seconds": 7791
+      "advance_total": 3,
+      "duration_seconds": 7289
     }
   },
-  "estimated_wait_minutes": 960,
+  "estimated_wait_minutes": 918,
   "estimate_confidence": "high",
   "history": {
     "weekday": 1,
-    "hour": 16,
-    "rate_per_hour": 27.63,
-    "median_waitings_count": 23.5,
-    "interval_count": 52
+    "hour": 17,
+    "rate_per_hour": 31.67,
+    "median_waitings_count": 15.5,
+    "interval_count": 46
   },
   "available_dates": [
     "2026-08-04",
@@ -114,5 +114,7 @@
     "2026-10-25",
     "2026-10-26"
   ],
-  "notes": []
+  "notes": [
+    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
+  ]
 }
