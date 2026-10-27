@@ -2,52 +2,52 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-27T21:07:01+09:00",
-  "observed_at": "2026-10-27T21:07:01+09:00",
-  "business_date": "2026-10-27",
-  "waitings_count": 4,
+  "generated_at": "2026-10-28T05:46:13+09:00",
+  "observed_at": "2026-10-28T05:46:13+09:00",
+  "business_date": "2026-10-28",
+  "waitings_count": 0,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 1318,
+  "head_number": null,
   "queue_exit_rate_20m": null,
-  "queue_exit_rate_60m": 71.68,
-  "queue_exit_rate_120m": 71.77,
-  "queue_exit_rate_used": 71.68,
-  "rate_source": "60m",
-  "rate_is_lower_bound": true,
+  "queue_exit_rate_60m": null,
+  "queue_exit_rate_120m": null,
+  "queue_exit_rate_used": null,
+  "rate_source": null,
+  "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
       "rate_per_hour": null,
       "interval_count": 0,
-      "censored_interval_count": 2,
+      "censored_interval_count": 0,
       "advance_total": 0,
       "duration_seconds": 0
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 71.68,
-      "interval_count": 3,
-      "censored_interval_count": 3,
-      "advance_total": 36,
-      "duration_seconds": 1808
+      "rate_per_hour": null,
+      "interval_count": 0,
+      "censored_interval_count": 0,
+      "advance_total": 0,
+      "duration_seconds": 0
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 71.77,
-      "interval_count": 9,
-      "censored_interval_count": 4,
-      "advance_total": 89,
-      "duration_seconds": 4464
+      "rate_per_hour": null,
+      "interval_count": 0,
+      "censored_interval_count": 0,
+      "advance_total": 0,
+      "duration_seconds": 0
     }
   },
-  "estimated_wait_minutes": 3,
-  "estimate_confidence": "medium",
+  "estimated_wait_minutes": 0,
+  "estimate_confidence": null,
   "history": {
-    "weekday": 2,
-    "hour": 21,
+    "weekday": 3,
+    "hour": 5,
     "rate_per_hour": null,
-    "median_waitings_count": 1,
+    "median_waitings_count": 0,
     "interval_count": 0
   },
   "available_dates": [
@@ -91,9 +91,8 @@
     "2026-10-24",
     "2026-10-25",
     "2026-10-26",
-    "2026-10-27"
+    "2026-10-27",
+    "2026-10-28"
   ],
-  "notes": [
-    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
-  ]
+  "notes": []
 }
