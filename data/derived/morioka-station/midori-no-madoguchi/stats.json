@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-28T12:36:13+09:00",
+  "generated_at": "2026-10-28T12:46:12+09:00",
   "observation_days": 64,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-28"
   },
-  "snapshot_count": 6772,
-  "rate_eligible_interval_count": 4238,
+  "snapshot_count": 6773,
+  "rate_eligible_interval_count": 4239,
   "censored_interval_count": 1123,
   "weekday_hours": [
     {
@@ -1024,13 +1024,13 @@
       "weekday": 3,
       "hour": 12,
       "rate_per_hour": 30.21,
-      "median_rate_per_hour": 29.85,
-      "interval_count": 57,
-      "advance_total": 287,
-      "duration_seconds": 34199,
-      "median_waitings_count": 24.5,
+      "median_rate_per_hour": 29.93,
+      "interval_count": 58,
+      "advance_total": 292,
+      "duration_seconds": 34798,
+      "median_waitings_count": 25,
       "max_waitings_count": 63,
-      "snapshot_count": 58
+      "snapshot_count": 59
     },
     {
       "weekday": 3,
@@ -2164,14 +2164,14 @@
     },
     {
       "hour": 12,
-      "rate_per_hour": 28.27,
-      "median_rate_per_hour": 24.12,
-      "interval_count": 371,
-      "advance_total": 1745,
-      "duration_seconds": 222211,
+      "rate_per_hour": 28.28,
+      "median_rate_per_hour": 24.2,
+      "interval_count": 372,
+      "advance_total": 1750,
+      "duration_seconds": 222810,
       "median_waitings_count": 30,
       "max_waitings_count": 104,
-      "snapshot_count": 373
+      "snapshot_count": 374
     },
     {
       "hour": 13,
@@ -2333,12 +2333,12 @@
       "weekday": 3,
       "rate_per_hour": 29.23,
       "median_rate_per_hour": 29.95,
-      "interval_count": 634,
-      "advance_total": 2993,
-      "duration_seconds": 368648,
+      "interval_count": 635,
+      "advance_total": 2998,
+      "duration_seconds": 369247,
       "median_waitings_count": 9,
       "max_waitings_count": 64,
-      "snapshot_count": 1071
+      "snapshot_count": 1072
     },
     {
       "weekday": 4,
