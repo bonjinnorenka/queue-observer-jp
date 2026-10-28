@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-28T17:26:11+09:00",
+  "generated_at": "2026-10-28T17:36:10+09:00",
   "observation_days": 42,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-10-28"
   },
-  "snapshot_count": 4009,
-  "rate_eligible_interval_count": 1562,
+  "snapshot_count": 4010,
+  "rate_eligible_interval_count": 1563,
   "censored_interval_count": 1854,
   "weekday_hours": [
     {
@@ -771,14 +771,14 @@
     {
       "weekday": 3,
       "hour": 17,
-      "rate_per_hour": 89.01,
-      "median_rate_per_hour": 90.3,
-      "interval_count": 17,
-      "advance_total": 244,
-      "duration_seconds": 9869,
+      "rate_per_hour": 88.73,
+      "median_rate_per_hour": 90.23,
+      "interval_count": 18,
+      "advance_total": 258,
+      "duration_seconds": 10468,
       "median_waitings_count": 21,
       "max_waitings_count": 47,
-      "snapshot_count": 34
+      "snapshot_count": 35
     },
     {
       "weekday": 3,
@@ -1576,14 +1576,14 @@
     },
     {
       "hour": 17,
-      "rate_per_hour": 87.06,
+      "rate_per_hour": 87.04,
       "median_rate_per_hour": 90,
-      "interval_count": 124,
-      "advance_total": 1749,
-      "duration_seconds": 72319,
+      "interval_count": 125,
+      "advance_total": 1763,
+      "duration_seconds": 72918,
       "median_waitings_count": 28,
       "max_waitings_count": 122,
-      "snapshot_count": 254
+      "snapshot_count": 255
     },
     {
       "hour": 18,
@@ -1666,14 +1666,14 @@
     },
     {
       "weekday": 3,
-      "rate_per_hour": 86.57,
+      "rate_per_hour": 86.55,
       "median_rate_per_hour": 90.15,
-      "interval_count": 205,
-      "advance_total": 2786,
-      "duration_seconds": 115861,
+      "interval_count": 206,
+      "advance_total": 2800,
+      "duration_seconds": 116460,
       "median_waitings_count": 15,
       "max_waitings_count": 60,
-      "snapshot_count": 553
+      "snapshot_count": 554
     },
     {
       "weekday": 4,
