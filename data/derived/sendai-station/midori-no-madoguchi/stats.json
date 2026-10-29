@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-29T20:36:11+09:00",
+  "generated_at": "2026-10-29T20:46:11+09:00",
   "observation_days": 43,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-10-29"
   },
-  "snapshot_count": 4124,
-  "rate_eligible_interval_count": 1606,
+  "snapshot_count": 4125,
+  "rate_eligible_interval_count": 1607,
   "censored_interval_count": 1909,
   "weekday_hours": [
     {
@@ -1011,14 +1011,14 @@
     {
       "weekday": 4,
       "hour": 20,
-      "rate_per_hour": 60.6,
-      "median_rate_per_hour": 53.91,
-      "interval_count": 21,
-      "advance_total": 212,
-      "duration_seconds": 12595,
-      "median_waitings_count": 12.5,
+      "rate_per_hour": 61.66,
+      "median_rate_per_hour": 57.21,
+      "interval_count": 22,
+      "advance_total": 226,
+      "duration_seconds": 13196,
+      "median_waitings_count": 13,
       "max_waitings_count": 34,
-      "snapshot_count": 40
+      "snapshot_count": 41
     },
     {
       "weekday": 4,
@@ -1609,14 +1609,14 @@
     },
     {
       "hour": 20,
-      "rate_per_hour": 62.55,
+      "rate_per_hour": 62.84,
       "median_rate_per_hour": 59.8,
-      "interval_count": 77,
-      "advance_total": 773,
-      "duration_seconds": 44487,
+      "interval_count": 78,
+      "advance_total": 787,
+      "duration_seconds": 45088,
       "median_waitings_count": 7,
       "max_waitings_count": 63,
-      "snapshot_count": 261
+      "snapshot_count": 262
     },
     {
       "hour": 21,
@@ -1679,12 +1679,12 @@
       "weekday": 4,
       "rate_per_hour": 84.34,
       "median_rate_per_hour": 84.42,
-      "interval_count": 309,
-      "advance_total": 4160,
-      "duration_seconds": 177564,
+      "interval_count": 310,
+      "advance_total": 4174,
+      "duration_seconds": 178165,
       "median_waitings_count": 22,
       "max_waitings_count": 79,
-      "snapshot_count": 669
+      "snapshot_count": 670
     },
     {
       "weekday": 5,
