@@ -2,35 +2,35 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-29T12:56:08+09:00",
-  "observed_at": "2026-10-29T12:56:08+09:00",
+  "generated_at": "2026-10-29T13:06:09+09:00",
+  "observed_at": "2026-10-29T13:06:09+09:00",
   "business_date": "2026-10-29",
   "waitings_count": 13,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 510,
-  "queue_exit_rate_20m": 101.83,
-  "queue_exit_rate_60m": 110.15,
+  "head_number": 529,
+  "queue_exit_rate_20m": null,
+  "queue_exit_rate_60m": 101.83,
   "queue_exit_rate_120m": 92.28,
-  "queue_exit_rate_used": 110.15,
+  "queue_exit_rate_used": 101.83,
   "rate_source": "60m",
   "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 101.83,
-      "interval_count": 1,
-      "censored_interval_count": 2,
-      "advance_total": 17,
-      "duration_seconds": 601
+      "rate_per_hour": null,
+      "interval_count": 0,
+      "censored_interval_count": 3,
+      "advance_total": 0,
+      "duration_seconds": 0
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 110.15,
-      "interval_count": 2,
-      "censored_interval_count": 5,
-      "advance_total": 22,
-      "duration_seconds": 719
+      "rate_per_hour": 101.83,
+      "interval_count": 1,
+      "censored_interval_count": 6,
+      "advance_total": 17,
+      "duration_seconds": 601
     },
     "120m": {
       "window_minutes": 120,
@@ -41,14 +41,14 @@
       "duration_seconds": 3121
     }
   },
-  "estimated_wait_minutes": 7,
-  "estimate_confidence": "medium",
+  "estimated_wait_minutes": 8,
+  "estimate_confidence": "low",
   "history": {
     "weekday": 4,
-    "hour": 12,
-    "rate_per_hour": 89.71,
-    "median_waitings_count": 33,
-    "interval_count": 26
+    "hour": 13,
+    "rate_per_hour": 84.56,
+    "median_waitings_count": 25,
+    "interval_count": 25
   },
   "available_dates": [
     "2026-09-17",
