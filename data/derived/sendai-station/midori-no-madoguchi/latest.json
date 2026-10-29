@@ -2,13 +2,13 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-29T12:46:10+09:00",
-  "observed_at": "2026-10-29T12:46:10+09:00",
+  "generated_at": "2026-10-29T12:56:08+09:00",
+  "observed_at": "2026-10-29T12:56:08+09:00",
   "business_date": "2026-10-29",
-  "waitings_count": 21,
+  "waitings_count": 13,
   "pendings_count": 0,
-  "waitings_truncated": true,
-  "head_number": 481,
+  "waitings_truncated": false,
+  "head_number": 510,
   "queue_exit_rate_20m": 101.83,
   "queue_exit_rate_60m": 110.15,
   "queue_exit_rate_120m": 92.28,
@@ -20,7 +20,7 @@
       "window_minutes": 20,
       "rate_per_hour": 101.83,
       "interval_count": 1,
-      "censored_interval_count": 1,
+      "censored_interval_count": 2,
       "advance_total": 17,
       "duration_seconds": 601
     },
@@ -36,12 +36,12 @@
       "window_minutes": 120,
       "rate_per_hour": 92.28,
       "interval_count": 6,
-      "censored_interval_count": 7,
+      "censored_interval_count": 8,
       "advance_total": 80,
       "duration_seconds": 3121
     }
   },
-  "estimated_wait_minutes": 11,
+  "estimated_wait_minutes": 7,
   "estimate_confidence": "medium",
   "history": {
     "weekday": 4,
@@ -96,7 +96,6 @@
     "2026-10-29"
   ],
   "notes": [
-    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります",
-    "APIは待機列の先頭20件のみを返すため、消化数は観測できた範囲の値です"
+    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
   ]
 }
