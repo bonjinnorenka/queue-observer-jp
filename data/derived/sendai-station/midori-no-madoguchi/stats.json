@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-30T16:36:12+09:00",
+  "generated_at": "2026-10-30T16:46:22+09:00",
   "observation_days": 44,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-10-30"
   },
-  "snapshot_count": 4195,
-  "rate_eligible_interval_count": 1634,
+  "snapshot_count": 4196,
+  "rate_eligible_interval_count": 1635,
   "censored_interval_count": 1939,
   "weekday_hours": [
     {
@@ -1167,14 +1167,14 @@
     {
       "weekday": 5,
       "hour": 16,
-      "rate_per_hour": 91.86,
-      "median_rate_per_hour": 95.84,
-      "interval_count": 21,
-      "advance_total": 306,
-      "duration_seconds": 11992,
+      "rate_per_hour": 91.7,
+      "median_rate_per_hour": 93.07,
+      "interval_count": 22,
+      "advance_total": 321,
+      "duration_seconds": 12602,
       "median_waitings_count": 55,
       "max_waitings_count": 123,
-      "snapshot_count": 38
+      "snapshot_count": 39
     },
     {
       "weekday": 5,
@@ -1565,14 +1565,14 @@
     },
     {
       "hour": 16,
-      "rate_per_hour": 94.24,
-      "median_rate_per_hour": 96,
-      "interval_count": 133,
-      "advance_total": 1991,
-      "duration_seconds": 76059,
+      "rate_per_hour": 94.19,
+      "median_rate_per_hour": 95.92,
+      "interval_count": 134,
+      "advance_total": 2006,
+      "duration_seconds": 76669,
       "median_waitings_count": 31,
       "max_waitings_count": 123,
-      "snapshot_count": 266
+      "snapshot_count": 267
     },
     {
       "hour": 17,
@@ -1690,12 +1690,12 @@
       "weekday": 5,
       "rate_per_hour": 87.62,
       "median_rate_per_hour": 89.7,
-      "interval_count": 271,
-      "advance_total": 3689,
-      "duration_seconds": 151569,
+      "interval_count": 272,
+      "advance_total": 3704,
+      "duration_seconds": 152179,
       "median_waitings_count": 34,
       "max_waitings_count": 123,
-      "snapshot_count": 644
+      "snapshot_count": 645
     },
     {
       "weekday": 6,
