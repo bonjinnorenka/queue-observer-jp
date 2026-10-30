@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-30T17:16:10+09:00",
+  "generated_at": "2026-10-30T17:26:12+09:00",
   "observation_days": 66,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-30"
   },
-  "snapshot_count": 6992,
-  "rate_eligible_interval_count": 4414,
+  "snapshot_count": 6993,
+  "rate_eligible_interval_count": 4415,
   "censored_interval_count": 1152,
   "weekday_hours": [
     {
@@ -1659,14 +1659,14 @@
     {
       "weekday": 5,
       "hour": 17,
-      "rate_per_hour": 27.6,
-      "median_rate_per_hour": 24,
-      "interval_count": 51,
-      "advance_total": 227,
-      "duration_seconds": 29614,
-      "median_waitings_count": 32,
+      "rate_per_hour": 27.64,
+      "median_rate_per_hour": 24.02,
+      "interval_count": 52,
+      "advance_total": 232,
+      "duration_seconds": 30216,
+      "median_waitings_count": 33.5,
       "max_waitings_count": 76,
-      "snapshot_count": 53
+      "snapshot_count": 54
     },
     {
       "weekday": 5,
@@ -2220,13 +2220,13 @@
     {
       "hour": 17,
       "rate_per_hour": 27.78,
-      "median_rate_per_hour": 29.28,
-      "interval_count": 362,
-      "advance_total": 1668,
-      "duration_seconds": 216190,
-      "median_waitings_count": 20.5,
+      "median_rate_per_hour": 29.56,
+      "interval_count": 363,
+      "advance_total": 1673,
+      "duration_seconds": 216792,
+      "median_waitings_count": 21,
       "max_waitings_count": 76,
-      "snapshot_count": 384
+      "snapshot_count": 385
     },
     {
       "hour": 18,
@@ -2355,12 +2355,12 @@
       "weekday": 5,
       "rate_per_hour": 28.09,
       "median_rate_per_hour": 24.37,
-      "interval_count": 663,
-      "advance_total": 3012,
-      "duration_seconds": 386082,
+      "interval_count": 664,
+      "advance_total": 3017,
+      "duration_seconds": 386684,
       "median_waitings_count": 21,
       "max_waitings_count": 104,
-      "snapshot_count": 955
+      "snapshot_count": 956
     },
     {
       "weekday": 6,
