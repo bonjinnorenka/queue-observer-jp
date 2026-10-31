@@ -2,15 +2,15 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-31T18:46:10+09:00",
+  "generated_at": "2026-10-31T18:56:09+09:00",
   "observation_days": 67,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-31"
   },
-  "snapshot_count": 7098,
+  "snapshot_count": 7099,
   "rate_eligible_interval_count": 4497,
-  "censored_interval_count": 1171,
+  "censored_interval_count": 1172,
   "weekday_hours": [
     {
       "weekday": 0,
@@ -1966,7 +1966,7 @@
       "duration_seconds": 22714,
       "median_waitings_count": 8,
       "max_waitings_count": 49,
-      "snapshot_count": 56
+      "snapshot_count": 57
     },
     {
       "weekday": 6,
@@ -2237,7 +2237,7 @@
       "duration_seconds": 208416,
       "median_waitings_count": 18,
       "max_waitings_count": 80,
-      "snapshot_count": 397
+      "snapshot_count": 398
     },
     {
       "hour": 19,
@@ -2369,9 +2369,9 @@
       "interval_count": 608,
       "advance_total": 3010,
       "duration_seconds": 352139,
-      "median_waitings_count": 10.5,
+      "median_waitings_count": 10,
       "max_waitings_count": 69,
-      "snapshot_count": 962
+      "snapshot_count": 963
     }
   ]
 }
