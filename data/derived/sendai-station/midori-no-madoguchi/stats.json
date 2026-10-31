@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-31T17:56:09+09:00",
+  "generated_at": "2026-10-31T18:06:17+09:00",
   "observation_days": 45,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-10-31"
   },
-  "snapshot_count": 4300,
-  "rate_eligible_interval_count": 1684,
+  "snapshot_count": 4301,
+  "rate_eligible_interval_count": 1685,
   "censored_interval_count": 1986,
   "weekday_hours": [
     {
@@ -1383,11 +1383,11 @@
     {
       "weekday": 6,
       "hour": 17,
-      "rate_per_hour": 87.12,
-      "median_rate_per_hour": 90.08,
-      "interval_count": 26,
-      "advance_total": 377,
-      "duration_seconds": 15578,
+      "rate_per_hour": 86.3,
+      "median_rate_per_hour": 90,
+      "interval_count": 27,
+      "advance_total": 388,
+      "duration_seconds": 16186,
       "median_waitings_count": 25.5,
       "max_waitings_count": 51,
       "snapshot_count": 42
@@ -1400,9 +1400,9 @@
       "interval_count": 16,
       "advance_total": 229,
       "duration_seconds": 8969,
-      "median_waitings_count": 21.5,
+      "median_waitings_count": 22,
       "max_waitings_count": 70,
-      "snapshot_count": 38
+      "snapshot_count": 39
     },
     {
       "weekday": 6,
@@ -1576,11 +1576,11 @@
     },
     {
       "hour": 17,
-      "rate_per_hour": 87.24,
+      "rate_per_hour": 87.07,
       "median_rate_per_hour": 90,
-      "interval_count": 135,
-      "advance_total": 1905,
-      "duration_seconds": 78614,
+      "interval_count": 136,
+      "advance_total": 1916,
+      "duration_seconds": 79222,
       "median_waitings_count": 28,
       "max_waitings_count": 122,
       "snapshot_count": 275
@@ -1594,7 +1594,7 @@
       "duration_seconds": 73730,
       "median_waitings_count": 29,
       "max_waitings_count": 100,
-      "snapshot_count": 268
+      "snapshot_count": 269
     },
     {
       "hour": 19,
@@ -1699,14 +1699,14 @@
     },
     {
       "weekday": 6,
-      "rate_per_hour": 88,
-      "median_rate_per_hour": 90.08,
-      "interval_count": 266,
-      "advance_total": 3687,
-      "duration_seconds": 150825,
+      "rate_per_hour": 87.91,
+      "median_rate_per_hour": 90,
+      "interval_count": 267,
+      "advance_total": 3698,
+      "duration_seconds": 151433,
       "median_waitings_count": 18,
       "max_waitings_count": 70,
-      "snapshot_count": 656
+      "snapshot_count": 657
     }
   ]
 }
