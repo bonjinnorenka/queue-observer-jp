@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-31T16:46:10+09:00",
+  "generated_at": "2026-10-31T16:56:09+09:00",
   "observation_days": 67,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-31"
   },
-  "snapshot_count": 7086,
-  "rate_eligible_interval_count": 4487,
+  "snapshot_count": 7087,
+  "rate_eligible_interval_count": 4488,
   "censored_interval_count": 1169,
   "weekday_hours": [
     {
@@ -1935,14 +1935,14 @@
     {
       "weekday": 6,
       "hour": 16,
-      "rate_per_hour": 30.66,
+      "rate_per_hour": 31.18,
       "median_rate_per_hour": 35.7,
-      "interval_count": 45,
-      "advance_total": 227,
-      "duration_seconds": 26650,
-      "median_waitings_count": 18,
+      "interval_count": 46,
+      "advance_total": 236,
+      "duration_seconds": 27249,
+      "median_waitings_count": 19,
       "max_waitings_count": 64,
-      "snapshot_count": 55
+      "snapshot_count": 56
     },
     {
       "weekday": 6,
@@ -2208,14 +2208,14 @@
     },
     {
       "hour": 16,
-      "rate_per_hour": 31.09,
+      "rate_per_hour": 31.15,
       "median_rate_per_hour": 30,
-      "interval_count": 374,
-      "advance_total": 1894,
-      "duration_seconds": 219298,
+      "interval_count": 375,
+      "advance_total": 1903,
+      "duration_seconds": 219897,
       "median_waitings_count": 24,
       "max_waitings_count": 88,
-      "snapshot_count": 400
+      "snapshot_count": 401
     },
     {
       "hour": 17,
@@ -2364,14 +2364,14 @@
     },
     {
       "weekday": 6,
-      "rate_per_hour": 30.6,
+      "rate_per_hour": 30.64,
       "median_rate_per_hour": 30,
-      "interval_count": 598,
-      "advance_total": 2942,
-      "duration_seconds": 346137,
+      "interval_count": 599,
+      "advance_total": 2951,
+      "duration_seconds": 346736,
       "median_waitings_count": 11,
       "max_waitings_count": 69,
-      "snapshot_count": 950
+      "snapshot_count": 951
     }
   ]
 }
