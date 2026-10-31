@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-10-31T12:36:17+09:00",
+  "generated_at": "2026-10-31T12:46:11+09:00",
   "observation_days": 45,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-10-31"
   },
-  "snapshot_count": 4267,
-  "rate_eligible_interval_count": 1666,
+  "snapshot_count": 4268,
+  "rate_eligible_interval_count": 1667,
   "censored_interval_count": 1971,
   "weekday_hours": [
     {
@@ -1323,14 +1323,14 @@
     {
       "weekday": 6,
       "hour": 12,
-      "rate_per_hour": 90.15,
+      "rate_per_hour": 90.79,
       "median_rate_per_hour": 95.84,
-      "interval_count": 19,
-      "advance_total": 285,
-      "duration_seconds": 11381,
-      "median_waitings_count": 24,
+      "interval_count": 20,
+      "advance_total": 302,
+      "duration_seconds": 11975,
+      "median_waitings_count": 23,
       "max_waitings_count": 66,
-      "snapshot_count": 40
+      "snapshot_count": 41
     },
     {
       "weekday": 6,
@@ -1521,14 +1521,14 @@
     },
     {
       "hour": 12,
-      "rate_per_hour": 91.59,
-      "median_rate_per_hour": 93.44,
-      "interval_count": 133,
-      "advance_total": 2002,
-      "duration_seconds": 78688,
+      "rate_per_hour": 91.68,
+      "median_rate_per_hour": 94.09,
+      "interval_count": 134,
+      "advance_total": 2019,
+      "duration_seconds": 79282,
       "median_waitings_count": 22,
       "max_waitings_count": 66,
-      "snapshot_count": 270
+      "snapshot_count": 271
     },
     {
       "hour": 13,
@@ -1699,14 +1699,14 @@
     },
     {
       "weekday": 6,
-      "rate_per_hour": 87.34,
+      "rate_per_hour": 87.4,
       "median_rate_per_hour": 89.85,
-      "interval_count": 248,
-      "advance_total": 3412,
-      "duration_seconds": 140643,
+      "interval_count": 249,
+      "advance_total": 3429,
+      "duration_seconds": 141237,
       "median_waitings_count": 17,
       "max_waitings_count": 70,
-      "snapshot_count": 623
+      "snapshot_count": 624
     }
   ]
 }
