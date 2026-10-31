@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-10-31T10:04:03+09:00",
+  "generated_at": "2026-10-31T10:06:09+09:00",
   "observation_days": 67,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-10-31"
   },
-  "snapshot_count": 7044,
-  "rate_eligible_interval_count": 4456,
+  "snapshot_count": 7045,
+  "rate_eligible_interval_count": 4457,
   "censored_interval_count": 1158,
   "weekday_hours": [
     {
@@ -1863,14 +1863,14 @@
     {
       "weekday": 6,
       "hour": 10,
-      "rate_per_hour": 38.7,
-      "median_rate_per_hour": 35.93,
-      "interval_count": 48,
+      "rate_per_hour": 38.51,
+      "median_rate_per_hour": 35.86,
+      "interval_count": 49,
       "advance_total": 285,
-      "duration_seconds": 26513,
-      "median_waitings_count": 27,
+      "duration_seconds": 26639,
+      "median_waitings_count": 26.5,
       "max_waitings_count": 47,
-      "snapshot_count": 53
+      "snapshot_count": 54
     },
     {
       "weekday": 6,
@@ -2142,14 +2142,14 @@
     },
     {
       "hour": 10,
-      "rate_per_hour": 28.98,
+      "rate_per_hour": 28.96,
       "median_rate_per_hour": 24.12,
-      "interval_count": 382,
+      "interval_count": 383,
       "advance_total": 1740,
-      "duration_seconds": 216176,
+      "duration_seconds": 216302,
       "median_waitings_count": 20,
       "max_waitings_count": 99,
-      "snapshot_count": 412
+      "snapshot_count": 413
     },
     {
       "hour": 11,
@@ -2364,14 +2364,14 @@
     },
     {
       "weekday": 6,
-      "rate_per_hour": 29.99,
-      "median_rate_per_hour": 29.95,
-      "interval_count": 567,
+      "rate_per_hour": 29.97,
+      "median_rate_per_hour": 29.92,
+      "interval_count": 568,
       "advance_total": 2735,
-      "duration_seconds": 328355,
+      "duration_seconds": 328481,
       "median_waitings_count": 11,
       "max_waitings_count": 69,
-      "snapshot_count": 908
+      "snapshot_count": 909
     }
   ]
 }
