@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-02T16:36:09+09:00",
+  "generated_at": "2026-11-02T16:46:22+09:00",
   "observation_days": 69,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-11-02"
   },
-  "snapshot_count": 7276,
-  "rate_eligible_interval_count": 4609,
+  "snapshot_count": 7277,
+  "rate_eligible_interval_count": 4610,
   "censored_interval_count": 1213,
   "weekday_hours": [
     {
@@ -495,14 +495,14 @@
     {
       "weekday": 1,
       "hour": 16,
-      "rate_per_hour": 25.11,
+      "rate_per_hour": 25.29,
       "median_rate_per_hour": 24,
-      "interval_count": 59,
-      "advance_total": 235,
-      "duration_seconds": 33687,
-      "median_waitings_count": 21,
+      "interval_count": 60,
+      "advance_total": 241,
+      "duration_seconds": 34300,
+      "median_waitings_count": 20.5,
       "max_waitings_count": 44,
-      "snapshot_count": 61
+      "snapshot_count": 62
     },
     {
       "weekday": 1,
@@ -2208,14 +2208,14 @@
     },
     {
       "hour": 16,
-      "rate_per_hour": 31.43,
+      "rate_per_hour": 31.44,
       "median_rate_per_hour": 30,
-      "interval_count": 383,
-      "advance_total": 1962,
-      "duration_seconds": 224705,
+      "interval_count": 384,
+      "advance_total": 1968,
+      "duration_seconds": 225318,
       "median_waitings_count": 23,
       "max_waitings_count": 88,
-      "snapshot_count": 411
+      "snapshot_count": 412
     },
     {
       "hour": 17,
@@ -2309,14 +2309,14 @@
     },
     {
       "weekday": 1,
-      "rate_per_hour": 26.53,
+      "rate_per_hour": 26.55,
       "median_rate_per_hour": 24,
-      "interval_count": 690,
-      "advance_total": 2936,
-      "duration_seconds": 398354,
+      "interval_count": 691,
+      "advance_total": 2942,
+      "duration_seconds": 398967,
       "median_waitings_count": 12,
       "max_waitings_count": 104,
-      "snapshot_count": 1039
+      "snapshot_count": 1040
     },
     {
       "weekday": 2,
