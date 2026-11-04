@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-11-04T20:16:16+09:00",
-  "observed_at": "2026-11-04T20:16:16+09:00",
+  "generated_at": "2026-11-04T20:26:11+09:00",
+  "observed_at": "2026-11-04T20:26:11+09:00",
   "business_date": "2026-11-04",
   "waitings_count": 12,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 1236,
-  "queue_exit_rate_20m": null,
-  "queue_exit_rate_60m": null,
-  "queue_exit_rate_120m": 56.81,
-  "queue_exit_rate_used": 56.81,
-  "rate_source": "120m",
-  "rate_is_lower_bound": false,
+  "head_number": 1246,
+  "queue_exit_rate_20m": 60.5,
+  "queue_exit_rate_60m": 60.5,
+  "queue_exit_rate_120m": 58.03,
+  "queue_exit_rate_used": 60.5,
+  "rate_source": "60m",
+  "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": null,
-      "interval_count": 0,
+      "rate_per_hour": 60.5,
+      "interval_count": 1,
       "censored_interval_count": 1,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "advance_total": 10,
+      "duration_seconds": 595
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": null,
-      "interval_count": 0,
-      "censored_interval_count": 5,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "rate_per_hour": 60.5,
+      "interval_count": 1,
+      "censored_interval_count": 4,
+      "advance_total": 10,
+      "duration_seconds": 595
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 56.81,
-      "interval_count": 2,
+      "rate_per_hour": 58.03,
+      "interval_count": 3,
       "censored_interval_count": 8,
-      "advance_total": 19,
-      "duration_seconds": 1204
+      "advance_total": 29,
+      "duration_seconds": 1799
     }
   },
-  "estimated_wait_minutes": 13,
+  "estimated_wait_minutes": 12,
   "estimate_confidence": "low",
   "history": {
     "weekday": 3,
@@ -102,6 +102,6 @@
     "2026-11-04"
   ],
   "notes": [
-    "直近60分に有効な観測がないため、直近120分の速度を使用しています"
+    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
   ]
 }
