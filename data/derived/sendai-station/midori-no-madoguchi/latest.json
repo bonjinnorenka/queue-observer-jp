@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-11-07T08:16:10+09:00",
-  "observed_at": "2026-11-07T08:16:10+09:00",
+  "generated_at": "2026-11-07T08:26:12+09:00",
+  "observed_at": "2026-11-07T08:26:12+09:00",
   "business_date": "2026-11-07",
   "waitings_count": 19,
   "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 133,
-  "queue_exit_rate_20m": null,
-  "queue_exit_rate_60m": null,
-  "queue_exit_rate_120m": null,
-  "queue_exit_rate_used": 75.7,
-  "rate_source": "weekday_hour_history",
-  "rate_is_lower_bound": false,
+  "head_number": 151,
+  "queue_exit_rate_20m": 107.64,
+  "queue_exit_rate_60m": 107.64,
+  "queue_exit_rate_120m": 107.64,
+  "queue_exit_rate_used": 107.64,
+  "rate_source": "60m",
+  "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": null,
-      "interval_count": 0,
-      "censored_interval_count": 3,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "rate_per_hour": 107.64,
+      "interval_count": 1,
+      "censored_interval_count": 2,
+      "advance_total": 18,
+      "duration_seconds": 602
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": null,
-      "interval_count": 0,
-      "censored_interval_count": 7,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "rate_per_hour": 107.64,
+      "interval_count": 1,
+      "censored_interval_count": 5,
+      "advance_total": 18,
+      "duration_seconds": 602
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": null,
-      "interval_count": 0,
-      "censored_interval_count": 11,
-      "advance_total": 0,
-      "duration_seconds": 0
+      "rate_per_hour": 107.64,
+      "interval_count": 1,
+      "censored_interval_count": 10,
+      "advance_total": 18,
+      "duration_seconds": 602
     }
   },
-  "estimated_wait_minutes": 15,
+  "estimated_wait_minutes": 11,
   "estimate_confidence": "low",
   "history": {
     "weekday": 6,
@@ -105,6 +105,6 @@
     "2026-11-07"
   ],
   "notes": [
-    "当日の有効な観測が不足しているため、同じ時間帯の履歴平均を使用しています"
+    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
   ]
 }
