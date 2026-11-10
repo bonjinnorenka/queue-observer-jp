@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-10T15:16:10+09:00",
+  "generated_at": "2026-11-10T15:26:08+09:00",
   "observation_days": 77,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-11-10"
   },
-  "snapshot_count": 8024,
-  "rate_eligible_interval_count": 5116,
+  "snapshot_count": 8025,
+  "rate_eligible_interval_count": 5117,
   "censored_interval_count": 1356,
   "weekday_hours": [
     {
@@ -771,14 +771,14 @@
     {
       "weekday": 2,
       "hour": 15,
-      "rate_per_hour": 28.19,
-      "median_rate_per_hour": 23.92,
-      "interval_count": 59,
+      "rate_per_hour": 27.71,
+      "median_rate_per_hour": 23.25,
+      "interval_count": 60,
       "advance_total": 269,
-      "duration_seconds": 34350,
+      "duration_seconds": 34948,
       "median_waitings_count": 23,
       "max_waitings_count": 48,
-      "snapshot_count": 67
+      "snapshot_count": 68
     },
     {
       "weekday": 2,
@@ -2197,14 +2197,14 @@
     },
     {
       "hour": 15,
-      "rate_per_hour": 29.13,
-      "median_rate_per_hour": 29.8,
-      "interval_count": 451,
+      "rate_per_hour": 29.06,
+      "median_rate_per_hour": 29.78,
+      "interval_count": 452,
       "advance_total": 2090,
-      "duration_seconds": 258288,
+      "duration_seconds": 258886,
       "median_waitings_count": 25,
       "max_waitings_count": 104,
-      "snapshot_count": 473
+      "snapshot_count": 474
     },
     {
       "hour": 16,
@@ -2320,14 +2320,14 @@
     },
     {
       "weekday": 2,
-      "rate_per_hour": 26.85,
+      "rate_per_hour": 26.81,
       "median_rate_per_hour": 24.04,
-      "interval_count": 670,
+      "interval_count": 671,
       "advance_total": 2899,
-      "duration_seconds": 388661,
+      "duration_seconds": 389259,
       "median_waitings_count": 10,
       "max_waitings_count": 63,
-      "snapshot_count": 1144
+      "snapshot_count": 1145
     },
     {
       "weekday": 3,
