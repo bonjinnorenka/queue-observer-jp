@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-11T13:46:07+09:00",
+  "generated_at": "2026-11-11T13:56:09+09:00",
   "observation_days": 78,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-11-11"
   },
-  "snapshot_count": 8111,
-  "rate_eligible_interval_count": 5167,
+  "snapshot_count": 8112,
+  "rate_eligible_interval_count": 5168,
   "censored_interval_count": 1378,
   "weekday_hours": [
     {
@@ -1035,14 +1035,14 @@
     {
       "weekday": 3,
       "hour": 13,
-      "rate_per_hour": 33.86,
+      "rate_per_hour": 33.71,
       "median_rate_per_hour": 30.05,
-      "interval_count": 70,
-      "advance_total": 389,
-      "duration_seconds": 41362,
+      "interval_count": 71,
+      "advance_total": 393,
+      "duration_seconds": 41964,
       "median_waitings_count": 24,
       "max_waitings_count": 64,
-      "snapshot_count": 72
+      "snapshot_count": 73
     },
     {
       "weekday": 3,
@@ -2175,14 +2175,14 @@
     },
     {
       "hour": 13,
-      "rate_per_hour": 31.4,
+      "rate_per_hour": 31.38,
       "median_rate_per_hour": 29.9,
-      "interval_count": 447,
-      "advance_total": 2324,
-      "duration_seconds": 266436,
+      "interval_count": 448,
+      "advance_total": 2328,
+      "duration_seconds": 267038,
       "median_waitings_count": 30,
       "max_waitings_count": 95,
-      "snapshot_count": 457
+      "snapshot_count": 458
     },
     {
       "hour": 14,
@@ -2332,13 +2332,13 @@
     {
       "weekday": 3,
       "rate_per_hour": 28.95,
-      "median_rate_per_hour": 29.92,
-      "interval_count": 768,
-      "advance_total": 3597,
-      "duration_seconds": 447249,
+      "median_rate_per_hour": 29.9,
+      "interval_count": 769,
+      "advance_total": 3601,
+      "duration_seconds": 447851,
       "median_waitings_count": 9,
       "max_waitings_count": 64,
-      "snapshot_count": 1267
+      "snapshot_count": 1268
     },
     {
       "weekday": 4,
