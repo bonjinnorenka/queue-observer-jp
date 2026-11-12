@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-13T08:36:09+09:00",
+  "generated_at": "2026-11-13T08:46:11+09:00",
   "observation_days": 80,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-11-13"
   },
-  "snapshot_count": 8267,
-  "rate_eligible_interval_count": 5261,
+  "snapshot_count": 8268,
+  "rate_eligible_interval_count": 5262,
   "censored_interval_count": 1420,
   "weekday_hours": [
     {
@@ -1551,14 +1551,14 @@
     {
       "weekday": 5,
       "hour": 8,
-      "rate_per_hour": 28.05,
-      "median_rate_per_hour": 29.61,
-      "interval_count": 19,
-      "advance_total": 84,
-      "duration_seconds": 10780,
+      "rate_per_hour": 28.15,
+      "median_rate_per_hour": 29.76,
+      "interval_count": 20,
+      "advance_total": 89,
+      "duration_seconds": 11382,
       "median_waitings_count": 3,
       "max_waitings_count": 17,
-      "snapshot_count": 68
+      "snapshot_count": 69
     },
     {
       "weekday": 5,
@@ -2120,14 +2120,14 @@
     },
     {
       "hour": 8,
-      "rate_per_hour": 24.5,
-      "median_rate_per_hour": 23.96,
-      "interval_count": 169,
-      "advance_total": 624,
-      "duration_seconds": 91699,
+      "rate_per_hour": 24.53,
+      "median_rate_per_hour": 23.98,
+      "interval_count": 170,
+      "advance_total": 629,
+      "duration_seconds": 92301,
       "median_waitings_count": 3,
       "max_waitings_count": 46,
-      "snapshot_count": 487
+      "snapshot_count": 488
     },
     {
       "hour": 9,
@@ -2355,12 +2355,12 @@
       "weekday": 5,
       "rate_per_hour": 28.1,
       "median_rate_per_hour": 24.45,
-      "interval_count": 767,
-      "advance_total": 3488,
-      "duration_seconds": 446901,
+      "interval_count": 768,
+      "advance_total": 3493,
+      "duration_seconds": 447503,
       "median_waitings_count": 21,
       "max_waitings_count": 104,
-      "snapshot_count": 1091
+      "snapshot_count": 1092
     },
     {
       "weekday": 6,
