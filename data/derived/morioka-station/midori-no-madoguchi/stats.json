@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-12T13:26:09+09:00",
+  "generated_at": "2026-11-12T13:36:12+09:00",
   "observation_days": 79,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-11-12"
   },
-  "snapshot_count": 8201,
-  "rate_eligible_interval_count": 5214,
+  "snapshot_count": 8202,
+  "rate_eligible_interval_count": 5215,
   "censored_interval_count": 1406,
   "weekday_hours": [
     {
@@ -1323,14 +1323,14 @@
     {
       "weekday": 4,
       "hour": 13,
-      "rate_per_hour": 30.09,
-      "median_rate_per_hour": 24.1,
-      "interval_count": 68,
-      "advance_total": 336,
-      "duration_seconds": 40202,
-      "median_waitings_count": 36,
+      "rate_per_hour": 30.08,
+      "median_rate_per_hour": 24.12,
+      "interval_count": 69,
+      "advance_total": 341,
+      "duration_seconds": 40805,
+      "median_waitings_count": 37,
       "max_waitings_count": 68,
-      "snapshot_count": 70
+      "snapshot_count": 71
     },
     {
       "weekday": 4,
@@ -2177,12 +2177,12 @@
       "hour": 13,
       "rate_per_hour": 31.36,
       "median_rate_per_hour": 29.9,
-      "interval_count": 451,
-      "advance_total": 2342,
-      "duration_seconds": 268842,
+      "interval_count": 452,
+      "advance_total": 2347,
+      "duration_seconds": 269445,
       "median_waitings_count": 30,
       "max_waitings_count": 95,
-      "snapshot_count": 461
+      "snapshot_count": 462
     },
     {
       "hour": 14,
@@ -2343,13 +2343,13 @@
     {
       "weekday": 4,
       "rate_per_hour": 25.59,
-      "median_rate_per_hour": 23.16,
-      "interval_count": 816,
-      "advance_total": 3361,
-      "duration_seconds": 472855,
+      "median_rate_per_hour": 23.57,
+      "interval_count": 817,
+      "advance_total": 3366,
+      "duration_seconds": 473458,
       "median_waitings_count": 15,
       "max_waitings_count": 76,
-      "snapshot_count": 1264
+      "snapshot_count": 1265
     },
     {
       "weekday": 5,
