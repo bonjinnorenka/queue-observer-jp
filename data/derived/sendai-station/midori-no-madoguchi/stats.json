@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-11-13T15:46:12+09:00",
+  "generated_at": "2026-11-13T15:56:11+09:00",
   "observation_days": 58,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-11-13"
   },
-  "snapshot_count": 5518,
-  "rate_eligible_interval_count": 2075,
+  "snapshot_count": 5519,
+  "rate_eligible_interval_count": 2076,
   "censored_interval_count": 2625,
   "weekday_hours": [
     {
@@ -1155,14 +1155,14 @@
     {
       "weekday": 5,
       "hour": 15,
-      "rate_per_hour": 97.53,
-      "median_rate_per_hour": 94.74,
-      "interval_count": 27,
-      "advance_total": 392,
-      "duration_seconds": 14469,
-      "median_waitings_count": 55,
+      "rate_per_hour": 97.24,
+      "median_rate_per_hour": 93.14,
+      "interval_count": 28,
+      "advance_total": 407,
+      "duration_seconds": 15068,
+      "median_waitings_count": 54,
       "max_waitings_count": 97,
-      "snapshot_count": 56
+      "snapshot_count": 57
     },
     {
       "weekday": 5,
@@ -1555,13 +1555,13 @@
     {
       "hour": 15,
       "rate_per_hour": 91.01,
-      "median_rate_per_hour": 90.45,
-      "interval_count": 207,
-      "advance_total": 2885,
-      "duration_seconds": 114117,
+      "median_rate_per_hour": 90.38,
+      "interval_count": 208,
+      "advance_total": 2900,
+      "duration_seconds": 114716,
       "median_waitings_count": 31,
       "max_waitings_count": 97,
-      "snapshot_count": 363
+      "snapshot_count": 364
     },
     {
       "hour": 16,
@@ -1690,12 +1690,12 @@
       "weekday": 5,
       "rate_per_hour": 87.91,
       "median_rate_per_hour": 89.85,
-      "interval_count": 356,
-      "advance_total": 4925,
-      "duration_seconds": 201692,
+      "interval_count": 357,
+      "advance_total": 4940,
+      "duration_seconds": 202291,
       "median_waitings_count": 34,
       "max_waitings_count": 123,
-      "snapshot_count": 828
+      "snapshot_count": 829
     },
     {
       "weekday": 6,
