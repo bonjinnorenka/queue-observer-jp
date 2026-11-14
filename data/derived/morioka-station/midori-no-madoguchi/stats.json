@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-14T18:46:09+09:00",
+  "generated_at": "2026-11-14T18:56:09+09:00",
   "observation_days": 81,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-11-14"
   },
-  "snapshot_count": 8424,
-  "rate_eligible_interval_count": 5390,
+  "snapshot_count": 8425,
+  "rate_eligible_interval_count": 5391,
   "censored_interval_count": 1437,
   "weekday_hours": [
     {
@@ -1959,14 +1959,14 @@
     {
       "weekday": 6,
       "hour": 18,
-      "rate_per_hour": 29.83,
-      "median_rate_per_hour": 25.58,
-      "interval_count": 46,
-      "advance_total": 218,
-      "duration_seconds": 26306,
+      "rate_per_hour": 29.84,
+      "median_rate_per_hour": 26.33,
+      "interval_count": 47,
+      "advance_total": 223,
+      "duration_seconds": 26906,
       "median_waitings_count": 8,
       "max_waitings_count": 49,
-      "snapshot_count": 68
+      "snapshot_count": 69
     },
     {
       "weekday": 6,
@@ -2230,14 +2230,14 @@
     },
     {
       "hour": 18,
-      "rate_per_hour": 26.84,
+      "rate_per_hour": 26.85,
       "median_rate_per_hour": 24.12,
-      "interval_count": 420,
-      "advance_total": 1842,
-      "duration_seconds": 247081,
-      "median_waitings_count": 17.5,
+      "interval_count": 421,
+      "advance_total": 1847,
+      "duration_seconds": 247681,
+      "median_waitings_count": 17,
       "max_waitings_count": 80,
-      "snapshot_count": 482
+      "snapshot_count": 483
     },
     {
       "hour": 19,
@@ -2366,12 +2366,12 @@
       "weekday": 6,
       "rate_per_hour": 29.62,
       "median_rate_per_hour": 29.95,
-      "interval_count": 736,
-      "advance_total": 3514,
-      "duration_seconds": 427156,
+      "interval_count": 737,
+      "advance_total": 3519,
+      "duration_seconds": 427756,
       "median_waitings_count": 11,
       "max_waitings_count": 69,
-      "snapshot_count": 1152
+      "snapshot_count": 1153
     }
   ]
 }
