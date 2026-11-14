@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-14T16:46:12+09:00",
+  "generated_at": "2026-11-14T16:56:19+09:00",
   "observation_days": 81,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-11-14"
   },
-  "snapshot_count": 8412,
-  "rate_eligible_interval_count": 5378,
+  "snapshot_count": 8413,
+  "rate_eligible_interval_count": 5379,
   "censored_interval_count": 1437,
   "weekday_hours": [
     {
@@ -1935,14 +1935,14 @@
     {
       "weekday": 6,
       "hour": 16,
-      "rate_per_hour": 30.99,
-      "median_rate_per_hour": 30.41,
-      "interval_count": 59,
+      "rate_per_hour": 30.45,
+      "median_rate_per_hour": 30.26,
+      "interval_count": 60,
       "advance_total": 293,
-      "duration_seconds": 34038,
-      "median_waitings_count": 19,
+      "duration_seconds": 34645,
+      "median_waitings_count": 19.5,
       "max_waitings_count": 64,
-      "snapshot_count": 69
+      "snapshot_count": 70
     },
     {
       "weekday": 6,
@@ -2208,14 +2208,14 @@
     },
     {
       "hour": 16,
-      "rate_per_hour": 30.92,
-      "median_rate_per_hour": 30,
-      "interval_count": 453,
+      "rate_per_hour": 30.85,
+      "median_rate_per_hour": 29.98,
+      "interval_count": 454,
       "advance_total": 2274,
-      "duration_seconds": 264786,
+      "duration_seconds": 265393,
       "median_waitings_count": 23,
       "max_waitings_count": 88,
-      "snapshot_count": 488
+      "snapshot_count": 489
     },
     {
       "hour": 17,
@@ -2364,14 +2364,14 @@
     },
     {
       "weekday": 6,
-      "rate_per_hour": 29.55,
+      "rate_per_hour": 29.51,
       "median_rate_per_hour": 29.9,
-      "interval_count": 724,
+      "interval_count": 725,
       "advance_total": 3447,
-      "duration_seconds": 419959,
+      "duration_seconds": 420566,
       "median_waitings_count": 11,
       "max_waitings_count": 69,
-      "snapshot_count": 1140
+      "snapshot_count": 1141
     }
   ]
 }
