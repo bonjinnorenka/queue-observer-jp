@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-17T13:16:19+09:00",
-  "observed_at": "2026-11-17T13:16:19+09:00",
+  "generated_at": "2026-11-17T13:26:09+09:00",
+  "observed_at": "2026-11-17T13:26:09+09:00",
   "business_date": "2026-11-17",
-  "waitings_count": 15,
-  "pendings_count": 2,
+  "waitings_count": 19,
+  "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 202,
-  "queue_exit_rate_20m": 41.65,
-  "queue_exit_rate_60m": 27.03,
-  "queue_exit_rate_120m": 26.53,
-  "queue_exit_rate_used": 27.03,
+  "head_number": 203,
+  "queue_exit_rate_20m": 30,
+  "queue_exit_rate_60m": 28,
+  "queue_exit_rate_120m": 24.08,
+  "queue_exit_rate_used": 28,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 41.65,
-      "interval_count": 2,
+      "rate_per_hour": 30,
+      "interval_count": 3,
       "censored_interval_count": 0,
-      "advance_total": 14,
-      "duration_seconds": 1210
+      "advance_total": 15,
+      "duration_seconds": 1800
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 27.03,
+      "rate_per_hour": 28,
       "interval_count": 6,
       "censored_interval_count": 0,
-      "advance_total": 27,
-      "duration_seconds": 3596
+      "advance_total": 28,
+      "duration_seconds": 3600
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 26.53,
+      "rate_per_hour": 24.08,
       "interval_count": 7,
       "censored_interval_count": 3,
-      "advance_total": 31,
-      "duration_seconds": 4207
+      "advance_total": 28,
+      "duration_seconds": 4186
     }
   },
-  "estimated_wait_minutes": 33,
+  "estimated_wait_minutes": 41,
   "estimate_confidence": "high",
   "history": {
     "weekday": 2,
@@ -136,7 +136,5 @@
     "2026-11-16",
     "2026-11-17"
   ],
-  "notes": [
-    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
-  ]
+  "notes": []
 }
