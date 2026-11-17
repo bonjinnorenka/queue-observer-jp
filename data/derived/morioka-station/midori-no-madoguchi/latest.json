@@ -2,46 +2,46 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-17T18:36:11+09:00",
-  "observed_at": "2026-11-17T18:36:11+09:00",
+  "generated_at": "2026-11-17T18:46:17+09:00",
+  "observed_at": "2026-11-17T18:46:17+09:00",
   "business_date": "2026-11-17",
-  "waitings_count": 12,
-  "pendings_count": 0,
+  "waitings_count": 13,
+  "pendings_count": 2,
   "waitings_truncated": false,
-  "head_number": 415,
-  "queue_exit_rate_20m": 17.97,
-  "queue_exit_rate_60m": 19.98,
-  "queue_exit_rate_120m": 18.74,
-  "queue_exit_rate_used": 19.98,
+  "head_number": 421,
+  "queue_exit_rate_20m": 29.8,
+  "queue_exit_rate_60m": 22.24,
+  "queue_exit_rate_120m": 20.64,
+  "queue_exit_rate_used": 22.24,
   "rate_source": "60m",
   "rate_is_lower_bound": false,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 17.97,
+      "rate_per_hour": 29.8,
       "interval_count": 2,
       "censored_interval_count": 0,
-      "advance_total": 6,
-      "duration_seconds": 1202
+      "advance_total": 10,
+      "duration_seconds": 1208
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 19.98,
-      "interval_count": 6,
+      "rate_per_hour": 22.24,
+      "interval_count": 7,
       "censored_interval_count": 0,
-      "advance_total": 20,
-      "duration_seconds": 3603
+      "advance_total": 26,
+      "duration_seconds": 4209
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 18.74,
-      "interval_count": 8,
-      "censored_interval_count": 3,
-      "advance_total": 25,
-      "duration_seconds": 4802
+      "rate_per_hour": 20.64,
+      "interval_count": 9,
+      "censored_interval_count": 2,
+      "advance_total": 31,
+      "duration_seconds": 5408
     }
   },
-  "estimated_wait_minutes": 36,
+  "estimated_wait_minutes": 35,
   "estimate_confidence": "high",
   "history": {
     "weekday": 2,
@@ -136,5 +136,7 @@
     "2026-11-16",
     "2026-11-17"
   ],
-  "notes": []
+  "notes": [
+    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
+  ]
 }
