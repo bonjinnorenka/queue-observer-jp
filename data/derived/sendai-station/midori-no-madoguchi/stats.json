@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-11-18T09:16:10+09:00",
+  "generated_at": "2026-11-18T09:26:22+09:00",
   "observation_days": 63,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-11-18"
   },
-  "snapshot_count": 5953,
-  "rate_eligible_interval_count": 2187,
+  "snapshot_count": 5954,
+  "rate_eligible_interval_count": 2188,
   "censored_interval_count": 2864,
   "weekday_hours": [
     {
@@ -675,14 +675,14 @@
     {
       "weekday": 3,
       "hour": 9,
-      "rate_per_hour": 66.61,
-      "median_rate_per_hour": 64.83,
-      "interval_count": 10,
+      "rate_per_hour": 59.24,
+      "median_rate_per_hour": 64.6,
+      "interval_count": 11,
       "advance_total": 91,
-      "duration_seconds": 4918,
+      "duration_seconds": 5530,
       "median_waitings_count": 7,
       "max_waitings_count": 26,
-      "snapshot_count": 54
+      "snapshot_count": 55
     },
     {
       "weekday": 3,
@@ -1488,14 +1488,14 @@
     },
     {
       "hour": 9,
-      "rate_per_hour": 78.82,
-      "median_rate_per_hour": 78.32,
-      "interval_count": 108,
+      "rate_per_hour": 77.98,
+      "median_rate_per_hour": 78.13,
+      "interval_count": 109,
       "advance_total": 1240,
-      "duration_seconds": 56632,
-      "median_waitings_count": 9.5,
+      "duration_seconds": 57244,
+      "median_waitings_count": 10,
       "max_waitings_count": 57,
-      "snapshot_count": 394
+      "snapshot_count": 395
     },
     {
       "hour": 10,
@@ -1666,14 +1666,14 @@
     },
     {
       "weekday": 3,
-      "rate_per_hour": 85.52,
+      "rate_per_hour": 85.19,
       "median_rate_per_hour": 90,
-      "interval_count": 276,
+      "interval_count": 277,
       "advance_total": 3736,
-      "duration_seconds": 157262,
+      "duration_seconds": 157874,
       "median_waitings_count": 14,
       "max_waitings_count": 60,
-      "snapshot_count": 786
+      "snapshot_count": 787
     },
     {
       "weekday": 4,
