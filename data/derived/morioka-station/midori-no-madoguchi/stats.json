@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-18T11:46:10+09:00",
+  "generated_at": "2026-11-18T11:56:08+09:00",
   "observation_days": 85,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-11-18"
   },
-  "snapshot_count": 8760,
-  "rate_eligible_interval_count": 5554,
+  "snapshot_count": 8761,
+  "rate_eligible_interval_count": 5555,
   "censored_interval_count": 1546,
   "weekday_hours": [
     {
@@ -1011,14 +1011,14 @@
     {
       "weekday": 3,
       "hour": 11,
-      "rate_per_hour": 29.05,
+      "rate_per_hour": 28.65,
       "median_rate_per_hour": 29.95,
-      "interval_count": 71,
+      "interval_count": 72,
       "advance_total": 344,
-      "duration_seconds": 42624,
+      "duration_seconds": 43222,
       "median_waitings_count": 20,
       "max_waitings_count": 55,
-      "snapshot_count": 78
+      "snapshot_count": 79
     },
     {
       "weekday": 3,
@@ -2153,14 +2153,14 @@
     },
     {
       "hour": 11,
-      "rate_per_hour": 25.82,
-      "median_rate_per_hour": 23.98,
-      "interval_count": 478,
+      "rate_per_hour": 25.76,
+      "median_rate_per_hour": 23.96,
+      "interval_count": 479,
       "advance_total": 2024,
-      "duration_seconds": 282227,
+      "duration_seconds": 282825,
       "median_waitings_count": 23,
       "max_waitings_count": 102,
-      "snapshot_count": 508
+      "snapshot_count": 509
     },
     {
       "hour": 12,
@@ -2331,14 +2331,14 @@
     },
     {
       "weekday": 3,
-      "rate_per_hour": 28.95,
-      "median_rate_per_hour": 29.92,
-      "interval_count": 794,
+      "rate_per_hour": 28.91,
+      "median_rate_per_hour": 29.9,
+      "interval_count": 795,
       "advance_total": 3719,
-      "duration_seconds": 462538,
+      "duration_seconds": 463136,
       "median_waitings_count": 9,
       "max_waitings_count": 64,
-      "snapshot_count": 1348
+      "snapshot_count": 1349
     },
     {
       "weekday": 4,
