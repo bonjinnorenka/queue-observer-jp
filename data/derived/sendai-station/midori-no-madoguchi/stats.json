@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-11-19T13:16:11+09:00",
+  "generated_at": "2026-11-19T13:26:12+09:00",
   "observation_days": 64,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-11-19"
   },
-  "snapshot_count": 6067,
-  "rate_eligible_interval_count": 2218,
+  "snapshot_count": 6068,
+  "rate_eligible_interval_count": 2219,
   "censored_interval_count": 2938,
   "weekday_hours": [
     {
@@ -927,14 +927,14 @@
     {
       "weekday": 4,
       "hour": 13,
-      "rate_per_hour": 85.25,
-      "median_rate_per_hour": 89.7,
-      "interval_count": 35,
-      "advance_total": 497,
-      "duration_seconds": 20987,
+      "rate_per_hour": 85.21,
+      "median_rate_per_hour": 87.13,
+      "interval_count": 36,
+      "advance_total": 511,
+      "duration_seconds": 21588,
       "median_waitings_count": 24,
       "max_waitings_count": 55,
-      "snapshot_count": 56
+      "snapshot_count": 57
     },
     {
       "weekday": 4,
@@ -1532,14 +1532,14 @@
     },
     {
       "hour": 13,
-      "rate_per_hour": 86.56,
+      "rate_per_hour": 86.55,
       "median_rate_per_hour": 90,
-      "interval_count": 197,
-      "advance_total": 2795,
-      "duration_seconds": 116239,
+      "interval_count": 198,
+      "advance_total": 2809,
+      "duration_seconds": 116840,
       "median_waitings_count": 23,
       "max_waitings_count": 92,
-      "snapshot_count": 380
+      "snapshot_count": 381
     },
     {
       "hour": 14,
@@ -1678,13 +1678,13 @@
     {
       "weekday": 4,
       "rate_per_hour": 85.41,
-      "median_rate_per_hour": 89.08,
-      "interval_count": 370,
-      "advance_total": 5036,
-      "duration_seconds": 212267,
-      "median_waitings_count": 18,
+      "median_rate_per_hour": 89.05,
+      "interval_count": 371,
+      "advance_total": 5050,
+      "duration_seconds": 212868,
+      "median_waitings_count": 17.5,
       "max_waitings_count": 79,
-      "snapshot_count": 905
+      "snapshot_count": 906
     },
     {
       "weekday": 5,
