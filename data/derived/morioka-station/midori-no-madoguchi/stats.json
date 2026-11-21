@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-21T17:26:10+09:00",
+  "generated_at": "2026-11-21T17:36:09+09:00",
   "observation_days": 88,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-11-21"
   },
-  "snapshot_count": 9075,
-  "rate_eligible_interval_count": 5762,
+  "snapshot_count": 9076,
+  "rate_eligible_interval_count": 5763,
   "censored_interval_count": 1625,
   "weekday_hours": [
     {
@@ -1947,14 +1947,14 @@
     {
       "weekday": 6,
       "hour": 17,
-      "rate_per_hour": 31.3,
-      "median_rate_per_hour": 35.29,
-      "interval_count": 55,
-      "advance_total": 287,
-      "duration_seconds": 33012,
-      "median_waitings_count": 14,
+      "rate_per_hour": 31.28,
+      "median_rate_per_hour": 32.8,
+      "interval_count": 56,
+      "advance_total": 292,
+      "duration_seconds": 33610,
+      "median_waitings_count": 13.5,
       "max_waitings_count": 66,
-      "snapshot_count": 69
+      "snapshot_count": 70
     },
     {
       "weekday": 6,
@@ -2220,13 +2220,13 @@
     {
       "hour": 17,
       "rate_per_hour": 28.32,
-      "median_rate_per_hour": 29.63,
-      "interval_count": 478,
-      "advance_total": 2229,
-      "duration_seconds": 283385,
+      "median_rate_per_hour": 29.7,
+      "interval_count": 479,
+      "advance_total": 2234,
+      "duration_seconds": 283983,
       "median_waitings_count": 19,
       "max_waitings_count": 76,
-      "snapshot_count": 521
+      "snapshot_count": 522
     },
     {
       "hour": 18,
@@ -2366,12 +2366,12 @@
       "weekday": 6,
       "rate_per_hour": 29.67,
       "median_rate_per_hour": 29.95,
-      "interval_count": 797,
-      "advance_total": 3817,
-      "duration_seconds": 463138,
+      "interval_count": 798,
+      "advance_total": 3822,
+      "duration_seconds": 463736,
       "median_waitings_count": 11,
       "max_waitings_count": 69,
-      "snapshot_count": 1239
+      "snapshot_count": 1240
     }
   ]
 }
