@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-11-21T13:46:18+09:00",
+  "generated_at": "2026-11-21T13:56:19+09:00",
   "observation_days": 66,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-11-21"
   },
-  "snapshot_count": 6259,
-  "rate_eligible_interval_count": 2284,
+  "snapshot_count": 6260,
+  "rate_eligible_interval_count": 2285,
   "censored_interval_count": 3048,
   "weekday_hours": [
     {
@@ -1336,13 +1336,13 @@
       "weekday": 6,
       "hour": 13,
       "rate_per_hour": 89.94,
-      "median_rate_per_hour": 95.76,
-      "interval_count": 28,
-      "advance_total": 419,
-      "duration_seconds": 16771,
-      "median_waitings_count": 20,
-      "max_waitings_count": 49,
-      "snapshot_count": 59
+      "median_rate_per_hour": 95.68,
+      "interval_count": 29,
+      "advance_total": 434,
+      "duration_seconds": 17372,
+      "median_waitings_count": 20.5,
+      "max_waitings_count": 53,
+      "snapshot_count": 60
     },
     {
       "weekday": 6,
@@ -1532,14 +1532,14 @@
     },
     {
       "hour": 13,
-      "rate_per_hour": 87.03,
+      "rate_per_hour": 87.05,
       "median_rate_per_hour": 90,
-      "interval_count": 203,
-      "advance_total": 2897,
-      "duration_seconds": 119832,
+      "interval_count": 204,
+      "advance_total": 2912,
+      "duration_seconds": 120433,
       "median_waitings_count": 23,
       "max_waitings_count": 92,
-      "snapshot_count": 395
+      "snapshot_count": 396
     },
     {
       "hour": 14,
@@ -1701,12 +1701,12 @@
       "weekday": 6,
       "rate_per_hour": 88.39,
       "median_rate_per_hour": 90.15,
-      "interval_count": 330,
-      "advance_total": 4603,
-      "duration_seconds": 187483,
+      "interval_count": 331,
+      "advance_total": 4618,
+      "duration_seconds": 188084,
       "median_waitings_count": 16,
       "max_waitings_count": 70,
-      "snapshot_count": 915
+      "snapshot_count": 916
     }
   ]
 }
