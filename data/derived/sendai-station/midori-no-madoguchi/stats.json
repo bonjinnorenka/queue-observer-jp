@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "sendai-station-midori-no-madoguchi",
   "location_name": "JR仙台駅３階みどりの窓口",
-  "generated_at": "2026-11-24T10:06:21+09:00",
+  "generated_at": "2026-11-24T10:13:33+09:00",
   "observation_days": 69,
   "date_range": {
     "from": "2026-09-17",
     "to": "2026-11-24"
   },
-  "snapshot_count": 6520,
-  "rate_eligible_interval_count": 2327,
+  "snapshot_count": 6521,
+  "rate_eligible_interval_count": 2328,
   "censored_interval_count": 3209,
   "weekday_hours": [
     {
@@ -483,14 +483,14 @@
     {
       "weekday": 2,
       "hour": 10,
-      "rate_per_hour": 87.82,
-      "median_rate_per_hour": 84.35,
-      "interval_count": 34,
-      "advance_total": 498,
-      "duration_seconds": 20415,
+      "rate_per_hour": 87.72,
+      "median_rate_per_hour": 84,
+      "interval_count": 35,
+      "advance_total": 508,
+      "duration_seconds": 20847,
       "median_waitings_count": 21,
       "max_waitings_count": 38,
-      "snapshot_count": 55
+      "snapshot_count": 56
     },
     {
       "weekday": 2,
@@ -1499,14 +1499,14 @@
     },
     {
       "hour": 10,
-      "rate_per_hour": 88.04,
+      "rate_per_hour": 88.02,
       "median_rate_per_hour": 90.45,
-      "interval_count": 216,
-      "advance_total": 2934,
-      "duration_seconds": 119976,
+      "interval_count": 217,
+      "advance_total": 2944,
+      "duration_seconds": 120408,
       "median_waitings_count": 21,
       "max_waitings_count": 70,
-      "snapshot_count": 428
+      "snapshot_count": 429
     },
     {
       "hour": 11,
@@ -1657,12 +1657,12 @@
       "weekday": 2,
       "rate_per_hour": 82.13,
       "median_rate_per_hour": 82.98,
-      "interval_count": 327,
-      "advance_total": 4261,
-      "duration_seconds": 186783,
+      "interval_count": 328,
+      "advance_total": 4271,
+      "duration_seconds": 187215,
       "median_waitings_count": 13,
       "max_waitings_count": 52,
-      "snapshot_count": 881
+      "snapshot_count": 882
     },
     {
       "weekday": 3,
