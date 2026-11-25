@@ -2,17 +2,17 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-25T17:56:10+09:00",
-  "observed_at": "2026-11-25T17:56:10+09:00",
+  "generated_at": "2026-11-25T18:06:10+09:00",
+  "observed_at": "2026-11-25T18:06:10+09:00",
   "business_date": "2026-11-25",
-  "waitings_count": 4,
-  "pendings_count": 1,
+  "waitings_count": 6,
+  "pendings_count": 0,
   "waitings_truncated": false,
   "head_number": 365,
   "queue_exit_rate_20m": 17.99,
-  "queue_exit_rate_60m": 25.37,
-  "queue_exit_rate_120m": 16.16,
-  "queue_exit_rate_used": 25.37,
+  "queue_exit_rate_60m": 16.41,
+  "queue_exit_rate_120m": 14.69,
+  "queue_exit_rate_used": 16.41,
   "rate_source": "60m",
   "rate_is_lower_bound": true,
   "rate_windows": {
@@ -26,29 +26,29 @@
     },
     "60m": {
       "window_minutes": 60,
-      "rate_per_hour": 25.37,
+      "rate_per_hour": 16.41,
       "interval_count": 4,
       "censored_interval_count": 2,
-      "advance_total": 17,
-      "duration_seconds": 2412
+      "advance_total": 11,
+      "duration_seconds": 2413
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 16.16,
-      "interval_count": 10,
+      "rate_per_hour": 14.69,
+      "interval_count": 11,
       "censored_interval_count": 2,
       "advance_total": 27,
-      "duration_seconds": 6015
+      "duration_seconds": 6615
     }
   },
-  "estimated_wait_minutes": 9,
+  "estimated_wait_minutes": 22,
   "estimate_confidence": "medium",
   "history": {
     "weekday": 3,
-    "hour": 17,
-    "rate_per_hour": 31.62,
-    "median_waitings_count": 17,
-    "interval_count": 73
+    "hour": 18,
+    "rate_per_hour": 30.26,
+    "median_waitings_count": 12,
+    "interval_count": 64
   },
   "available_dates": [
     "2026-08-04",
@@ -145,7 +145,6 @@
     "2026-11-25"
   ],
   "notes": [
-    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります",
-    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
+    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
   ]
 }
