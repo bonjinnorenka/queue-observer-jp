@@ -2,27 +2,27 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-26T15:56:09+09:00",
-  "observed_at": "2026-11-26T15:56:09+09:00",
+  "generated_at": "2026-11-26T16:06:10+09:00",
+  "observed_at": "2026-11-26T16:06:10+09:00",
   "business_date": "2026-11-26",
-  "waitings_count": 2,
-  "pendings_count": 1,
+  "waitings_count": 3,
+  "pendings_count": 0,
   "waitings_truncated": false,
-  "head_number": 374,
-  "queue_exit_rate_20m": 35.82,
+  "head_number": 381,
+  "queue_exit_rate_20m": null,
   "queue_exit_rate_60m": 15.03,
-  "queue_exit_rate_120m": 23.15,
+  "queue_exit_rate_120m": 25.75,
   "queue_exit_rate_used": 15.03,
   "rate_source": "60m",
   "rate_is_lower_bound": true,
   "rate_windows": {
     "20m": {
       "window_minutes": 20,
-      "rate_per_hour": 35.82,
-      "interval_count": 1,
+      "rate_per_hour": null,
+      "interval_count": 0,
       "censored_interval_count": 2,
-      "advance_total": 6,
-      "duration_seconds": 603
+      "advance_total": 0,
+      "duration_seconds": 0
     },
     "60m": {
       "window_minutes": 60,
@@ -34,21 +34,21 @@
     },
     "120m": {
       "window_minutes": 120,
-      "rate_per_hour": 23.15,
-      "interval_count": 9,
-      "censored_interval_count": 5,
-      "advance_total": 32,
-      "duration_seconds": 4976
+      "rate_per_hour": 25.75,
+      "interval_count": 7,
+      "censored_interval_count": 6,
+      "advance_total": 27,
+      "duration_seconds": 3775
     }
   },
-  "estimated_wait_minutes": 8,
+  "estimated_wait_minutes": 12,
   "estimate_confidence": "medium",
   "history": {
     "weekday": 4,
-    "hour": 15,
-    "rate_per_hour": 28.23,
-    "median_waitings_count": 28,
-    "interval_count": 83
+    "hour": 16,
+    "rate_per_hour": 28.98,
+    "median_waitings_count": 23.5,
+    "interval_count": 71
   },
   "available_dates": [
     "2026-08-04",
@@ -146,7 +146,6 @@
     "2026-11-26"
   ],
   "notes": [
-    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります",
-    "保留(pending)の扱いが未確定のため、待ち時間の計算には含めていません"
+    "表示20件が全件消化された区間があるため、実際の速度はこれ以上の可能性があります"
   ]
 }
