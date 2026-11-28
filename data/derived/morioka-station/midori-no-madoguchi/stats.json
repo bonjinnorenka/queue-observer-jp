@@ -2,14 +2,14 @@
   "schema_version": 1,
   "location_id": "morioka-station-midori-no-madoguchi",
   "location_name": "盛岡駅みどりの窓口",
-  "generated_at": "2026-11-28T16:46:07+09:00",
+  "generated_at": "2026-11-28T16:56:10+09:00",
   "observation_days": 95,
   "date_range": {
     "from": "2026-08-04",
     "to": "2026-11-28"
   },
-  "snapshot_count": 9732,
-  "rate_eligible_interval_count": 6119,
+  "snapshot_count": 9733,
+  "rate_eligible_interval_count": 6120,
   "censored_interval_count": 1842,
   "weekday_hours": [
     {
@@ -1935,14 +1935,14 @@
     {
       "weekday": 6,
       "hour": 16,
-      "rate_per_hour": 32.29,
+      "rate_per_hour": 32.61,
       "median_rate_per_hour": 35.7,
-      "interval_count": 70,
-      "advance_total": 359,
-      "duration_seconds": 40020,
+      "interval_count": 71,
+      "advance_total": 368,
+      "duration_seconds": 40623,
       "median_waitings_count": 20,
       "max_waitings_count": 64,
-      "snapshot_count": 82
+      "snapshot_count": 83
     },
     {
       "weekday": 6,
@@ -2208,14 +2208,14 @@
     },
     {
       "hour": 16,
-      "rate_per_hour": 31.21,
+      "rate_per_hour": 31.26,
       "median_rate_per_hour": 30,
-      "interval_count": 506,
-      "advance_total": 2566,
-      "duration_seconds": 295954,
+      "interval_count": 507,
+      "advance_total": 2575,
+      "duration_seconds": 296557,
       "median_waitings_count": 22,
       "max_waitings_count": 88,
-      "snapshot_count": 573
+      "snapshot_count": 574
     },
     {
       "hour": 17,
@@ -2364,14 +2364,14 @@
     },
     {
       "weekday": 6,
-      "rate_per_hour": 29.5,
-      "median_rate_per_hour": 29.92,
-      "interval_count": 856,
-      "advance_total": 4081,
-      "duration_seconds": 497940,
+      "rate_per_hour": 29.53,
+      "median_rate_per_hour": 29.95,
+      "interval_count": 857,
+      "advance_total": 4090,
+      "duration_seconds": 498543,
       "median_waitings_count": 11,
       "max_waitings_count": 69,
-      "snapshot_count": 1329
+      "snapshot_count": 1330
     }
   ]
 }
